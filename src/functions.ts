@@ -61,16 +61,25 @@ class Combatant {
         this.visibility = (this.visibility + 1) % 2
     }
 
-    public setInitiative(value: number) {
-        this.initiative = value
+    public changeConditionValue(condition?: Condition, isIncrement: boolean = false) {
+        this.conditions.forEach(c => {
+            if (condition) {
+                if (c.name === condition.name) {
+                    isIncrement ? c.value++ : c.value--
+                }
+            } else {
+                c.value--
+            }
+        })
+        this.conditions = this.conditions.filter(condition => condition.value > 0)
     }
 }
 
 const defaultCombatants: Array<Combatant> = [
-    new Combatant("Timon", 20, 14, 10, [new Condition("Amedrontado"), new Condition("Cagando"), new Condition("Alucinado")]),
-    new Combatant("Thiago", 20, 12, 5, [new Condition("Feared", 2), new Condition("Stunned")]),
+    new Combatant("Timon", 20, 14, 20, [new Condition("Amedrontado"), new Condition("Cagando"), new Condition("Alucinado")]),
+    new Combatant("Thiago", 20, 12, 20, [new Condition("Feared", 2), new Condition("Stunned")]),
     new Combatant("Kaike", 18, 19),
-    new Combatant("Bruno", 22, 3, 18),
+    new Combatant("Bruno", 22, 3, 22),
 ]
 
 function colorIsDark(bgColor: string): boolean {

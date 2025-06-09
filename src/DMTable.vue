@@ -19,7 +19,7 @@ const HPValue = useStorage('HPValue', 1)
       <tr>
         <th>Ações</th>
         <th class="w-1/12">#</th>
-        <th class="w-3/12 text-left">Nome</th>
+        <th class="w-2/12 text-left">Nome</th>
         <th class="w-4/12">
           <input
               type="number"
@@ -28,7 +28,7 @@ const HPValue = useStorage('HPValue', 1)
               v-model="HPValue"
           >
         </th>
-        <th class="w-3/12">Condições</th>
+        <th class="w-4/12">Condições</th>
       </tr>
       </thead>
       <tbody>
@@ -43,12 +43,12 @@ const HPValue = useStorage('HPValue', 1)
               }"
       >
         <td>
-          <button class="btn btn-neutral btn-sm p-2" @click.left="() => combatant.changeVisibility(false)" @click.right.prevent="() => combatant.changeVisibility(true)">
+          <button class="btn btn-neutral btn-sm p-2 mr-1" @click.left="() => combatant.changeVisibility(false)" @click.right.prevent="() => combatant.changeVisibility(true)">
             <Icon v-if="combatant.visibility === Visibility.Full" icon="tabler:eye" height="24" />
             <Icon v-else-if="combatant.visibility === Visibility.Half" icon="tabler:eye-off" height="24" />
             <Icon v-else-if="combatant.visibility === Visibility.None" icon="tabler:eye-closed" height="24" />
           </button>
-          <button class="btn btn-error btn-sm p-2">
+          <button class="btn btn-error btn-sm p-2" @click="() => combatants?.splice(i, 1)">
             <Icon icon="tabler:trash" height="24" />
           </button>
         </td>
@@ -66,7 +66,7 @@ const HPValue = useStorage('HPValue', 1)
           <button class="btn p-2 btn-error" @click="() => combatant.changeHP(-HPValue)">
             <Icon icon="tabler:minus" height="24" />
           </button>
-          <button class="btn btn-soft btn-info p-2" @click="() => combatant.changeHP(combatant.totalHP)">
+          <button class="btn btn-soft btn-info p-2 mx-1" @click="() => combatant.changeHP(combatant.totalHP)">
             {{combatant.currentHP}}/{{combatant.totalHP}}
           </button>
           <button class="btn btn-success p-2" @click="() => combatant.changeHP(HPValue)">
@@ -74,20 +74,29 @@ const HPValue = useStorage('HPValue', 1)
           </button>
         </td>
         <td>
-          <span
-              :class="['badge badge-lg m-0.5 select-none', {
-                'text-accent-content': !colorIsDark(condition.color)
-              }]"
-              :style="[{
-                backgroundColor: condition.color
-              }]"
-              v-for="(condition) in combatant.conditions"
-          >
-            {{condition.name}}
-            <span v-if="condition.value > 1">
-              {{condition.value}}
+          <button class="btn btn-neutral p-2" @click="() => combatant.changeConditionValue()">
+            <Icon icon="tabler:minus" height="24" />
+          </button>
+          <button class="btn btn-neutral p-2 mx-1" @click="() => combatant.changeHP(HPValue)">
+            <Icon icon="tabler:plus" height="24" />
+          </button>
+          <template v-for="(condition) in combatant.conditions">
+            <span
+                :class="['badge badge-lg m-0.5 select-none', {
+                  'text-accent-content': !colorIsDark(condition.color)
+                }]"
+                :style="[{
+                  backgroundColor: condition.color
+                }]"
+                @click.left="() => combatant.changeConditionValue(condition)"
+                @click.right.prevent="() => combatant.changeConditionValue(condition, true)"
+            >
+              {{condition.name}}
+              <span v-if="condition.value > 1">
+                {{condition.value}}
+              </span>
             </span>
-          </span>
+          </template>
         </td>
       </tr>
       </tbody>
