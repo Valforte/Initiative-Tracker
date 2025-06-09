@@ -14,6 +14,7 @@ import {
   PopoverRoot,
   PopoverTrigger
 } from "reka-ui";
+import {conditions} from "./db.ts";
 
 const props = defineProps<{
   turn: Number,
@@ -120,7 +121,10 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
                 <div class="card-body" @keydown.enter.prevent="() => addNewCondition(combatant, newConditionName, newConditionValue)">
                   <div class="grid grid-cols-3 items-center gap-4">
                     <Label for="newConditionName">Nome</Label>
-                    <input id="newConditionName" tabindex="1" v-model="newConditionName" class="input col-span-2 h-8" />
+<!--                    <input id="newConditionName" tabindex="1" v-model="newConditionName" class="input col-span-2 h-8" />-->
+
+                    <input id="newConditionName" tabindex="1" type="text" class="input col-span-2 h-8" list="conditions" v-model="newConditionName" />
+
                   </div>
                   <div class="grid grid-cols-3 items-center gap-4">
                     <Label for="newConditionValue">Valor</Label>
@@ -158,6 +162,9 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
       </tr>
       </tbody>
     </table>
+    <datalist id="conditions">
+      <option v-for="condition in conditions">{{condition.name}}</option>
+    </datalist>
   </div>
 </template>
 

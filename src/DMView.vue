@@ -14,6 +14,7 @@ import {
   PopoverRoot,
   PopoverTrigger
 } from "reka-ui";
+import {AgeOfAshes, MonsterCore} from "./db.ts";
 
 const emit = defineEmits<{
   (e: 'nextTurn'): void
@@ -52,6 +53,14 @@ function addCombatant(): void {
   isNewCombatantPopoverOpen.value = false
   setTimeout(clearNewCombatant, 1)
 }
+
+const monsterCore = new MonsterCore()
+const ageOfAshes = new AgeOfAshes()
+let monsterList = [
+  { name: "Monster Core", children: monsterCore.monsters.sort() },
+  { name: "Monster Core NPC", children: monsterCore.npc.sort() },
+  { name: "Age of Ashes", children: ageOfAshes.monsters.sort() },
+]
 </script>
 
 <template>
@@ -76,7 +85,12 @@ function addCombatant(): void {
               <div class="card-body" @keydown.enter.prevent="addCombatant">
                 <div class="grid grid-cols-3 items-center gap-4">
                   <Label for="newName">Nome</Label>
-                  <input id="newName" tabindex="1" v-model="newName" class="input col-span-2 h-8" />
+                  <input id="newName" tabindex="1" type="text" class="input col-span-2 h-8" list="monsters" v-model="newName" />
+                  <datalist id="monsters">
+                    <template v-for="group in monsterList">
+                      <option v-for="monster in group.children">{{monster}}</option>
+                    </template>
+                  </datalist>
                 </div>
                 <div class="grid grid-cols-3 items-center gap-4">
                   <Label for="newHP">HP</Label>

@@ -1,11 +1,16 @@
 <script setup lang="ts">
 
 import {colorIsDark, Combatant, Visibility} from "./functions.ts";
+import {conditions} from "./db.ts";
 
 defineProps<{
   turn: Number,
   combatants: Array<Combatant>
 }>()
+
+function getConditionTooltip(condition: string): string | undefined {
+  return conditions.find((c) => c.name === condition)?.description
+}
 </script>
 
 <template>
@@ -44,10 +49,12 @@ defineProps<{
                 :value="combatant.visibility == Visibility.Full ? combatant.currentHP : 0" :max="combatant.totalHP"
             />
           </td>
-          <td class="flex justify-center gap-1">
+          <td>
             <template v-for="(condition) in combatant.conditions">
+              <div class="tooltip tooltip-info tooltip-bottom">
+                <div class="tooltip-content shadow-md/50 z-50">{{ getConditionTooltip(condition.name) }}</div>
                 <span
-                    :class="['badge badge-lg select-none', {
+                    :class="['badge badge-lg m-0.5 select-none', {
                       'text-accent-content': !colorIsDark(condition.color)
                     }]"
                     :style="[{
@@ -59,6 +66,7 @@ defineProps<{
                     {{condition.value}}
                   </span>
                 </span>
+              </div>
             </template>
           </td>
         </tr>

@@ -29,7 +29,7 @@ onMounted(() => {
         <Icon icon="tabler:chevron-down" height="24"/>
       </button>
       <div class="dropdown-content">
-        <ScrollAreaRoot class="h-72 overflow-hidden shadow-sm">
+        <ScrollAreaRoot class="h-96 overflow-hidden shadow-sm">
           <ScrollAreaViewport class="w-full h-full">
             <div class="grid grid-cols-1 bg-transparent border-transparent rounded-box z-1 w-52">
               <template v-for="theme in themes">
