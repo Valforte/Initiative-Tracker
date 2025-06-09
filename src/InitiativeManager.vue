@@ -34,9 +34,15 @@ function setPlayerView() {
 
 const orderedCombatants = computed(() => {
   return combatants.value.sort((a: Combatant, b: Combatant) => {
-    return a.initiative < b.initiative ? 1 : -1
+    return b.initiative - a.initiative === 0 ? a.name > b.name ? 1 : -1 : b.initiative - a.initiative
   })
 })
+
+function reset() {
+  turn.value = 0
+  round.value = 0
+  combatants.value = null
+}
 
 function nextTurn() {
   if (orderedCombatants.value.every((combatant: Combatant) => combatant.visibility === Visibility.None)) {
@@ -57,10 +63,8 @@ function nextTurn() {
   turn.value = newTurn
 }
 
-function reset() {
-  turn.value = 0
-  round.value = 0
-  combatants.value = null
+function addCombatant(name: string, HP: number, initiative: number, visibility: Visibility): void {
+  combatants.value.push(new Combatant(name, HP, initiative, HP, [], visibility))
 }
 
 </script>
@@ -74,6 +78,7 @@ function reset() {
       @nextTurn="nextTurn"
       @reset="reset"
       @setPlayerView="setPlayerView"
+      @newCombatant="addCombatant"
   />
   <PlayerView
       v-else

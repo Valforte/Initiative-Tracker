@@ -3,17 +3,19 @@
 import PlayerTable from "./PlayerTable.vue";
 import {Combatant} from "./functions.ts";
 
-defineProps({
+defineProps<{
   turn: Number,
   round: Number,
   combatants: Array<Combatant>,
-})
+}>()
 </script>
 
 <template>
   <div>
-    <h1>Rodada {{round}}</h1>
-    <PlayerTable :combatants="combatants" :turn="turn" />
+    <article class="prose ml-8">
+      <h3>Rodada {{round}}</h3>
+    </article>
+    <PlayerTable :combatants="combatants" :turn="turn" class="shadow-xl/50" />
   </div>
 </template>
 
