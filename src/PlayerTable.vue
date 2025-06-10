@@ -2,19 +2,28 @@
 
 import {colorIsDark, Combatant, Visibility} from "./functions.ts";
 import {conditions} from "./db.ts";
+import { Icon } from "@iconify/vue";
+import {ref} from "vue";
 
 defineProps<{
   turn: Number,
   combatants: Array<Combatant>
 }>()
 
+const currentConditionTooltip = ref<string | undefined>('')
+
 function getConditionTooltip(condition: string): string | undefined {
-  return conditions.find((c) => c.name === condition)?.description
+  currentConditionTooltip.value = conditions.find((c) => c.name === condition)?.description
+  return currentConditionTooltip.value
+}
+
+function hideConditionTooltip(): void {
+  currentConditionTooltip.value = ''
 }
 </script>
 
 <template>
-  <div class="overflow-x-auto rounded-box border border-base-content/5 bg-base-100 my-8">
+  <div class="overflow-hidden rounded-box border border-base-content/5 bg-base-100 my-8">
     <table class="table table-lg table-fixed">
       <thead class="bg-base-300 text-center border-x-3 border-base-300">
       <tr>
@@ -51,28 +60,33 @@ function getConditionTooltip(condition: string): string | undefined {
           </td>
           <td>
             <template v-for="(condition) in combatant.conditions">
-              <div class="tooltip tooltip-info tooltip-bottom">
-                <div class="tooltip-content shadow-md/50 z-50">{{ getConditionTooltip(condition.name) }}</div>
-                <span
-                    :class="['badge badge-lg m-0.5 select-none', {
-                      'text-accent-content': !colorIsDark(condition.color)
-                    }]"
-                    :style="[{
-                      backgroundColor: condition.color
-                    }]"
-                >
-                  {{condition.name}}
-                  <span v-if="condition.value > 1">
-                    {{condition.value}}
-                  </span>
+              <span
+                  :class="['badge badge-lg m-0.5 select-none', {
+                    'text-accent-content': !colorIsDark(condition.color)
+                  }]"
+                  :style="[{
+                    backgroundColor: condition.color
+                  }]"
+                  @click="() => getConditionTooltip(condition.name)"
+              >
+                {{condition.name}}
+                <span v-if="condition.value > 1">
+                  {{condition.value}}
                 </span>
-              </div>
+              </span>
             </template>
           </td>
         </tr>
       </template>
       </tbody>
     </table>
+
+    <div class="toast toast-center" v-if="currentConditionTooltip">
+      <div class="alert alert-info text-lg text-justify">
+        <div class="badge badge-info shadow-sm/50 p-1 absolute top-[-7px] right-1" @click="hideConditionTooltip"><Icon icon="tabler:x" /></div>
+        <span>{{currentConditionTooltip}}</span>
+      </div>
+    </div>
   </div>
 </template>
 
