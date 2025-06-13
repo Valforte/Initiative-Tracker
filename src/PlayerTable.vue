@@ -4,6 +4,10 @@ import {colorIsDark, Combatant, Visibility} from "./functions.ts";
 import {conditions} from "./db.ts";
 import { Icon } from "@iconify/vue";
 import {ref} from "vue";
+import {text} from "./lang.ts";
+import {useStorage} from "@vueuse/core";
+
+const lang = useStorage('lang', 'en')
 
 defineProps<{
   turn: Number,
@@ -13,7 +17,10 @@ defineProps<{
 const currentConditionTooltip = ref<string | undefined>('')
 
 function getConditionTooltip(condition: string): string | undefined {
-  currentConditionTooltip.value = conditions.find((c) => c.name === condition)?.description
+  currentConditionTooltip.value = conditions.find((c) => c['name_'+lang.value]?.toLowerCase() === condition.toLowerCase())?.['description_'+lang.value]
+  if (!currentConditionTooltip.value) {
+    currentConditionTooltip.value = conditions.find((c) => c.name_en.toLowerCase() === condition.toLowerCase())?.description_en
+  }
   return currentConditionTooltip.value
 }
 
@@ -28,9 +35,9 @@ function hideConditionTooltip(): void {
       <thead class="bg-base-300 text-center border-x-3 border-base-300">
       <tr>
         <th class="w-24">#</th>
-        <th class="w-64">Nome</th>
-        <th class="">PV</th>
-        <th class="">Condições</th>
+        <th class="w-64">{{text.table.name[lang]}}</th>
+        <th class="">{{text.table.hp[lang]}}</th>
+        <th class="">{{text.table.conditions[lang]}}</th>
       </tr>
       </thead>
       <tbody>

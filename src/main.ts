@@ -4,4 +4,6 @@ import './style.css'
 // Components
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.config.globalProperties.$lang = "pt_BR"
+app.mount('#app')
