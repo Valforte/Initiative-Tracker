@@ -16,12 +16,16 @@ defineProps<{
 
 const currentConditionTooltip = ref<string | undefined>('')
 
-function getConditionTooltip(condition: string): string | undefined {
-  currentConditionTooltip.value = conditions.find((c) => c['name_'+lang.value]?.toLowerCase() === condition.toLowerCase())?.['description_'+lang.value]
-  if (!currentConditionTooltip.value) {
-    currentConditionTooltip.value = conditions.find((c) => c.name_en.toLowerCase() === condition.toLowerCase())?.description_en
+function getConditionTooltip(condition: string, setTooltip: boolean = false): string | undefined {
+  let currentCondition = conditions.find((c) => c['name_'+lang.value]?.toLowerCase() === condition.toLowerCase())?.['description_'+lang.value]
+  if (!currentCondition) {
+    currentCondition = conditions.find((c) => c.name_en.toLowerCase() === condition.toLowerCase())?.description_en
   }
-  return currentConditionTooltip.value
+
+  if (setTooltip) {
+    currentConditionTooltip.value = currentCondition
+  }
+  return currentCondition
 }
 
 function hideConditionTooltip(): void {
@@ -69,12 +73,14 @@ function hideConditionTooltip(): void {
             <template v-for="(condition) in combatant.conditions">
               <span
                   :class="['badge badge-lg m-0.5 select-none', {
-                    'text-accent-content': !colorIsDark(condition.color)
+                    'text-accent-content': !colorIsDark(condition.color),
+                    'cursor-pointer': getConditionTooltip(condition.name),
+                    'border-2 border-warning': getConditionTooltip(condition.name),
                   }]"
                   :style="[{
                     backgroundColor: condition.color
                   }]"
-                  @click="() => getConditionTooltip(condition.name)"
+                  @click="() => getConditionTooltip(condition.name, true)"
               >
                 {{condition.name}}
                 <span v-if="condition.value > 1">

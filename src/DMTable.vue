@@ -16,6 +16,7 @@ import {
 } from "reka-ui";
 import {conditions} from "./db.ts";
 import {text} from "./lang.ts";
+import HelpText from "./HelpText.vue";
 
 const lang = useStorage('lang', 'en')
 
@@ -48,15 +49,44 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
     <table class="table table-lg table-fixed">
       <thead class="bg-base-300 text-center border-x-3 border-base-300">
       <tr>
-        <th class="w-32">{{text.table.actions[lang]}}</th>
+        <th class="w-32">
+          {{text.table.actions[lang]}}
+          <HelpText>
+            <p><Icon icon="tabler:eye-off" class="inline-block" /> Oculto da visão do jogador; é ignorado durante a passagem de turno</p>
+            <p><Icon icon="tabler:eye-closed" class="inline-block" /> Barra de vida NÃO visível para os jogadores</p>
+            <p><Icon icon="tabler:eye" class="inline-block" /> Barra de vida visível para os jogadores</p>
+            <br />
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique no botão para alternar entre <Icon icon="tabler:eye-off" class="inline-block" /> e <Icon icon="tabler:eye-closed" class="inline-block" /></p>
+            <p><Icon icon="ph:mouse-right-click-fill" class="inline-block" /> Clique direito para definir <Icon icon="tabler:eye" class="inline-block" /></p>
+          </HelpText>
+        </th>
         <th class="w-32">#</th>
         <th class="text-left w-64">{{text.table.name[lang]}}</th>
         <th class="">
-          <NumberFieldRoot :min="1" v-model.lazy="HPValue">
+          <NumberFieldRoot class="inline-block" :min="1" v-model.lazy="HPValue">
             <NumberFieldInput class="input text-center w-20" />
           </NumberFieldRoot>
+          <HelpText>
+            <p>Defina aqui o valor para aumentar/diminuir</p>
+            <br />
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:minus" class="inline-block" /> para subtrair vida</p>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:plus" class="inline-block" /> para adicionar vida</p>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:math-x-divide-y-2" class="inline-block" /> para voltar a vida ao máximo</p>
+          </HelpText>
         </th>
-        <th class="">{{text.table.conditions[lang]}}</th>
+        <th class="">
+          {{text.table.conditions[lang]}}
+          <HelpText>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:plus" class="inline-block" /> para adicionar uma nova condição</p>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:minus" class="inline-block" /> para reduzir 1 estágio de todas as condições</p>
+            <br />
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em uma condição para reduzir 1 estágio</p>
+            <p><Icon icon="ph:mouse-right-click-fill" class="inline-block" /> Clique direito em uma condição para aumentar 1 estágio</p>
+            <br />
+            <p>Condições sem valor possuem 1 estágio</p>
+            <p>A condição é removida ao reduzir de 1 estágio para 0</p>
+          </HelpText>
+        </th>
       </tr>
       </thead>
       <tbody>
