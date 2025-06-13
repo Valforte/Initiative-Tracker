@@ -28,10 +28,6 @@ const combatants = useStorage(
 )
 const isDMView = ref<boolean>(new URLSearchParams(window.location.search).get("view") !== "player")
 
-function setPlayerView() {
-  window.location.href = '?view=player'
-}
-
 const orderedCombatants = computed(() => {
   return combatants.value.sort((a: Combatant, b: Combatant) => {
     return b.initiative - a.initiative === 0 ? a.name > b.name ? 1 : -1 : b.initiative - a.initiative
@@ -77,7 +73,6 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
       :combatants="orderedCombatants"
       @nextTurn="nextTurn"
       @reset="reset"
-      @setPlayerView="setPlayerView"
       @newCombatant="addCombatant"
   />
   <PlayerView

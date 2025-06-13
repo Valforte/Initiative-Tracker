@@ -15,6 +15,9 @@ import {
   PopoverTrigger
 } from "reka-ui";
 import {conditions} from "./db.ts";
+import {text} from "./lang.ts";
+
+const lang = useStorage('lang', 'en')
 
 const props = defineProps<{
   turn: Number,
@@ -45,15 +48,15 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
     <table class="table table-lg table-fixed">
       <thead class="bg-base-300 text-center border-x-3 border-base-300">
       <tr>
-        <th class="w-32">Ações</th>
+        <th class="w-32">{{text.table.actions[lang]}}</th>
         <th class="w-32">#</th>
-        <th class="text-left w-64">Nome</th>
+        <th class="text-left w-64">{{text.table.name[lang]}}</th>
         <th class="">
           <NumberFieldRoot :min="1" v-model.lazy="HPValue">
             <NumberFieldInput class="input text-center w-20" />
           </NumberFieldRoot>
         </th>
-        <th class="">Condições</th>
+        <th class="">{{text.table.conditions[lang]}}</th>
       </tr>
       </thead>
       <tbody>
@@ -120,21 +123,18 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
               <PopoverContent class="card w-80 bg-base-300 card-md shadow-l">
                 <div class="card-body" @keydown.enter.prevent="() => addNewCondition(combatant, newConditionName, newConditionValue)">
                   <div class="grid grid-cols-3 items-center gap-4">
-                    <Label for="newConditionName">Nome</Label>
-<!--                    <input id="newConditionName" tabindex="1" v-model="newConditionName" class="input col-span-2 h-8" />-->
-
+                    <Label for="newConditionName">{{text.dm_table.addConditionName[lang]}}</Label>
                     <input id="newConditionName" tabindex="1" type="text" class="input col-span-2 h-8" list="conditions" v-model="newConditionName" />
-
                   </div>
                   <div class="grid grid-cols-3 items-center gap-4">
-                    <Label for="newConditionValue">Valor</Label>
+                    <Label for="newConditionValue">{{text.dm_table.addConditionValue[lang]}}</Label>
                     <NumberFieldRoot :min="1" v-model="newConditionValue" class="col-span-2">
                       <NumberFieldInput tabindex="2" id="newConditionValue" class="input h-8" />
                     </NumberFieldRoot>
                   </div>
                   <div class="flex justify-end gap-2">
-                    <button @click="clearNewCondition" tabindex="5" class="btn btn-error btn-sm"><Icon icon="tabler:eraser" height="24" />Limpar</button>
-                    <button @click="() => addNewCondition(combatant, newConditionName, newConditionValue)" tabindex="6" class="btn btn-neutral btn-sm"><Icon icon="tabler:plus" height="24" />Adicionar</button>
+                    <button @click="clearNewCondition" tabindex="5" class="btn btn-error btn-sm"><Icon icon="tabler:eraser" height="24" />{{text.dm_actions.clear[lang]}}</button>
+                    <button @click="() => addNewCondition(combatant, newConditionName, newConditionValue)" tabindex="6" class="btn btn-neutral btn-sm"><Icon icon="tabler:plus" height="24" />{{text.dm_actions.add[lang]}}</button>
                   </div>
                 </div>
                 <PopoverArrow class="fill-base-300" />
@@ -163,7 +163,7 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
       </tbody>
     </table>
     <datalist id="conditions">
-      <option v-for="condition in conditions">{{condition.name}}</option>
+      <option v-for="condition in conditions">{{condition['name_'+lang]}}</option>
     </datalist>
   </div>
 </template>

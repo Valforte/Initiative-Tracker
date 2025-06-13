@@ -4,6 +4,9 @@ import {Icon} from "@iconify/vue";
 import {useStorage} from "@vueuse/core";
 import {onMounted, watch} from "vue";
 import {ScrollAreaRoot, ScrollAreaScrollbar, ScrollAreaThumb, ScrollAreaViewport} from "reka-ui";
+import {text} from "./lang.ts";
+
+const lang = useStorage('lang', 'en')
 
 const themes = ['light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate', 'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden', 'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black', 'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade', 'night', 'coffee', 'winter', 'dim', 'nord', 'sunset', 'caramellatte', 'abyss', 'silk']
 const selectedTheme = useStorage('theme', 'dracula')
@@ -25,7 +28,14 @@ onMounted(() => {
 <template>
   <div class="group fixed top-1 right-1 z-50">
     <div class="dropdown dropdown-end">
-      <button class="btn btn-neutral invisible group-hover:visible">Tema
+      <button class="btn btn-neutral invisible group-hover:visible">{{text.options.language[lang]}}</button>
+      <div class="dropdown-content bg-base-200 rounded-box z-1 w-52 p-2 shadow-sm">
+        <div><button class="btn btn-block" @click="() => lang = 'en'">English</button></div>
+        <div><button class="btn btn-block" @click="() => lang = 'pt_BR'">Português (Brasil)</button></div>
+      </div>
+    </div>
+    <div class="dropdown dropdown-end">
+      <button class="btn btn-neutral invisible group-hover:visible">{{text.options.theme[lang]}}
         <Icon icon="tabler:chevron-down" height="24"/>
       </button>
       <div class="dropdown-content">
