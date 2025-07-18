@@ -80,11 +80,10 @@ class Combatant {
 }
 
 const defaultCombatants: Array<Combatant> = [
-    new Combatant("Timon", 20, 14, 20, [new Condition("Amedrontado"), new Condition("Cagando"), new Condition("Alucinado")], Visibility.Full),
-    new Combatant("Ancient Black Dragon", 130, 14, 130, [], Visibility.Half),
-    new Combatant("Thiago", 20, 12, 20, [new Condition("Atordoado", 2), new Condition("Stunned")], Visibility.Full),
-    new Combatant("Kaike", 18, 19, 18, [], Visibility.Full),
-    new Combatant("Bruno", 22, 3, 22, [], Visibility.Full),
+    new Combatant("Yogo", 25, 4, 25, [], Visibility.Full),
+    new Combatant("Lesher", 19, 3, 19, [], Visibility.Full),
+    new Combatant("Croak", 18, 2, 18, [], Visibility.Full),
+    new Combatant("Drikk", 20, 1, 20, [], Visibility.Full),
 ]
 
 function colorIsDark(bgColor: string): boolean {
