@@ -6,7 +6,7 @@ import DMView from "./DMView.vue";
 import PlayerView from "./PlayerView.vue";
 
 const turn = useStorage('turn', 0)
-const round = useStorage('round', 0)
+const round = useStorage('round', 1)
 const combatants = useStorage(
     'combatants',
     defaultCombatants,
@@ -36,8 +36,7 @@ const orderedCombatants = computed(() => {
 
 function reset() {
   turn.value = 0
-  round.value = 0
-  combatants.value = null
+  round.value = 1
 }
 
 function nextTurn() {
