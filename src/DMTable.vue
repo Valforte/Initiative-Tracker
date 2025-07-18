@@ -25,6 +25,10 @@ const props = defineProps<{
   combatants: Array<Combatant>
 }>()
 
+const emit = defineEmits<{
+  (e: 'removeCombatant', index: number): void
+}>()
+
 const HPValue = useStorage('HPValue', 1)
 const isConditionPopoverOpen = ref<boolean[]>(props.combatants.map(() => false ))
 const newConditionName = ref<string>('')
@@ -40,6 +44,11 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
   combatant.newCondition(name, value)
   isConditionPopoverOpen.value = isConditionPopoverOpen.value.map(() => false)
   setTimeout(clearNewCondition, 1)
+}
+
+function removeCombatant(i: number): void {
+  props.combatants.splice(i, 1)
+  emit('removeCombatant', i)
 }
 
 </script>
@@ -107,7 +116,7 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
               <Icon v-else-if="combatant.visibility === Visibility.Half" icon="tabler:eye-off" height="24" />
               <Icon v-else-if="combatant.visibility === Visibility.None" icon="tabler:eye-closed" height="24" />
             </button>
-            <button class="btn btn-error btn-sm p-2" @click="() => combatants?.splice(i, 1)">
+            <button class="btn btn-error btn-sm p-2" @click="() => removeCombatant(i)">
               <Icon icon="tabler:trash" height="24" />
             </button>
           </div>

@@ -62,6 +62,15 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
   combatants.value.push(new Combatant(name, HP, initiative, HP, [], visibility))
 }
 
+function removeCombatant(index: number): void {
+  console.log(index, turn.value, combatants.value.length)
+  if (index < turn.value) {
+    turn.value -= 1
+  } else if (index == combatants.value.length) {
+    nextTurn()
+  }
+}
+
 </script>
 
 <template>
@@ -73,6 +82,7 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
       @nextTurn="nextTurn"
       @reset="reset"
       @newCombatant="addCombatant"
+      @removeCombatant="removeCombatant"
   />
   <PlayerView
       v-else

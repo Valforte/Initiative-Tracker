@@ -25,6 +25,7 @@ const emit = defineEmits<{
   (e: 'nextTurn'): void
   (e: 'reset'): void
   (e: 'newCombatant', name: string, HP: number, initiative: number, visibility: Visibility): void
+  (e: 'removeCombatant', index: number): void
 }>()
 
 defineProps<{
@@ -37,6 +38,7 @@ const newName = ref('')
 const newHP = ref(1)
 const newInitiative = ref(1)
 const newVisibility = ref(Visibility.None)
+const newQuantity = ref(1)
 const isNewCombatantPopoverOpen = ref(false)
 
 function changeNewVisibility(): void {
@@ -49,22 +51,46 @@ function clearNewCombatant(): void {
   newHP.value = 1
   newInitiative.value = 1
   newVisibility.value = Visibility.None
+  newQuantity.value = 1
   document.getElementById('newName')?.focus()
 }
 
+function getCombatantName(i: number): string {
+  if (i == 0 && newQuantity.value == 1) {
+    return newName.value
+  }
+  switch (i) {
+    case 0:
+      return `${newName.value} (${text.colors.red[lang.value]})`
+    case 1:
+      return `${newName.value} (${text.colors.green[lang.value]})`
+    case 2:
+      return `${newName.value} (${text.colors.blue[lang.value]})`
+    case 3:
+      return `${newName.value} (${text.colors.purple[lang.value]})`
+    case 4:
+      return `${newName.value} (${text.colors.pink[lang.value]})`
+    case 5:
+      return `${newName.value} (${text.colors.brown[lang.value]})`
+    default:
+      return `${newName.value} (${i})`
+  }
+}
+
 function addCombatant(): void {
-  emit('newCombatant', newName.value, newHP.value, newInitiative.value, newVisibility.value)
+  for (let i = 0; i < newQuantity.value; i++) {
+    emit('newCombatant', getCombatantName(i), newHP.value, newInitiative.value, newVisibility.value)
+  }
   isNewCombatantPopoverOpen.value = false
   setTimeout(clearNewCombatant, 1)
 }
 
+function removeCombatant(index: number): void {
+  emit('removeCombatant', index)
+}
+
 const monsterCore = new MonsterCore()
 const ageOfAshes = new AgeOfAshes()
-// let monsterList2 = [
-//   { name: "Monster Core", children: monsterCore.monsters.sort() },
-//   { name: "Monster Core NPC", children: monsterCore.npc.sort() },
-//   { name: "Age of Ashes", children: ageOfAshes.monsters.sort() },
-// ]
 
 let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.monsters].sort()
 </script>
@@ -74,7 +100,7 @@ let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.mo
     <article class="prose ml-8">
       <h3>{{text.table.round[lang]}} {{round}}</h3>
     </article>
-    <DMTable :combatants="combatants" :turn="turn" class="shadow-md/50" />
+    <DMTable :combatants="combatants" :turn="turn" @removeCombatant="removeCombatant" class="shadow-md/50" />
     <div class="grid grid-cols-1 gap-4">
       <div class="flex gap-4">
         <button class="btn btn-neutral" @click="$emit('nextTurn')"><Icon icon="tabler:player-skip-forward" height="24" />{{text.dm_actions.next[lang]}}</button>
@@ -106,6 +132,12 @@ let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.mo
                   <Label for="newInitiative">{{text.table.initiative[lang]}}</Label>
                   <NumberFieldRoot :min="1" v-model="newInitiative" class="col-span-2">
                     <NumberFieldInput tabindex="3" id="newInitiative" class="input h-8" />
+                  </NumberFieldRoot>
+                </div>
+                <div class="grid grid-cols-3 items-center gap-4">
+                  <Label for="newInitiative">{{text.dm_actions.quantity[lang]}}</Label>
+                  <NumberFieldRoot :min="1" v-model="newQuantity" class="col-span-2">
+                    <NumberFieldInput tabindex="3" id="newQuantity" class="input h-8" />
                   </NumberFieldRoot>
                 </div>
                 <div class="flex justify-end gap-2">
