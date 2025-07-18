@@ -13,6 +13,7 @@ type translation = {
         playerView: {[key:string]:string},
         add: {[key:string]:string},
         clear: {[key:string]:string},
+        quantity: {[key:string]:string},
     },
     dm_table: {
         addConditionName: {[key:string]:string},
@@ -21,6 +22,14 @@ type translation = {
     options: {
         theme: {[key:string]:string},
         language: {[key:string]:string},
+    },
+    colors: {
+        red: {[key:string]:string},
+        green: {[key:string]:string},
+        blue: {[key:string]:string},
+        purple: {[key:string]:string},
+        pink: {[key:string]:string},
+        brown: {[key:string]:string},
     }
 }
 
@@ -72,6 +81,10 @@ const text: translation = {
             en: "Clear",
             pt_BR: "Limpar",
         },
+        quantity: {
+            en: "Qtd",
+            pt_BR: "Qty",
+        },
     },
     dm_table: {
         addConditionName: {
@@ -92,6 +105,33 @@ const text: translation = {
             en: "Language",
             pt_BR: "Idioma",
         }
+    },
+    colors: {
+        red: {
+            en: "Red",
+            pt_BR: "Vermelho",
+        },
+        green: {
+            en: "Green",
+            pt_BR: "Verde",
+        },
+        blue: {
+            en: "Blue",
+            pt_BR: "Azul",
+        },
+        purple: {
+            en: "Purple",
+            pt_BR: "Roxo",
+        },
+        pink: {
+            en: "Pink",
+            pt_BR: "Rosa",
+        },
+        brown: {
+            en: "Brown",
+            pt_BR: "Marrom",
+        },
+
     }
 }
 

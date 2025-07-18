@@ -6,7 +6,7 @@ import DMView from "./DMView.vue";
 import PlayerView from "./PlayerView.vue";
 
 const turn = useStorage('turn', 0)
-const round = useStorage('round', 0)
+const round = useStorage('round', 1)
 const combatants = useStorage(
     'combatants',
     defaultCombatants,
@@ -36,8 +36,7 @@ const orderedCombatants = computed(() => {
 
 function reset() {
   turn.value = 0
-  round.value = 0
-  combatants.value = null
+  round.value = 1
 }
 
 function nextTurn() {
@@ -63,6 +62,15 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
   combatants.value.push(new Combatant(name, HP, initiative, HP, [], visibility))
 }
 
+function removeCombatant(index: number): void {
+  console.log(index, turn.value, combatants.value.length)
+  if (index < turn.value) {
+    turn.value -= 1
+  } else if (index == combatants.value.length) {
+    nextTurn()
+  }
+}
+
 </script>
 
 <template>
@@ -74,6 +82,7 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
       @nextTurn="nextTurn"
       @reset="reset"
       @newCombatant="addCombatant"
+      @removeCombatant="removeCombatant"
   />
   <PlayerView
       v-else
