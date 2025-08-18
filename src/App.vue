@@ -3,7 +3,16 @@ import InitiativeManager from "./InitiativeManager.vue";
 import {Icon} from "@iconify/vue";
 import {useStorage} from "@vueuse/core";
 import {onMounted, watch} from "vue";
-import {ScrollAreaRoot, ScrollAreaScrollbar, ScrollAreaThumb, ScrollAreaViewport} from "reka-ui";
+import {
+  PopoverContent,
+  PopoverPortal,
+  PopoverRoot,
+  PopoverTrigger,
+  ScrollAreaRoot,
+  ScrollAreaScrollbar,
+  ScrollAreaThumb,
+  ScrollAreaViewport
+} from "reka-ui";
 import {text} from "./lang.ts";
 
 const lang = useStorage('lang', 'en')
@@ -27,18 +36,24 @@ onMounted(() => {
 
 <template>
   <div class="group fixed top-1 right-1 z-50">
-    <div class="dropdown dropdown-end">
-      <button class="btn btn-neutral invisible group-hover:visible">{{text.options.language[lang]}}</button>
-      <div class="dropdown-content bg-base-200 rounded-box z-1 w-52 p-2 shadow-sm">
-        <div><button class="btn btn-block" @click="() => lang = 'en'">English</button></div>
-        <div><button class="btn btn-block" @click="() => lang = 'pt_BR'">Português (Brasil)</button></div>
-      </div>
-    </div>
-    <div class="dropdown dropdown-end">
-      <button class="btn btn-neutral invisible group-hover:visible">{{text.options.theme[lang]}}
-        <Icon icon="tabler:chevron-down" height="24"/>
-      </button>
-      <div class="dropdown-content">
+    <PopoverRoot>
+      <PopoverTrigger as-child>
+        <button class="btn btn-neutral invisible group-hover:visible">{{text.options.language[lang]}}</button>
+      </PopoverTrigger>
+        <PopoverContent>
+          <div class="card bg-base-300 card-md shadow-l">
+            <div><button class="btn btn-block" @click="() => lang = 'en'">English</button></div>
+            <div><button class="btn btn-block" @click="() => lang = 'pt_BR'">Português (Brasil)</button></div>
+          </div>
+        </PopoverContent>
+      </PopoverRoot>
+    <PopoverRoot>
+      <PopoverTrigger as-child>
+        <button class="btn btn-neutral invisible group-hover:visible">{{text.options.theme[lang]}}
+          <Icon icon="tabler:chevron-down" height="24"/>
+        </button>
+      </PopoverTrigger>
+      <PopoverContent>
         <ScrollAreaRoot class="h-96 overflow-hidden shadow-sm">
           <ScrollAreaViewport class="w-full h-full">
             <div class="grid grid-cols-1 bg-transparent border-transparent rounded-box z-1 w-52">
@@ -85,8 +100,8 @@ onMounted(() => {
             />
           </ScrollAreaScrollbar>
         </ScrollAreaRoot>
-      </div>
-    </div>
+      </PopoverContent>
+    </PopoverRoot>
   </div>
 
   <InitiativeManager class="m-6"/>
