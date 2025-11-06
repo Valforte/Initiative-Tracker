@@ -34,23 +34,63 @@ class Combatant {
     name: string
     currentHP: number
     totalHP: number
+    tempHP: number
+    maxTempHP: number
     initiative: number
     conditions: Array<Condition>
     visibility: number
 
-    constructor(name: string, totalHP: number, initiative: number, currentHP: number = totalHP, conditions: Array<Condition> = [], visibility: number = Visibility.Half) {
+    constructor(name: string, totalHP: number, initiative: number, currentHP: number = totalHP, conditions: Array<Condition> = [], visibility: number = Visibility.Half, tempHP: number = 0, maxTempHP: number = 0) {
         this.name = name
         this.currentHP = currentHP
         this.totalHP = totalHP
+        this.tempHP = tempHP
+        this.maxTempHP = maxTempHP
         this.initiative = initiative
         this.conditions = conditions
         this.visibility = visibility
     }
 
     public changeHP(amount: number = 1) {
-        this.currentHP += amount
-        if (this.currentHP > this.totalHP) { this.currentHP = this.totalHP }
-        if (this.currentHP < 0) { this.currentHP = 0 }
+        if (amount > 0) {
+            // Healing adds to current HP (stops at max)
+            this.currentHP += amount
+            if (this.currentHP > this.totalHP) {
+                this.currentHP = this.totalHP
+            }
+        } else {
+            // Damage: first consume temp HP, then regular HP
+            const damage = Math.abs(amount)
+            if (this.tempHP > 0) {
+                if (this.tempHP >= damage) {
+                    // Temp HP absorbs all damage
+                    this.tempHP -= damage
+                } else {
+                    // Temp HP absorbs some, rest goes to regular HP
+                    const remainingDamage = damage - this.tempHP
+                    this.tempHP = 0
+                    this.currentHP -= remainingDamage
+                    if (this.currentHP < 0) { this.currentHP = 0 }
+                }
+            } else {
+                // No temp HP, damage goes directly to regular HP
+                this.currentHP -= damage
+                if (this.currentHP < 0) { this.currentHP = 0 }
+            }
+
+            // If temp HP reaches 0, reset maxTempHP tracking
+            if (this.tempHP <= 0) {
+                this.maxTempHP = 0
+            }
+        }
+    }
+
+    public addTempHP(amount: number = 1) {
+        this.tempHP += amount
+        // Track the highest temp HP value
+        if (this.tempHP > this.maxTempHP) {
+            this.maxTempHP = this.tempHP
+        }
     }
 
     public changeVisibility(setVisible: boolean = false) {
@@ -80,10 +120,10 @@ class Combatant {
 }
 
 const defaultCombatants: Array<Combatant> = [
-    new Combatant("Yogo", 25, 4, 25, [], Visibility.Full),
-    new Combatant("Lesher", 19, 3, 19, [], Visibility.Full),
-    new Combatant("Croak", 18, 2, 18, [], Visibility.Full),
-    new Combatant("Drikk", 20, 1, 20, [], Visibility.Full),
+    new Combatant("Yogo", 25, 4, 25, [], Visibility.Full, 0, 0),
+    new Combatant("Lesher", 19, 3, 19, [], Visibility.Full, 0, 0),
+    new Combatant("Croak", 18, 2, 18, [], Visibility.Full, 0, 0),
+    new Combatant("Drikk", 20, 1, 20, [], Visibility.Full, 0, 0),
 ]
 
 function colorIsDark(bgColor: string): boolean {
