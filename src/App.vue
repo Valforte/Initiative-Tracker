@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import InitiativeManager from "./InitiativeManager.vue";
 import {Icon} from "@iconify/vue";
-import {useStorage} from "@vueuse/core";
 import {onMounted, watch} from "vue";
 import {
   PopoverContent,
-  PopoverPortal,
   PopoverRoot,
   PopoverTrigger,
   ScrollAreaRoot,
@@ -13,9 +11,10 @@ import {
   ScrollAreaThumb,
   ScrollAreaViewport
 } from "reka-ui";
-import {text} from "./lang.ts";
+import {useTranslations} from "./lang.ts";
+import {useStorage} from "@vueuse/core";
 
-const lang = useStorage('lang', 'en')
+const { t, lang } = useTranslations()
 
 const themes = ['light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate', 'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden', 'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black', 'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade', 'night', 'coffee', 'winter', 'dim', 'nord', 'sunset', 'caramellatte', 'abyss', 'silk']
 const selectedTheme = useStorage('theme', 'dracula')
@@ -38,7 +37,7 @@ onMounted(() => {
   <div class="group fixed top-1 right-1 z-50">
     <PopoverRoot>
       <PopoverTrigger as-child>
-        <button class="btn btn-neutral invisible group-hover:visible">{{text.options.language[lang]}}</button>
+        <button class="btn btn-neutral invisible group-hover:visible">{{t.options.language}}</button>
       </PopoverTrigger>
         <PopoverContent>
           <div class="card bg-base-300 card-md shadow-l">
@@ -49,7 +48,7 @@ onMounted(() => {
       </PopoverRoot>
     <PopoverRoot>
       <PopoverTrigger as-child>
-        <button class="btn btn-neutral invisible group-hover:visible">{{text.options.theme[lang]}}
+        <button class="btn btn-neutral invisible group-hover:visible">{{t.options.theme}}
           <Icon icon="tabler:chevron-down" height="24"/>
         </button>
       </PopoverTrigger>

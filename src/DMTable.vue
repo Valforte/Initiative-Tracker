@@ -15,10 +15,10 @@ import {
   PopoverTrigger
 } from "reka-ui";
 import {conditions} from "./db.ts";
-import {text} from "./lang.ts";
+import {useTranslations} from "./lang.ts";
 import HelpText from "./HelpText.vue";
 
-const lang = useStorage('lang', 'en')
+const { t, lang } = useTranslations()
 
 const props = defineProps<{
   turn: Number,
@@ -59,7 +59,7 @@ function removeCombatant(i: number): void {
       <thead class="bg-base-300 text-center border-x-3 border-base-300">
       <tr>
         <th class="w-32">
-          {{text.table.actions[lang]}}
+          {{t.table.actions}}
           <HelpText>
             <p><Icon icon="tabler:eye-off" class="inline-block" /> Oculto da visão do jogador; é ignorado durante a passagem de turno</p>
             <p><Icon icon="tabler:eye-closed" class="inline-block" /> Barra de vida NÃO visível para os jogadores</p>
@@ -70,7 +70,7 @@ function removeCombatant(i: number): void {
           </HelpText>
         </th>
         <th class="w-32">#</th>
-        <th class="text-left w-64">{{text.table.name[lang]}}</th>
+        <th class="text-left w-64">{{t.table.name}}</th>
         <th class="">
           <NumberFieldRoot class="inline-block" :min="1" v-model.lazy="HPValue">
             <NumberFieldInput class="input text-center w-20" />
@@ -93,7 +93,7 @@ function removeCombatant(i: number): void {
           </HelpText>
         </th>
         <th class="">
-          {{text.table.conditions[lang]}}
+          {{t.table.conditions}}
           <HelpText>
             <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:plus" class="inline-block" /> para adicionar uma nova condição</p>
             <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:minus" class="inline-block" /> para reduzir 1 estágio de todas as condições</p>
@@ -200,18 +200,18 @@ function removeCombatant(i: number): void {
               <PopoverContent class="card w-80 bg-base-300 card-md shadow-l">
                 <div class="card-body" @keydown.enter.prevent="() => addNewCondition(combatant, newConditionName, newConditionValue)">
                   <div class="grid grid-cols-3 items-center gap-4">
-                    <Label for="newConditionName">{{text.dm_table.addConditionName[lang]}}</Label>
+                    <Label for="newConditionName">{{t.dm_table.addConditionName}}</Label>
                     <input id="newConditionName" tabindex="1" type="text" class="input col-span-2 h-8" list="conditions" v-model="newConditionName" />
                   </div>
                   <div class="grid grid-cols-3 items-center gap-4">
-                    <Label for="newConditionValue">{{text.dm_table.addConditionValue[lang]}}</Label>
+                    <Label for="newConditionValue">{{t.dm_table.addConditionValue}}</Label>
                     <NumberFieldRoot :min="1" v-model="newConditionValue" class="col-span-2">
                       <NumberFieldInput tabindex="2" id="newConditionValue" class="input h-8" />
                     </NumberFieldRoot>
                   </div>
                   <div class="flex justify-end gap-2">
-                    <button @click="clearNewCondition" tabindex="5" class="btn btn-error btn-sm"><Icon icon="tabler:eraser" height="24" />{{text.dm_actions.clear[lang]}}</button>
-                    <button @click="() => addNewCondition(combatant, newConditionName, newConditionValue)" tabindex="6" class="btn btn-neutral btn-sm"><Icon icon="tabler:plus" height="24" />{{text.dm_actions.add[lang]}}</button>
+                    <button @click="clearNewCondition" tabindex="5" class="btn btn-error btn-sm"><Icon icon="tabler:eraser" height="24" />{{t.dm_actions.clear}}</button>
+                    <button @click="() => addNewCondition(combatant, newConditionName, newConditionValue)" tabindex="6" class="btn btn-neutral btn-sm"><Icon icon="tabler:plus" height="24" />{{t.dm_actions.add}}</button>
                   </div>
                 </div>
                 <PopoverArrow class="fill-base-300" />

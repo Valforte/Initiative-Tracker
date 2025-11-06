@@ -2,10 +2,9 @@
 
 import PlayerTable from "./PlayerTable.vue";
 import {Combatant} from "./functions.ts";
-import {text} from "./lang.ts";
-import {useStorage} from "@vueuse/core";
+import {useTranslations} from "./lang.ts";
 
-const lang = useStorage('lang', 'en')
+const { t } = useTranslations()
 
 defineProps<{
   turn: Number,
@@ -17,7 +16,7 @@ defineProps<{
 <template>
   <div>
     <article class="prose ml-8">
-      <h3>{{text.table.round[lang]}} {{round}}</h3>
+      <h3>{{t.table.round}} {{round}}</h3>
     </article>
     <PlayerTable :combatants="combatants" :turn="turn" class="shadow-xl/50" />
   </div>
