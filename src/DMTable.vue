@@ -76,11 +76,20 @@ function removeCombatant(i: number): void {
             <NumberFieldInput class="input text-center w-20" />
           </NumberFieldRoot>
           <HelpText>
-            <p>Defina aqui o valor para aumentar/diminuir</p>
+            <p>Defina aqui o valor para aumentar/diminuir PV e PV temporário</p>
             <br />
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:minus" class="inline-block" /> para subtrair vida</p>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:plus" class="inline-block" /> para adicionar vida</p>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:math-x-divide-y-2" class="inline-block" /> para voltar a vida ao máximo</p>
+            <p><Icon icon="tabler:minus" class="inline-block text-error" /> <strong>Remover PV:</strong></p>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para subtrair vida (remove PV temporário primeiro, depois PV normal)</p>
+            <br />
+            <p><Icon icon="tabler:plus" class="inline-block text-success" /> <strong>Adicionar PV:</strong></p>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para adicionar vida (para no máximo)</p>
+            <br />
+            <p><Icon icon="tabler:plus" class="inline-block text-info" /> <strong>Adicionar PV Temporário:</strong></p>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para adicionar PV temporário</p>
+            <br />
+            <p><strong>Botão de PV (XX/XX +Y/Z):</strong></p>
+            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para curar ao máximo (se tiver PV temporário, remove todo PV temporário e cura ao máximo)</p>
+            <p><Icon icon="ph:mouse-right-click-fill" class="inline-block" /> Clique direito para definir o PV máximo ao valor configurado</p>
           </HelpText>
         </th>
         <th class="">
@@ -128,25 +137,54 @@ function removeCombatant(i: number): void {
         </td>
         <td>{{combatant.name}}</td>
         <td class="text-center">
-          <progress
-              class="progress h-6"
+          <div>
+            <progress
+              v-if="combatant.maxTempHP > 0"
+              class="progress h-3 w-full progress-info"
+              :value="combatant.tempHP"
+              :max="combatant.maxTempHP"
+            />
+            <progress
+              class="progress h-6 w-full"
               :class="{
-                  'progress-success': combatant.currentHP / combatant.totalHP >= 2/3,
-                  'progress-warning': combatant.currentHP / combatant.totalHP < 2/3 && combatant.currentHP / combatant.totalHP >= 1/3,
-                  'progress-error': combatant.currentHP / combatant.totalHP < 1/3,
-                }"
+                'progress-success': combatant.currentHP / combatant.totalHP >= 2/3,
+                'progress-warning': combatant.currentHP / combatant.totalHP < 2/3 && combatant.currentHP / combatant.totalHP >= 1/3,
+                'progress-error': combatant.currentHP / combatant.totalHP < 1/3,
+              }"
               :value="combatant.currentHP"
               :max="combatant.totalHP"
-          />
-          <button class="btn p-2 btn-error" @click="() => combatant.changeHP(-HPValue)">
-            <Icon icon="tabler:minus" height="24" />
-          </button>
-          <button class="btn btn-soft btn-info p-2 mx-1" @click="() => combatant.changeHP(combatant.totalHP)">
-            {{combatant.currentHP}}/{{combatant.totalHP}}
-          </button>
-          <button class="btn btn-success p-2" @click="() => combatant.changeHP(HPValue)">
-            <Icon icon="tabler:plus" height="24" />
-          </button>
+            />
+          </div>
+          <div class="flex justify-center items-center gap-1 mt-1">
+            <button class="btn p-2 btn-error" @click="() => combatant.changeHP(-HPValue)">
+              <Icon icon="tabler:minus" height="24" />
+            </button>
+            <button
+              class="btn btn-soft btn-info p-2 select-none"
+              @click="() => {
+                if (combatant.tempHP > 0) {
+                  combatant.tempHP = 0;
+                  combatant.maxTempHP = 0;
+                }
+                combatant.currentHP = combatant.totalHP;
+              }"
+              @click.right.prevent="() => {
+                combatant.totalHP = HPValue;
+                if (combatant.currentHP > combatant.totalHP) {
+                  combatant.currentHP = combatant.totalHP;
+                }
+              }"
+            >
+              {{combatant.currentHP}}/{{combatant.totalHP}}
+              <span v-if="combatant.maxTempHP > 0"> +{{combatant.tempHP}}/{{combatant.maxTempHP}}</span>
+            </button>
+            <button class="btn btn-success p-2" @click="() => combatant.changeHP(HPValue)">
+              <Icon icon="tabler:plus" height="24" />
+            </button>
+            <button class="btn btn-info p-2" @click="() => combatant.addTempHP(HPValue)">
+              <Icon icon="tabler:plus" height="24" />
+            </button>
+          </div>
         </td>
         <td>
           <button class="btn btn-neutral p-2" @click="() => combatant.changeConditionValue()">

@@ -17,7 +17,7 @@ const combatants = useStorage(
           if (v) {
             let parsedItems = JSON.parse(v)
             return parsedItems.map((combatant: Combatant) => {
-              return new Combatant(combatant.name, combatant.totalHP, combatant.initiative, combatant.currentHP, combatant.conditions.map((condition: Condition) => { return new Condition(condition.name, condition.value)}), combatant.visibility)
+              return new Combatant(combatant.name, combatant.totalHP, combatant.initiative, combatant.currentHP, combatant.conditions.map((condition: Condition) => { return new Condition(condition.name, condition.value)}), combatant.visibility, combatant.tempHP || 0, combatant.maxTempHP || 0)
             })
           }
           return defaultCombatants
@@ -59,7 +59,7 @@ function nextTurn() {
 }
 
 function addCombatant(name: string, HP: number, initiative: number, visibility: Visibility): void {
-  combatants.value.push(new Combatant(name, HP, initiative, HP, [], visibility))
+  combatants.value.push(new Combatant(name, HP, initiative, HP, [], visibility, 0, 0))
 }
 
 function removeCombatant(index: number): void {
