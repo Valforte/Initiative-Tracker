@@ -58,15 +58,24 @@ function hideConditionTooltip(): void {
           <td class="text-center">{{combatant.initiative}}</td>
           <td class="">{{combatant.name}}</td>
           <td class="text-center">
-            <progress
-                class="progress h-6"
+            <div>
+              <progress
+                v-if="combatant.visibility === Visibility.Full && combatant.maxTempHP > 0"
+                class="progress h-3 w-full progress-info"
+                :value="combatant.tempHP"
+                :max="combatant.maxTempHP"
+              />
+              <progress
+                class="progress h-6 w-full"
                 :class="{
                   'progress-success': combatant.currentHP / combatant.totalHP >= 2/3,
                   'progress-warning': combatant.currentHP / combatant.totalHP < 2/3 && combatant.currentHP / combatant.totalHP >= 1/3,
                   'progress-error': combatant.currentHP / combatant.totalHP < 1/3,
                 }"
-                :value="combatant.visibility == Visibility.Full ? combatant.currentHP : 0" :max="combatant.totalHP"
-            />
+                :value="combatant.visibility == Visibility.Full ? combatant.currentHP : 0"
+                :max="combatant.totalHP"
+              />
+            </div>
           </td>
           <td>
             <template v-for="(condition) in combatant.conditions">
