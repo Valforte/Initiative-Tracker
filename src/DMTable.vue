@@ -17,6 +17,7 @@ import {
 import {conditions} from "./db.ts";
 import {useTranslations} from "./lang.ts";
 import HelpText from "./HelpText.vue";
+import HelpTextLine from "./HelpTextLine.vue";
 
 const { t, lang } = useTranslations()
 
@@ -61,12 +62,7 @@ function removeCombatant(i: number): void {
         <th class="w-32">
           {{t.table.actions}}
           <HelpText>
-            <p><Icon icon="tabler:eye-off" class="inline-block" /> Oculto da visão do jogador; é ignorado durante a passagem de turno</p>
-            <p><Icon icon="tabler:eye-closed" class="inline-block" /> Barra de vida NÃO visível para os jogadores</p>
-            <p><Icon icon="tabler:eye" class="inline-block" /> Barra de vida visível para os jogadores</p>
-            <br />
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique no botão para alternar entre <Icon icon="tabler:eye-off" class="inline-block" /> e <Icon icon="tabler:eye-closed" class="inline-block" /></p>
-            <p><Icon icon="ph:mouse-right-click-fill" class="inline-block" /> Clique direito para definir <Icon icon="tabler:eye" class="inline-block" /></p>
+            <HelpTextLine v-for="line in t.helpText.actions" :key="line" :line="line" />
           </HelpText>
         </th>
         <th class="w-32">#</th>
@@ -76,33 +72,13 @@ function removeCombatant(i: number): void {
             <NumberFieldInput class="input text-center w-20" />
           </NumberFieldRoot>
           <HelpText>
-            <p>Defina aqui o valor para aumentar/diminuir PV e PV temporário</p>
-            <br />
-            <p><Icon icon="tabler:minus" class="inline-block text-error" /> <strong>Remover PV:</strong></p>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para subtrair vida (remove PV temporário primeiro, depois PV normal)</p>
-            <br />
-            <p><Icon icon="tabler:plus" class="inline-block text-success" /> <strong>Adicionar PV:</strong></p>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para adicionar vida (para no máximo)</p>
-            <br />
-            <p><Icon icon="tabler:plus" class="inline-block text-info" /> <strong>Adicionar PV Temporário:</strong></p>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para adicionar PV temporário</p>
-            <br />
-            <p><strong>Botão de PV (XX/XX +Y/Z):</strong></p>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique para curar ao máximo (se tiver PV temporário, remove todo PV temporário e cura ao máximo)</p>
-            <p><Icon icon="ph:mouse-right-click-fill" class="inline-block" /> Clique direito para definir o PV máximo ao valor configurado</p>
+            <HelpTextLine v-for="line in t.helpText.hp" :key="line" :line="line" />
           </HelpText>
         </th>
         <th class="">
           {{t.table.conditions}}
           <HelpText>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:plus" class="inline-block" /> para adicionar uma nova condição</p>
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em <Icon icon="tabler:minus" class="inline-block" /> para reduzir 1 estágio de todas as condições</p>
-            <br />
-            <p><Icon icon="ph:mouse-left-click-fill" class="inline-block" /> Clique em uma condição para reduzir 1 estágio</p>
-            <p><Icon icon="ph:mouse-right-click-fill" class="inline-block" /> Clique direito em uma condição para aumentar 1 estágio</p>
-            <br />
-            <p>Condições sem valor possuem 1 estágio</p>
-            <p>A condição é removida ao reduzir de 1 estágio para 0</p>
+            <HelpTextLine v-for="line in t.helpText.conditions" :key="line" :line="line" />
           </HelpText>
         </th>
       </tr>

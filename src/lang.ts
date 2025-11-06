@@ -15,6 +15,7 @@ type TranslationStructure = {
     dm_actions: {
         next: string,
         reset: string,
+        resetTooltip: string,
         playerView: string,
         add: string,
         clear: string,
@@ -35,6 +36,11 @@ type TranslationStructure = {
         purple: string,
         pink: string,
         brown: string,
+    },
+    helpText: {
+        actions: string[],
+        hp: string[],
+        conditions: string[],
     }
 }
 
@@ -50,7 +56,8 @@ const translations: Record<Locale, TranslationStructure> = {
         },
         dm_actions: {
             next: "Next",
-            reset: "Reset",
+            reset: "New combat",
+            resetTooltip: "Reset Round and Turn count to 1",
             playerView: "Player View",
             add: "Add",
             clear: "Clear",
@@ -71,6 +78,42 @@ const translations: Record<Locale, TranslationStructure> = {
             purple: "Purple",
             pink: "Pink",
             brown: "Brown",
+        },
+        helpText: {
+            actions: [
+                '<icon:tabler:eye-off /> Hidden from player view; ignored during turn advancement',
+                '<icon:tabler:eye-closed /> HP bar NOT visible to players',
+                '<icon:tabler:eye /> HP bar visible to players',
+                '<br />',
+                '<icon:ph:mouse-left-click-fill /> Click button to toggle between <icon:tabler:eye-off /> and <icon:tabler:eye-closed />',
+                '<icon:ph:mouse-right-click-fill /> Right-click to set <icon:tabler:eye />',
+            ],
+            hp: [
+                'Set the value here to increase/decrease HP and temporary HP',
+                '<br />',
+                '<icon:tabler:minus class="text-error" /> <strong>Remove HP:</strong>',
+                '<icon:ph:mouse-left-click-fill /> Click to subtract HP (removes temporary HP first, then regular HP)',
+                '<br />',
+                '<icon:tabler:plus class="text-success" /> <strong>Add HP:</strong>',
+                '<icon:ph:mouse-left-click-fill /> Click to add HP (stops at maximum)',
+                '<br />',
+                '<icon:tabler:plus class="text-info" /> <strong>Add Temporary HP:</strong>',
+                '<icon:ph:mouse-left-click-fill /> Click to add temporary HP',
+                '<br />',
+                '<strong>HP Display Button (XX/XX +Y/Z):</strong>',
+                '<icon:ph:mouse-left-click-fill /> Click to heal to max (if has temp HP, removes all temp HP and heals to max)',
+                '<icon:ph:mouse-right-click-fill /> Right-click to set max HP to the configured value',
+            ],
+            conditions: [
+                '<icon:ph:mouse-left-click-fill /> Click <icon:tabler:plus /> to add a new condition',
+                '<icon:ph:mouse-left-click-fill /> Click <icon:tabler:minus /> to reduce 1 stage from all conditions',
+                '<br />',
+                '<icon:ph:mouse-left-click-fill /> Click on a condition to reduce 1 stage',
+                '<icon:ph:mouse-right-click-fill /> Right-click on a condition to increase 1 stage',
+                '<br />',
+                'Conditions without value have 1 stage',
+                'Condition is removed when reducing from stage 1 to 0',
+            ],
         }
     },
     pt_BR: {
@@ -84,7 +127,8 @@ const translations: Record<Locale, TranslationStructure> = {
         },
         dm_actions: {
             next: "Avançar",
-            reset: "Resetar",
+            reset: "Novo combate",
+            resetTooltip: "Resetar Rodada e Turno para 1",
             playerView: "Player View",
             add: "Adicionar",
             clear: "Limpar",
@@ -105,6 +149,42 @@ const translations: Record<Locale, TranslationStructure> = {
             purple: "Roxo",
             pink: "Rosa",
             brown: "Marrom",
+        },
+        helpText: {
+            actions: [
+                '<icon:tabler:eye-off /> Oculto da visão do jogador; é ignorado durante a passagem de turno',
+                '<icon:tabler:eye-closed /> Barra de vida NÃO visível para os jogadores',
+                '<icon:tabler:eye /> Barra de vida visível para os jogadores',
+                '<br />',
+                '<icon:ph:mouse-left-click-fill /> Clique no botão para alternar entre <icon:tabler:eye-off /> e <icon:tabler:eye-closed />',
+                '<icon:ph:mouse-right-click-fill /> Clique direito para definir <icon:tabler:eye />',
+            ],
+            hp: [
+                'Defina aqui o valor para aumentar/diminuir PV e PV temporário',
+                '<br />',
+                '<icon:tabler:minus class="text-error" /> <strong>Remover PV:</strong>',
+                '<icon:ph:mouse-left-click-fill /> Clique para subtrair vida (remove PV temporário primeiro, depois PV normal)',
+                '<br />',
+                '<icon:tabler:plus class="text-success" /> <strong>Adicionar PV:</strong>',
+                '<icon:ph:mouse-left-click-fill /> Clique para adicionar vida (para no máximo)',
+                '<br />',
+                '<icon:tabler:plus class="text-info" /> <strong>Adicionar PV Temporário:</strong>',
+                '<icon:ph:mouse-left-click-fill /> Clique para adicionar PV temporário',
+                '<br />',
+                '<strong>Botão de PV (XX/XX +Y/Z):</strong>',
+                '<icon:ph:mouse-left-click-fill /> Clique para curar ao máximo (se tiver PV temporário, remove todo PV temporário e cura ao máximo)',
+                '<icon:ph:mouse-right-click-fill /> Clique direito para definir o PV máximo ao valor configurado',
+            ],
+            conditions: [
+                '<icon:ph:mouse-left-click-fill /> Clique em <icon:tabler:plus /> para adicionar uma nova condição',
+                '<icon:ph:mouse-left-click-fill /> Clique em <icon:tabler:minus /> para reduzir 1 estágio de todas as condições',
+                '<br />',
+                '<icon:ph:mouse-left-click-fill /> Clique em uma condição para reduzir 1 estágio',
+                '<icon:ph:mouse-right-click-fill /> Clique direito em uma condição para aumentar 1 estágio',
+                '<br />',
+                'Condições sem valor possuem 1 estágio',
+                'A condição é removida ao reduzir de 1 estágio para 0',
+            ],
         }
     }
 }
