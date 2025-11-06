@@ -1,138 +1,118 @@
-type translation = {
+import { computed } from 'vue'
+import { useStorage } from '@vueuse/core'
+
+type Locale = 'en' | 'pt_BR'
+
+type TranslationStructure = {
     table: {
-        round: {[key:string]:string},
-        name: {[key:string]:string},
-        hp: {[key:string]:string},
-        initiative: {[key:string]:string},
-        conditions: {[key:string]:string},
-        actions: {[key:string]:string},
+        round: string,
+        name: string,
+        hp: string,
+        initiative: string,
+        conditions: string,
+        actions: string,
     },
     dm_actions: {
-        next: {[key:string]:string},
-        reset: {[key:string]:string},
-        playerView: {[key:string]:string},
-        add: {[key:string]:string},
-        clear: {[key:string]:string},
-        quantity: {[key:string]:string},
+        next: string,
+        reset: string,
+        playerView: string,
+        add: string,
+        clear: string,
+        quantity: string,
     },
     dm_table: {
-        addConditionName: {[key:string]:string},
-        addConditionValue: {[key:string]:string},
+        addConditionName: string,
+        addConditionValue: string,
     },
     options: {
-        theme: {[key:string]:string},
-        language: {[key:string]:string},
+        theme: string,
+        language: string,
     },
     colors: {
-        red: {[key:string]:string},
-        green: {[key:string]:string},
-        blue: {[key:string]:string},
-        purple: {[key:string]:string},
-        pink: {[key:string]:string},
-        brown: {[key:string]:string},
+        red: string,
+        green: string,
+        blue: string,
+        purple: string,
+        pink: string,
+        brown: string,
     }
 }
 
-const text: translation = {
-    table: {
-        round: {
-            en: "Round",
-            pt_BR: "Rodada",
+const translations: Record<Locale, TranslationStructure> = {
+    en: {
+        table: {
+            round: "Round",
+            name: "Name",
+            hp: "HP",
+            initiative: "Initiative",
+            conditions: "Conditions",
+            actions: "Actions",
         },
-        name: {
-            en: "Name",
-            pt_BR: "Nome",
+        dm_actions: {
+            next: "Next",
+            reset: "Reset",
+            playerView: "Player View",
+            add: "Add",
+            clear: "Clear",
+            quantity: "Qty",
         },
-        hp: {
-            en: "HP",
-            pt_BR: "PV",
+        dm_table: {
+            addConditionName: "Name",
+            addConditionValue: "Value",
         },
-        initiative: {
-            en: "Initiative",
-            pt_BR: "Iniciativa",
+        options: {
+            theme: "Theme",
+            language: "Language",
         },
-        conditions: {
-            en: "Conditions",
-            pt_BR: "Condições",
-        },
-        actions: {
-            en: "Actions",
-            pt_BR: "Ações",
-        },
-    },
-    dm_actions: {
-        next: {
-            en: "Next",
-            pt_BR: "Avançar",
-        },
-        reset: {
-            en: "Reset",
-            pt_BR: "Resetar",
-        },
-        playerView: {
-            en: "Player View",
-            pt_BR: "Player View",
-        },
-        add: {
-            en: "Add",
-            pt_BR: "Adicionar",
-        },
-        clear: {
-            en: "Clear",
-            pt_BR: "Limpar",
-        },
-        quantity: {
-            en: "Qtd",
-            pt_BR: "Qty",
-        },
-    },
-    dm_table: {
-        addConditionName: {
-            en: "Name",
-            pt_BR: "Nome",
-        },
-        addConditionValue: {
-            en: "Value",
-            pt_BR: "Valor",
-        },
-    },
-    options: {
-        theme: {
-            en: "Theme",
-            pt_BR: "Tema",
-        },
-        language: {
-            en: "Language",
-            pt_BR: "Idioma",
+        colors: {
+            red: "Red",
+            green: "Green",
+            blue: "Blue",
+            purple: "Purple",
+            pink: "Pink",
+            brown: "Brown",
         }
     },
-    colors: {
-        red: {
-            en: "Red",
-            pt_BR: "Vermelho",
+    pt_BR: {
+        table: {
+            round: "Rodada",
+            name: "Nome",
+            hp: "PV",
+            initiative: "Iniciativa",
+            conditions: "Condições",
+            actions: "Ações",
         },
-        green: {
-            en: "Green",
-            pt_BR: "Verde",
+        dm_actions: {
+            next: "Avançar",
+            reset: "Resetar",
+            playerView: "Player View",
+            add: "Adicionar",
+            clear: "Limpar",
+            quantity: "Qtd",
         },
-        blue: {
-            en: "Blue",
-            pt_BR: "Azul",
+        dm_table: {
+            addConditionName: "Nome",
+            addConditionValue: "Valor",
         },
-        purple: {
-            en: "Purple",
-            pt_BR: "Roxo",
+        options: {
+            theme: "Tema",
+            language: "Idioma",
         },
-        pink: {
-            en: "Pink",
-            pt_BR: "Rosa",
-        },
-        brown: {
-            en: "Brown",
-            pt_BR: "Marrom",
-        },
-
+        colors: {
+            red: "Vermelho",
+            green: "Verde",
+            blue: "Azul",
+            purple: "Roxo",
+            pink: "Rosa",
+            brown: "Marrom",
+        }
     }
 }
 
-export { text }
+export function useTranslations() {
+    const lang = useStorage<Locale>('lang', 'en')
+
+    const t = computed(() => translations[lang.value])
+
+    return { t, lang }
+}
