@@ -15,6 +15,7 @@ type TranslationStructure = {
     dm_actions: {
         next: string,
         reset: string,
+        resetTooltip: string,
         playerView: string,
         add: string,
         clear: string,
@@ -55,7 +56,8 @@ const translations: Record<Locale, TranslationStructure> = {
         },
         dm_actions: {
             next: "Next",
-            reset: "Reset",
+            reset: "New combat",
+            resetTooltip: "Reset Round and Turn count to 1",
             playerView: "Player View",
             add: "Add",
             clear: "Clear",
@@ -125,7 +127,8 @@ const translations: Record<Locale, TranslationStructure> = {
         },
         dm_actions: {
             next: "Avançar",
-            reset: "Resetar",
+            reset: "Novo combate",
+            resetTooltip: "Resetar Rodada e Turno para 1",
             playerView: "Player View",
             add: "Adicionar",
             clear: "Limpar",
