@@ -4,10 +4,9 @@ import {colorIsDark, Combatant, Visibility} from "./functions.ts";
 import {conditions} from "./db.ts";
 import { Icon } from "@iconify/vue";
 import {ref} from "vue";
-import {text} from "./lang.ts";
-import {useStorage} from "@vueuse/core";
+import {useTranslations} from "./lang.ts";
 
-const lang = useStorage('lang', 'en')
+const { t, lang } = useTranslations()
 
 defineProps<{
   turn: Number,
@@ -39,9 +38,9 @@ function hideConditionTooltip(): void {
       <thead class="bg-base-300 text-center border-x-3 border-base-300">
       <tr>
         <th class="w-24">#</th>
-        <th class="w-64">{{text.table.name[lang]}}</th>
-        <th class="">{{text.table.hp[lang]}}</th>
-        <th class="">{{text.table.conditions[lang]}}</th>
+        <th class="w-64">{{t.table.name}}</th>
+        <th class="">{{t.table.hp}}</th>
+        <th class="">{{t.table.conditions}}</th>
       </tr>
       </thead>
       <tbody>
