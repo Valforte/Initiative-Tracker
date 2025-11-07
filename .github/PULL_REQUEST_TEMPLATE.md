@@ -62,5 +62,5 @@ Relates to #
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have removed any `console.log()` statements
 - [ ] My changes generate no new warnings
-- [ ] I have read the [CONTRIBUTING.md](../CONTRIBUTING.md) guide
+- [ ] I have read the [CONTRIBUTING.md](../docs/CONTRIBUTING.md) guide
 - [ ] My commit messages follow conventional commit format

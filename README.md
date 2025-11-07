@@ -48,7 +48,7 @@ or
 - 🎯 **Condition Tracking**: Add, modify, and remove conditions with auto-generated color-coding
 - 🔄 **Dual View System**: Separate interfaces for DM (full control) and players (read-only)
 - 💾 **Auto-Save**: All combat state persists automatically to localStorage
-- 🌐 **Online Mode (Optional)**: Enable real-time multiplayer sync using Firebase - [Setup Guide](ONLINE_MODE_QUICK_START.md)
+- 🌐 **Online Mode (Optional)**: Enable real-time multiplayer sync using Firebase - [Setup Guide](docs/ONLINE_MODE_QUICK_START.md)
 
 ### Customization
 - 🎨 **35+ Themes**: Choose from a wide variety of DaisyUI themes with live preview
@@ -173,7 +173,7 @@ Enable real-time multiplayer sync to share combat sessions with remote players:
 2. **Share URL**: Click "Copy Player URL" and send it to your players
 3. **Real-time Sync**: All changes are instantly visible to all connected players
 
-See the [Quick Start Guide](ONLINE_MODE_QUICK_START.md) for setup instructions (takes ~15 minutes).
+See the [Quick Start Guide](docs/ONLINE_MODE_QUICK_START.md) for setup instructions (takes ~15 minutes).
 
 **Benefits**:
 - Perfect for remote/hybrid games
@@ -198,7 +198,7 @@ While built for PF2e, the tracker can be adapted for any d20 system or tabletop 
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+Contributions are welcome! Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines on how to contribute to this project.
 
 ## License
 
