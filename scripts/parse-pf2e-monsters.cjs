@@ -70,9 +70,11 @@ function createSafeId(sourceName) {
     .replace(/-+/g, '-');
 }
 
-// Generate files for all sources (changed from 10 to 1)
+// Generate files for all sources (incremental mode)
 const MIN_MONSTERS = 1;
 let filesCreated = 0;
+let filesSkipped = 0;
+let filesUpdated = 0;
 
 sortedSources.forEach(([sourceName, monsters]) => {
   if (monsters.length >= MIN_MONSTERS) {
@@ -80,30 +82,58 @@ sortedSources.forEach(([sourceName, monsters]) => {
     const filepath = path.join(OUTPUT_DIR, filename);
     const id = createSafeId(sourceName);
 
-    // Sort monsters alphabetically
-    monsters.sort((a, b) => a.name.localeCompare(b.name));
+    // Check if file already exists
+    if (fs.existsSync(filepath)) {
+      // Read existing file to preserve enabledByDefault setting
+      const existingData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
 
-    const output = {
-      id: id,
-      name: sourceName,
-      system: 'pathfinder',
-      enabledByDefault: false,
-      monsters: monsters
-    };
+      // Sort monsters alphabetically
+      monsters.sort((a, b) => a.name.localeCompare(b.name));
 
-    fs.writeFileSync(filepath, JSON.stringify(output, null, 2));
-    console.log(`Created: ${filename} (${monsters.length} monsters)`);
-    filesCreated++;
+      const output = {
+        id: id,
+        name: sourceName,
+        system: 'pathfinder',
+        enabledByDefault: existingData.enabledByDefault || false,
+        monsters: monsters
+      };
+
+      fs.writeFileSync(filepath, JSON.stringify(output, null, 2));
+      console.log(`Updated: ${filename} (${monsters.length} monsters) - preserved enabledByDefault: ${output.enabledByDefault}`);
+      filesUpdated++;
+    } else {
+      // Sort monsters alphabetically
+      monsters.sort((a, b) => a.name.localeCompare(b.name));
+
+      const output = {
+        id: id,
+        name: sourceName,
+        system: 'pathfinder',
+        enabledByDefault: false,
+        monsters: monsters
+      };
+
+      fs.writeFileSync(filepath, JSON.stringify(output, null, 2));
+      console.log(`Created: ${filename} (${monsters.length} monsters)`);
+      filesCreated++;
+    }
+  } else {
+    filesSkipped++;
   }
 });
 
-console.log(`\n✓ Created ${filesCreated} JSON files in ${OUTPUT_DIR}`);
-console.log(`\nSkipped ${sortedSources.length - filesCreated} sources with fewer than ${MIN_MONSTERS} monsters`);
+console.log(`\n✓ Summary:`);
+console.log(`  Created: ${filesCreated} new files`);
+console.log(`  Updated: ${filesUpdated} existing files`);
+console.log(`  Skipped: ${filesSkipped} sources with fewer than ${MIN_MONSTERS} monsters`);
+console.log(`  Total files in ${OUTPUT_DIR}: ${filesCreated + filesUpdated}`);
 
 // List skipped sources
-console.log('\nSkipped sources:');
-sortedSources
-  .filter(([_, monsters]) => monsters.length < MIN_MONSTERS)
-  .forEach(([source, monsters]) => {
-    console.log(`  ${source}: ${monsters.length} monsters`);
-  });
+if (filesSkipped > 0) {
+  console.log('\nSkipped sources:');
+  sortedSources
+    .filter(([_, monsters]) => monsters.length < MIN_MONSTERS)
+    .forEach(([source, monsters]) => {
+      console.log(`  ${source}: ${monsters.length} monsters`);
+    });
+}

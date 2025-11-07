@@ -78,36 +78,56 @@ const firebaseConfig = {
 };
 ```
 
-## Step 5: Configure the Initiative Tracker
+## Step 5A: Local Development Setup
 
-1. In your project directory, locate `firebase.config.template.ts`
-2. Copy this file to `src/firebase.config.ts`:
+For local development, create a `.env` file in the project root:
+
+1. Copy the `.env.example` file:
 
 ```bash
-cp firebase.config.template.ts src/firebase.config.ts
+cp .env.example .env
 ```
 
-3. Open `src/firebase.config.ts` in your editor
-4. Replace all the placeholder values with your Firebase config values from Step 4
-5. Save the file
+2. Open `.env` in your editor
+3. Replace all the placeholder values with your Firebase config values from Step 4:
 
-Your `src/firebase.config.ts` should now look like:
-
-```typescript
-export const firebaseConfig = {
-  apiKey: "AIzaSyA...",  // Your actual API key
-  authDomain: "your-project.firebaseapp.com",
-  databaseURL: "https://your-project-default-rtdb.firebaseio.com",
-  projectId: "your-project",
-  storageBucket: "your-project.firebasestorage.app",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abc123..."
-}
+```env
+VITE_FIREBASE_API_KEY=AIzaSyA...
+VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
+VITE_FIREBASE_DATABASE_URL=https://your-project-default-rtdb.firebaseio.com
+VITE_FIREBASE_PROJECT_ID=your-project
+VITE_FIREBASE_STORAGE_BUCKET=your-project.firebasestorage.app
+VITE_FIREBASE_MESSAGING_SENDER_ID=123456789
+VITE_FIREBASE_APP_ID=1:123456789:web:abc123...
 ```
 
-**Important**: The file `src/firebase.config.ts` is gitignored to protect your credentials. Don't commit it to version control.
+4. Save the file
+
+**Important**: The `.env` file is gitignored to protect your credentials. Don't commit it to version control.
+
+## Step 5B: GitHub Pages Setup (Production)
+
+For GitHub Pages deployment, add your Firebase credentials as GitHub Secrets:
+
+1. Go to your GitHub repository
+2. Click **Settings** → **Secrets and variables** → **Actions**
+3. Click **"New repository secret"** and add each of these secrets:
+
+   | Secret Name | Value from Firebase |
+   |-------------|---------------------|
+   | `VITE_FIREBASE_API_KEY` | Your `apiKey` |
+   | `VITE_FIREBASE_AUTH_DOMAIN` | Your `authDomain` |
+   | `VITE_FIREBASE_DATABASE_URL` | Your `databaseURL` |
+   | `VITE_FIREBASE_PROJECT_ID` | Your `projectId` |
+   | `VITE_FIREBASE_STORAGE_BUCKET` | Your `storageBucket` |
+   | `VITE_FIREBASE_MESSAGING_SENDER_ID` | Your `messagingSenderId` |
+   | `VITE_FIREBASE_APP_ID` | Your `appId` |
+
+4. The GitHub Actions workflow (`.github/workflows/deploy.yml`) will automatically inject these secrets during the build process
 
 ## Step 6: Build and Deploy
+
+### Local Testing
 
 1. Build your project:
 
@@ -115,9 +135,24 @@ export const firebaseConfig = {
 pnpm build
 ```
 
-2. Deploy to GitHub Pages (or your hosting platform of choice)
+2. Preview the production build:
+
+```bash
+pnpm preview
+```
 
 3. The app will automatically detect the Firebase configuration and enable online mode
+
+### GitHub Pages Deployment
+
+1. Push your changes to the `prod` branch:
+
+```bash
+git push origin prod
+```
+
+2. GitHub Actions will automatically build and deploy
+3. The deployed app at `https://yourusername.github.io/your-repo/` will have online mode enabled
 
 ## Using Online Mode
 

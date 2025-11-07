@@ -24,5 +24,7 @@ docs
 *.sln
 *.sw?
 
-# Firebase configuration (contains sensitive credentials)
-src/firebase.config.ts
+# Environment variables (contains sensitive credentials)
+.env
+.env.local
+.env.*.local
