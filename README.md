@@ -1,8 +1,38 @@
 # 🎲 Pathfinder 2e Initiative Tracker
 
+![CI](https://github.com/Valforte/iniciative-tracker/workflows/CI/badge.svg)
+![License](https://img.shields.io/github/license/Valforte/iniciative-tracker)
+![Version](https://img.shields.io/github/package-json/v/Valforte/iniciative-tracker)
+![Stars](https://img.shields.io/github/stars/Valforte/iniciative-tracker?style=social)
+
 A modern, themeable initiative tracker for Pathfinder 2e combat encounters with separate DM and player views. Built with Vue 3, TypeScript, and Tailwind CSS.
 
 **[🎮 Live Demo](https://valforte.github.io/iniciative-tracker/)**
+
+<!-- TODO: Add screenshot or animated GIF here
+Suggested content to showcase:
+- Split screen showing DM view on left with full controls (HP management, visibility toggles, condition tracking)
+- Player view on right showing the clean, read-only interface
+- Highlight a few key features:
+  * Different visibility states (show a hidden combatant in DM view that's not visible in player view)
+  * HP bars and conditions
+  * Current turn highlighted
+  * Theme selector dropdown
+- Alternative: Animated GIF showing:
+  1. Adding a combatant
+  2. Dealing damage (showing temp HP absorption)
+  3. Adding a condition
+  4. Advancing to next turn
+  5. Switching to player view
+Recommended tools:
+- Screenshot: Built-in OS screenshot tool
+- GIF: LICEcap (free), Kap (macOS), or ScreenToGif (Windows)
+- Optimal size: 1200px wide for best README display
+Example markdown once you have the image:
+![Initiative Tracker Demo](docs/demo.gif)
+or
+![DM and Player Views](docs/screenshot.png)
+-->
 
 ## Features
 
