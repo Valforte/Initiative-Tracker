@@ -124,9 +124,9 @@ function hideConditionTooltip(): void {
 
     <div class="toast toast-center" v-if="currentConditionTooltip">
       <div class="alert alert-info text-lg text-justify">
-        <div class="badge badge-info shadow-sm/50 p-1 absolute top-[-7px] right-1" @click="hideConditionTooltip"><Icon icon="tabler:x" /></div>
+        <div class="badge badge-info shadow-sm/50 p-1 absolute top-1 right-6" @click="hideConditionTooltip"><Icon icon="tabler:x" /></div>
         <div>
-          <p class="text-base-300 text-xl p-2">{{currentConditionName}}</p>
+          <p class="text-base-300 font-bold pb-2">{{currentConditionName}}</p>
           <p class="text-base-100/80">{{currentConditionTooltip}}</p>
         </div>
       </div>
