@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
-  base: './',
+  base: '/Initiative-Tracker/',
   build: {
     cssMinify: 'esbuild', // Use esbuild instead of lightningcss to avoid @property warnings
   },
