@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-209-destroyer-s-doom",
+  "name": "Pathfinder #209: Destroyer's Doom",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bull of Zagresh",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3770"
+    },
+    {
+      "name": "Deathless Zealot of Zagresh",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3767"
+    },
+    {
+      "name": "Great Ironbill",
+      "hp": 58,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3769"
+    },
+    {
+      "name": "Palpares",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3768"
+    },
+    {
+      "name": "War Aurochs",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3771"
+    },
+    {
+      "name": "Warcat of Rull",
+      "hp": 233,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3772"
+    }
+  ]
+}

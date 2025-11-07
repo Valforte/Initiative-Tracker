@@ -1,0 +1,433 @@
+{
+  "id": "book-of-the-dead",
+  "name": "Book of the Dead",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Beetle Carapace",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1902"
+    },
+    {
+      "name": "Bhuta",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1842"
+    },
+    {
+      "name": "Bone Croupier",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1843"
+    },
+    {
+      "name": "Cadaverous Rake",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1844"
+    },
+    {
+      "name": "Child of Urgathoa",
+      "hp": 165,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1845"
+    },
+    {
+      "name": "Combusted",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1846"
+    },
+    {
+      "name": "Corpseroot",
+      "hp": 225,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1847"
+    },
+    {
+      "name": "Daqqanoenyent",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1841"
+    },
+    {
+      "name": "Death Coach",
+      "hp": 228,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1852"
+    },
+    {
+      "name": "Deathless Acolyte of Urgathoa",
+      "hp": 36,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1853"
+    },
+    {
+      "name": "Deathless Hierophant of Urgathoa",
+      "hp": 87,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1854"
+    },
+    {
+      "name": "Decrepit Mummy",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1884"
+    },
+    {
+      "name": "Drake Skeleton",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1903"
+    },
+    {
+      "name": "Ecorche",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1855"
+    },
+    {
+      "name": "Excorion",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1856"
+    },
+    {
+      "name": "Faithless Ecclesiarch",
+      "hp": 93,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1870"
+    },
+    {
+      "name": "Fallen Champion",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1871"
+    },
+    {
+      "name": "Festering Gnasher",
+      "hp": 18,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1839"
+    },
+    {
+      "name": "Fiddling Bones",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1857"
+    },
+    {
+      "name": "Fluxwraith",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1858"
+    },
+    {
+      "name": "Gallowdead",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1859"
+    },
+    {
+      "name": "Gashadokuro",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1860"
+    },
+    {
+      "name": "Geist",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1861"
+    },
+    {
+      "name": "Gholdako",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1862"
+    },
+    {
+      "name": "Ghost Pirate Captain",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1864"
+    },
+    {
+      "name": "Ghul",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1867"
+    },
+    {
+      "name": "Grappling Spirit",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1868"
+    },
+    {
+      "name": "Graveknight Warmaster",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1869"
+    },
+    {
+      "name": "Harlo Krant",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1931"
+    },
+    {
+      "name": "Hollow Serpent",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1872"
+    },
+    {
+      "name": "Horde Lich",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1876"
+    },
+    {
+      "name": "Hungry Ghost",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1863"
+    },
+    {
+      "name": "Hunter Wight",
+      "hp": 112,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1915"
+    },
+    {
+      "name": "Husk Zombie",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1919"
+    },
+    {
+      "name": "Ice Mummy",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1885"
+    },
+    {
+      "name": "Ichor Slinger",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1873"
+    },
+    {
+      "name": "Iroran Mummy",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1886"
+    },
+    {
+      "name": "Iruxi Ossature",
+      "hp": 76,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1874"
+    },
+    {
+      "name": "Jitterbone Contortionist",
+      "hp": 56,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1881"
+    },
+    {
+      "name": "Lacedon",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1865"
+    },
+    {
+      "name": "Little Man in the Woods",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1878"
+    },
+    {
+      "name": "Llorona",
+      "hp": 165,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1879"
+    },
+    {
+      "name": "Minister Of Tumult",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1910"
+    },
+    {
+      "name": "Mummified Cat",
+      "hp": 17,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1883"
+    },
+    {
+      "name": "Mummy Prophet of Set",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1887"
+    },
+    {
+      "name": "Nasurgeth",
+      "hp": 510,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1851"
+    },
+    {
+      "name": "Obrousian",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1888"
+    },
+    {
+      "name": "Onryo",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1889"
+    },
+    {
+      "name": "Pale Sovereign",
+      "hp": 298,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1890"
+    },
+    {
+      "name": "Pale Stranger",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1893"
+    },
+    {
+      "name": "Polong",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1891"
+    },
+    {
+      "name": "Predatory Rabbit",
+      "hp": 6,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1895"
+    },
+    {
+      "name": "Priest of Kabriri",
+      "hp": 63,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1866"
+    },
+    {
+      "name": "Provincial Jiang-Shi",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1909"
+    },
+    {
+      "name": "Prowler Wight",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1916"
+    },
+    {
+      "name": "Queen Sluagh",
+      "hp": 417,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1906"
+    },
+    {
+      "name": "Raw Nerve",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1892"
+    },
+    {
+      "name": "Relictner Eroder",
+      "hp": 265,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1882"
+    },
+    {
+      "name": "Runecarved Lich",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1877"
+    },
+    {
+      "name": "Scorned Hound",
+      "hp": 22,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1896"
+    },
+    {
+      "name": "Seetangeist",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1914"
+    },
+    {
+      "name": "Shadern Immolator",
+      "hp": 21,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1880"
+    },
+    {
+      "name": "Shredskin",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1897"
+    },
+    {
+      "name": "Siabrae",
+      "hp": 218,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1898"
+    },
+    {
+      "name": "Silent Stalker",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1894"
+    },
+    {
+      "name": "Skeletal Mage",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1901"
+    },
+    {
+      "name": "Skeletal Soldier",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1900"
+    },
+    {
+      "name": "Skeletal Titan",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1904"
+    },
+    {
+      "name": "Sluagh Reaper",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1905"
+    },
+    {
+      "name": "Sykever",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1849"
+    },
+    {
+      "name": "Taunting Skull",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1840"
+    },
+    {
+      "name": "Tormented",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1907"
+    },
+    {
+      "name": "Unrisen",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1908"
+    },
+    {
+      "name": "Urveth",
+      "hp": 460,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1850"
+    },
+    {
+      "name": "Vanyver",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1848"
+    },
+    {
+      "name": "Vetalarana Emergent",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1911"
+    },
+    {
+      "name": "Vetalarana Manipulator",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1912"
+    },
+    {
+      "name": "Waldgeist",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1913"
+    },
+    {
+      "name": "Wight Commander",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1917"
+    },
+    {
+      "name": "Withered",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1922"
+    },
+    {
+      "name": "Wolf Skeleton",
+      "hp": 12,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1899"
+    },
+    {
+      "name": "Zombie Lord",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1921"
+    },
+    {
+      "name": "Zombie Mammoth",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1923"
+    },
+    {
+      "name": "Zombie Owlbear",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1920"
+    },
+    {
+      "name": "Zombie Snake",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1918"
+    }
+  ]
+}

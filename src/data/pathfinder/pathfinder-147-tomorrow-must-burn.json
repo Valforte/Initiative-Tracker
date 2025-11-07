@@ -1,0 +1,48 @@
+{
+  "id": "pathfinder-147-tomorrow-must-burn",
+  "name": "Pathfinder #147: Tomorrow Must Burn",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Blood Boar",
+      "hp": 98,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=454"
+    },
+    {
+      "name": "Ghastly Bear",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1556"
+    },
+    {
+      "name": "Jaggaki",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1557"
+    },
+    {
+      "name": "Kalavakus",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=455"
+    },
+    {
+      "name": "Precentor",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=463"
+    },
+    {
+      "name": "Remnant of Barzillai",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=458"
+    },
+    {
+      "name": "Rusty Mae",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1550"
+    },
+    {
+      "name": "Vaklish",
+      "hp": 185,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1558"
+    }
+  ]
+}

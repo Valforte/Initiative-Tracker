@@ -1,0 +1,118 @@
+{
+  "id": "claws-of-the-tyrant",
+  "name": "Claws of the Tyrant",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Chained Norn",
+      "hp": 375,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3849"
+    },
+    {
+      "name": "Chernasardo Ranger",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3838"
+    },
+    {
+      "name": "Corpselight",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3833"
+    },
+    {
+      "name": "Divine Warden Of Arazni",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3844"
+    },
+    {
+      "name": "Divine Warden Of Iomedae",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3842"
+    },
+    {
+      "name": "Engerra",
+      "hp": 152,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3823"
+    },
+    {
+      "name": "Garrholdion",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3824"
+    },
+    {
+      "name": "Knight Reclaimant",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3839"
+    },
+    {
+      "name": "Last Guard",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3845"
+    },
+    {
+      "name": "Mirmicette",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3825"
+    },
+    {
+      "name": "Moldering Steed",
+      "hp": 370,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3826"
+    },
+    {
+      "name": "Ossuary Warden",
+      "hp": 265,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3841"
+    },
+    {
+      "name": "Priests Of Iomedae",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3840"
+    },
+    {
+      "name": "Radiant Veranallia",
+      "hp": 475,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3848"
+    },
+    {
+      "name": "Raised Cavalry",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3827"
+    },
+    {
+      "name": "Skeletal Rat Swarm",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3834"
+    },
+    {
+      "name": "Splinter Officer",
+      "hp": 375,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3828"
+    },
+    {
+      "name": "Stelemora",
+      "hp": 188,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3829"
+    },
+    {
+      "name": "Tallusian",
+      "hp": 76,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3830"
+    },
+    {
+      "name": "Undead Murder",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3836"
+    },
+    {
+      "name": "Zombie Bear",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3835"
+    },
+    {
+      "name": "Zombie Desecrator",
+      "hp": 395,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3846"
+    }
+  ]
+}

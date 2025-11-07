@@ -1,0 +1,133 @@
+{
+  "id": "monsters-of-myth",
+  "name": "Monsters of Myth",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ainamuuren",
+      "hp": 259,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1721"
+    },
+    {
+      "name": "Cuetzmonquali",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1722"
+    },
+    {
+      "name": "Desert's Howl",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1723"
+    },
+    {
+      "name": "Fafnheir",
+      "hp": 500,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1725"
+    },
+    {
+      "name": "Grisantian Lion",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1728"
+    },
+    {
+      "name": "Grogrisant",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1727"
+    },
+    {
+      "name": "Howling Spawn",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1724"
+    },
+    {
+      "name": "Imperfect Automaton",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1746"
+    },
+    {
+      "name": "Kallas Devil",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1729"
+    },
+    {
+      "name": "Kothogaz, Dance Of Disharmony",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1730"
+    },
+    {
+      "name": "Krampus Celebrant",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1732"
+    },
+    {
+      "name": "Kuworsys",
+      "hp": 213,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1733"
+    },
+    {
+      "name": "Melfesh Monster",
+      "hp": 78,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1734"
+    },
+    {
+      "name": "Mosquito Witch",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1735"
+    },
+    {
+      "name": "Somnalu",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1737"
+    },
+    {
+      "name": "Somnalu Oculus",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1738"
+    },
+    {
+      "name": "Spawn Of Kothogaz",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1731"
+    },
+    {
+      "name": "Spring-Heeled Jack",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1739"
+    },
+    {
+      "name": "Taljjae",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1740"
+    },
+    {
+      "name": "Tehialai-Thief-Of-Ships",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1741"
+    },
+    {
+      "name": "Temteki",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1742"
+    },
+    {
+      "name": "Ulgrem-Axaan",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1743"
+    },
+    {
+      "name": "Ulgrem-Lurann",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1744"
+    },
+    {
+      "name": "Ulistul",
+      "hp": 165,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1745"
+    },
+    {
+      "name": "Young Linnorm",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1726"
+    }
+  ]
+}

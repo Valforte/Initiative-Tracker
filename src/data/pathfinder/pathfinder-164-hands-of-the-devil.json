@@ -1,0 +1,53 @@
+{
+  "id": "pathfinder-164-hands-of-the-devil",
+  "name": "Pathfinder #164: Hands of the Devil",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Dreshkan",
+      "hp": 72,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1043"
+    },
+    {
+      "name": "Gibtanius",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1047"
+    },
+    {
+      "name": "Gibtas Bounder",
+      "hp": 76,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1045"
+    },
+    {
+      "name": "Gibtas Spawn Swarm",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1046"
+    },
+    {
+      "name": "Mulventok",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1044"
+    },
+    {
+      "name": "Seugathi Reality Warper",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1049"
+    },
+    {
+      "name": "Seugathi Servant",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1048"
+    },
+    {
+      "name": "Shanrigol Behemoth",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1051"
+    },
+    {
+      "name": "Shanrigol Heap",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1050"
+    }
+  ]
+}

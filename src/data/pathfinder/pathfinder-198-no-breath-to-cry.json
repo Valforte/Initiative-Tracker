@@ -1,0 +1,53 @@
+{
+  "id": "pathfinder-198-no-breath-to-cry",
+  "name": "Pathfinder #198: No Breath to Cry",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Akashti",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2790"
+    },
+    {
+      "name": "Animated Axe",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2789"
+    },
+    {
+      "name": "Exorcist",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2787"
+    },
+    {
+      "name": "Kagekuma",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2793"
+    },
+    {
+      "name": "Noppera-Bo Impersonator",
+      "hp": 93,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2794"
+    },
+    {
+      "name": "Rin",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2786"
+    },
+    {
+      "name": "Shimmerthief",
+      "hp": 119,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2795"
+    },
+    {
+      "name": "Shrine Maiden",
+      "hp": 152,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2788"
+    },
+    {
+      "name": "Silsyche",
+      "hp": 68,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2796"
+    }
+  ]
+}

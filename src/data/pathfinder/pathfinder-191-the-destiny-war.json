@@ -1,0 +1,143 @@
+{
+  "id": "pathfinder-191-the-destiny-war",
+  "name": "Pathfinder #191: The Destiny War",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "All-Seeing Hajeck",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2573"
+    },
+    {
+      "name": "Arzuu",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2566"
+    },
+    {
+      "name": "Blood-Pear Tree",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2570"
+    },
+    {
+      "name": "Crystal Sentinel",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2560"
+    },
+    {
+      "name": "Crystalline Sentinel",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2565"
+    },
+    {
+      "name": "Demongate Colossus",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2558"
+    },
+    {
+      "name": "Demonic Rabble",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2525"
+    },
+    {
+      "name": "Derhii",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2527"
+    },
+    {
+      "name": "Ephialtes",
+      "hp": 299,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2529"
+    },
+    {
+      "name": "Fate's Prophet",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2557"
+    },
+    {
+      "name": "Ghalzarokh",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2523"
+    },
+    {
+      "name": "Guardian Aluum",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2576"
+    },
+    {
+      "name": "Hadi Mob",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2528"
+    },
+    {
+      "name": "Katpaskir",
+      "hp": 415,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2524"
+    },
+    {
+      "name": "Markish Aghayarea",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2563"
+    },
+    {
+      "name": "Morgaran",
+      "hp": 325,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2572"
+    },
+    {
+      "name": "Quoppopak Mummy",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2562"
+    },
+    {
+      "name": "Sonnorae",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2571"
+    },
+    {
+      "name": "The Shadow Prince",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2559"
+    },
+    {
+      "name": "Ticktock",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2569"
+    },
+    {
+      "name": "Trexima Butoi",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2561"
+    },
+    {
+      "name": "Usilket",
+      "hp": 238,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2575"
+    },
+    {
+      "name": "Vehanezhad",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2567"
+    },
+    {
+      "name": "Vincuvicar",
+      "hp": 333,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2530"
+    },
+    {
+      "name": "Voricose",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2568"
+    },
+    {
+      "name": "Wrath Riot",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2526"
+    },
+    {
+      "name": "Xiuli Cachu",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2564"
+    }
+  ]
+}

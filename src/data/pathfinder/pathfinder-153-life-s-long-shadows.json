@@ -1,0 +1,98 @@
+{
+  "id": "pathfinder-153-life-s-long-shadows",
+  "name": "Pathfinder #153: Life's Long Shadows",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bugul Noz",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=516"
+    },
+    {
+      "name": "Cat Sith",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=517"
+    },
+    {
+      "name": "Counteflora",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=518"
+    },
+    {
+      "name": "Cu Sith",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=519"
+    },
+    {
+      "name": "Ginjana Mindkeeper",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2109"
+    },
+    {
+      "name": "Headless Xulgath",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2106"
+    },
+    {
+      "name": "Herecite of Zevgavizeb",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=520"
+    },
+    {
+      "name": "Hooklimb Xulgath",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2108"
+    },
+    {
+      "name": "Resin-Seep Xulgath",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2107"
+    },
+    {
+      "name": "Shoony Hierarch",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=523"
+    },
+    {
+      "name": "Shoony Militia Member",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=522"
+    },
+    {
+      "name": "Shoony Tiller",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=521"
+    },
+    {
+      "name": "Skarja",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2110"
+    },
+    {
+      "name": "Thessekka",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2111"
+    },
+    {
+      "name": "Xulgath Bomber",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2105"
+    },
+    {
+      "name": "Xulgath Skirmisher",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2104"
+    },
+    {
+      "name": "Xulgath Stoneliege",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=524"
+    },
+    {
+      "name": "Yaganty",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=525"
+    }
+  ]
+}

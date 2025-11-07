@@ -2,6 +2,7 @@
 
 import {ref} from "vue";
 import DMTable from "./DMTable.vue";
+import Settings from "./Settings.vue";
 import {Combatant, Visibility} from "./functions.ts";
 import {Icon} from "@iconify/vue";
 import {useTranslations} from "./lang.ts";
@@ -15,22 +16,32 @@ import {
   PopoverRoot,
   PopoverTrigger
 } from "reka-ui";
-import {AgeOfAshes, MonsterCore} from "./db.ts";
+import {getEnabledMonsters, getDefaultEnabledSources, type Monster, type GameSystem} from "./db.ts";
+import {useStorage} from "@vueuse/core";
+import {computed, watch} from "vue";
 
 const { t } = useTranslations()
 
 const emit = defineEmits<{
   (e: 'nextTurn'): void
   (e: 'reset'): void
+  (e: 'resetToDefaults'): void
   (e: 'newCombatant', name: string, HP: number, initiative: number, visibility: Visibility): void
   (e: 'removeCombatant', index: number): void
+  (e: 'toggleOnlineMode', value: boolean): void
 }>()
 
-defineProps<{
+const props = defineProps<{
   turn: number,
   round: number,
   combatants: Combatant[],
+  isOnlineMode: boolean,
+  sessionId: string,
 }>()
+
+const showCopiedMessage = ref(false)
+const showResetConfirm = ref(false)
+const isSettingsOpen = ref(false)
 
 const newName = ref('')
 const newHP = ref(1)
@@ -38,6 +49,19 @@ const newInitiative = ref(1)
 const newVisibility = ref(Visibility.None)
 const newQuantity = ref(1)
 const isNewCombatantPopoverOpen = ref(false)
+
+// Get enabled content sources and generate monster list
+const gameSystem = useStorage<GameSystem>('gameSystem', 'pathfinder')
+const enabledContentSources = useStorage<string[]>('enabledContentSources', getDefaultEnabledSources(gameSystem.value))
+const monsterList = computed<Monster[]>(() => getEnabledMonsters(enabledContentSources.value))
+
+// Watch for monster selection and auto-fill HP if available
+watch(newName, (selectedName) => {
+  const monster = monsterList.value.find(m => m.name === selectedName)
+  if (monster && monster.hp > 1) {
+    newHP.value = monster.hp
+  }
+})
 
 function changeNewVisibility(): void {
   newVisibility.value++
@@ -94,23 +118,79 @@ function removeCombatant(index: number): void {
   emit('removeCombatant', index)
 }
 
-const monsterCore = new MonsterCore()
-const ageOfAshes = new AgeOfAshes()
+/**
+ * Reset confirmation dialog handlers
+ */
+function requestReset() {
+  showResetConfirm.value = true
+}
 
-let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.monsters].sort()
+function cancelReset() {
+  showResetConfirm.value = false
+}
+
+function confirmReset() {
+  showResetConfirm.value = false
+  emit('resetToDefaults')
+}
+
+/**
+ * Copy player view URL to clipboard
+ * Constructs URL with session ID and view=player parameter
+ */
+async function copyPlayerUrl(): Promise<void> {
+  if (!props.sessionId) return
+
+  const url = new URL(window.location.href)
+  url.searchParams.set('session', props.sessionId)
+  url.searchParams.set('view', 'player')
+
+  try {
+    await navigator.clipboard.writeText(url.toString())
+    showCopiedMessage.value = true
+    setTimeout(() => {
+      showCopiedMessage.value = false
+    }, 2000)
+  } catch (err) {
+    console.error('Failed to copy URL:', err)
+  }
+}
 </script>
 
 <template>
   <div>
-    <article class="prose ml-8">
-      <h3>{{t.table.round}} {{round}}</h3>
-    </article>
-    <DMTable :combatants="combatants" :turn="turn" @removeCombatant="removeCombatant" class="shadow-md/50" />
-    <div class="grid grid-cols-1 gap-4">
+    <div>
+      <article class="prose ml-8">
+        <h3>{{t.table.round}} {{round}}</h3>
+      </article>
+      <DMTable :combatants="combatants" :turn="turn" @removeCombatant="removeCombatant" class="shadow-md/50" />
+      <div class="grid grid-cols-1 gap-4">
       <div class="flex gap-4">
         <button class="btn btn-neutral" @click="$emit('nextTurn')" :aria-label="t.dm_actions.next"><Icon icon="tabler:player-skip-forward" height="24" />{{t.dm_actions.next}}</button>
         <button class="btn btn-error tooltip tooltip-bottom before:delay-200" :data-tip="t.dm_actions.resetTooltip" @click="$emit('reset')" :aria-label="t.dm_actions.reset"><Icon icon="tabler:refresh" height="24" />{{t.dm_actions.reset}}</button>
-        <a class="btn btn-neutral" href="?view=player" :aria-label="t.dm_actions.playerView"><Icon icon="tabler:users-group" height="24" />{{t.dm_actions.playerView}}</a>
+        <a v-if="!isOnlineMode" class="btn btn-neutral" href="?view=player" :aria-label="t.dm_actions.playerView"><Icon icon="tabler:users-group" height="24" />{{t.dm_actions.playerView}}</a>
+        <button
+          v-else
+          class="btn btn-neutral relative"
+          @click="copyPlayerUrl"
+          :aria-label="t.dm_actions.copyPlayerUrl"
+        >
+          <Icon icon="tabler:users-group" height="24" />
+          {{t.dm_actions.copyPlayerUrl}}
+          <div v-if="showCopiedMessage" class="absolute -top-12 left-1/2 -translate-x-1/2 badge badge-success">
+            {{t.dm_actions.copiedToClipboard}}
+          </div>
+        </button>
+      </div>
+      <div class="flex gap-4">
+        <button
+          class="btn btn-neutral"
+          :aria-label="t.options.settings"
+          @click="isSettingsOpen = true"
+        >
+          <Icon icon="tabler:settings" height="24" />
+          {{t.options.settings}}
+        </button>
       </div>
       <div class="flex gap-4">
         <PopoverRoot :open="isNewCombatantPopoverOpen" @update:open="value => isNewCombatantPopoverOpen = value">
@@ -124,7 +204,7 @@ let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.mo
                   <Label for="newName">{{t.table.name}}</Label>
                   <input id="newName" tabindex="1" type="text" class="input col-span-2 h-8" list="monsters" v-model="newName" aria-label="Combatant name" />
                   <datalist id="monsters">
-                    <option v-for="monster in monsterList">{{monster}}</option>
+                    <option v-for="monster in monsterList" :key="monster.name">{{monster.name}}</option>
                   </datalist>
                 </div>
                 <div class="grid grid-cols-3 items-center gap-4">
@@ -161,6 +241,44 @@ let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.mo
         </PopoverRoot>
       </div>
     </div>
+    </div>
+
+    <!-- Reset Confirmation Dialog -->
+  <div v-if="showResetConfirm" class="fixed inset-0 z-[9999] flex items-center justify-center">
+    <!-- Backdrop -->
+    <div class="absolute inset-0 bg-black/50" @click="cancelReset"></div>
+
+    <!-- Dialog -->
+    <div class="card bg-base-100 w-96 shadow-xl relative z-10">
+      <div class="card-body">
+        <h3 class="card-title text-error">
+          <Icon icon="tabler:alert-triangle" height="24" />
+          {{t.options.resetConfirmTitle}}
+        </h3>
+        <p>{{t.options.resetConfirmMessage}}</p>
+        <div class="card-actions justify-end mt-4">
+          <button class="btn btn-ghost" @click="cancelReset">
+            {{t.options.resetConfirmNo}}
+          </button>
+          <button class="btn btn-error" @click="confirmReset">
+            <Icon icon="tabler:refresh" height="20" />
+            {{t.options.resetConfirmYes}}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <Settings
+    :isOnlineMode="isOnlineMode"
+    :sessionId="sessionId"
+    :isDMView="true"
+    :isOpen="isSettingsOpen"
+    @toggleOnlineMode="(value) => $emit('toggleOnlineMode', value)"
+    @requestReset="requestReset"
+    @close="isSettingsOpen = false"
+  />
   </div>
 </template>
 

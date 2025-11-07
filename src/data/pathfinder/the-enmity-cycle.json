@@ -1,0 +1,38 @@
+{
+  "id": "the-enmity-cycle",
+  "name": "The Enmity Cycle",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Kyem and Daleesha",
+      "hp": 105,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2539"
+    },
+    {
+      "name": "Mechanical Assistant",
+      "hp": 42,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2538"
+    },
+    {
+      "name": "Sand Wolf",
+      "hp": 92,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2531"
+    },
+    {
+      "name": "Scrapborn",
+      "hp": 81,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2532"
+    },
+    {
+      "name": "Seddek",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2541"
+    },
+    {
+      "name": "Zridi",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2542"
+    }
+  ]
+}

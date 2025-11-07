@@ -1,17 +1,331 @@
+// Import JSON data files
+// Pathfinder 2e - Core Bestiaries
+import monsterCoreData from './data/pathfinder/monster-core.json'
+import bestiaryData from './data/pathfinder/bestiary.json'
+import bestiary2Data from './data/pathfinder/bestiary-2.json'
+import bestiary3Data from './data/pathfinder/bestiary-3.json'
+import bookOfTheDeadData from './data/pathfinder/book-of-the-dead.json'
+import rageOfElementsData from './data/pathfinder/rage-of-elements.json'
+import howlOfTheWildData from './data/pathfinder/howl-of-the-wild.json'
+import battlecryData from './data/pathfinder/battlecry.json'
+import monstersOfMythData from './data/pathfinder/monsters-of-myth.json'
+import tianXiaWorldGuideData from './data/pathfinder/tian-xia-world-guide.json'
+import warOfImmortalsData from './data/pathfinder/war-of-immortals.json'
+import shiningKingdomsData from './data/pathfinder/shining-kingdoms.json'
+import clawsOfTheTyrantData from './data/pathfinder/claws-of-the-tyrant.json'
+import crownOfTheKoboldKingData from './data/pathfinder/crown-of-the-kobold-king.json'
+import preyForDeathData from './data/pathfinder/prey-for-death.json'
+
+// Pathfinder 2e - Adventure Paths & Adventures
+import kingmakerData from './data/pathfinder/kingmaker-adventure-path.json'
+import pf145Data from './data/pathfinder/pathfinder-145-hellknight-hill.json'
+import pf146Data from './data/pathfinder/pathfinder-146-cult-of-cinders.json'
+import pf147Data from './data/pathfinder/pathfinder-147-tomorrow-must-burn.json'
+import pf148Data from './data/pathfinder/pathfinder-148-fires-of-the-haunted-city.json'
+import pf149Data from './data/pathfinder/pathfinder-149-against-the-scarlet-triad.json'
+import pf150Data from './data/pathfinder/pathfinder-150-broken-promises.json'
+import pf151Data from './data/pathfinder/pathfinder-151-the-show-must-go-on.json'
+import pf152Data from './data/pathfinder/pathfinder-152-legacy-of-the-lost-god.json'
+import pf153Data from './data/pathfinder/pathfinder-153-life-s-long-shadows.json'
+import pf154Data from './data/pathfinder/pathfinder-154-siege-of-the-dinosaurs.json'
+import pf155Data from './data/pathfinder/pathfinder-155-lord-of-the-black-sands.json'
+import pf157Data from './data/pathfinder/pathfinder-157-devil-at-the-dreaming-palace.json'
+import pf158Data from './data/pathfinder/pathfinder-158-sixty-feet-under.json'
+import pf159Data from './data/pathfinder/pathfinder-159-all-or-nothing.json'
+import pf160Data from './data/pathfinder/pathfinder-160-assault-on-hunting-lodge-seven.json'
+import pf161Data from './data/pathfinder/pathfinder-161-belly-of-the-black-whale.json'
+import pf162Data from './data/pathfinder/pathfinder-162-ruins-of-the-radiant-siege.json'
+import pf163Data from './data/pathfinder/pathfinder-163-ruins-of-gauntlight.json'
+import pf164Data from './data/pathfinder/pathfinder-164-hands-of-the-devil.json'
+import pf167Data from './data/pathfinder/pathfinder-167-ready-fight.json'
+import pf168Data from './data/pathfinder/pathfinder-168-king-of-the-mountain.json'
+import pf169Data from './data/pathfinder/pathfinder-169-kindled-magic.json'
+import pf171Data from './data/pathfinder/pathfinder-171-hurricane-s-howl.json'
+import pf173Data from './data/pathfinder/pathfinder-173-doorway-to-the-red-star.json'
+import pf174Data from './data/pathfinder/pathfinder-174-shadows-of-the-ancients.json'
+import pf175Data from './data/pathfinder/pathfinder-175-broken-tusk-moon.json'
+import pf176Data from './data/pathfinder/pathfinder-176-lost-mammoth-valley.json'
+import pf177Data from './data/pathfinder/pathfinder-177-burning-tundra.json'
+import pf178Data from './data/pathfinder/pathfinder-178-punks-in-a-powderkeg.json'
+import pf179Data from './data/pathfinder/pathfinder-179-cradle-of-quartz.json'
+import pf180Data from './data/pathfinder/pathfinder-180-the-smoking-gun.json'
+import pf181Data from './data/pathfinder/pathfinder-181-zombie-feast.json'
+import pf182Data from './data/pathfinder/pathfinder-182-graveclaw.json'
+import pf183Data from './data/pathfinder/pathfinder-183-field-of-maidens.json'
+import pf184Data from './data/pathfinder/pathfinder-184-the-ghouls-hunger.json'
+import pf185Data from './data/pathfinder/pathfinder-185-a-taste-of-ashes.json'
+import pf186Data from './data/pathfinder/pathfinder-186-ghost-king-s-rage.json'
+import pf187Data from './data/pathfinder/pathfinder-187-the-seventh-arch.json'
+import pf188Data from './data/pathfinder/pathfinder-188-they-watched-the-stars.json'
+import pf190Data from './data/pathfinder/pathfinder-190-the-choosing.json'
+import pf191Data from './data/pathfinder/pathfinder-191-the-destiny-war.json'
+import pf192Data from './data/pathfinder/pathfinder-192-worst-of-all-possible-worlds.json'
+import pf193Data from './data/pathfinder/pathfinder-193-mantle-of-gold.json'
+import pf194Data from './data/pathfinder/pathfinder-194-cult-of-the-cave-worm.json'
+import pf195Data from './data/pathfinder/pathfinder-195-heavy-is-the-crown.json'
+import pf196Data from './data/pathfinder/pathfinder-196-the-summer-that-never-was.json'
+import pf197Data from './data/pathfinder/pathfinder-197-let-the-leaves-fall.json'
+import pf198Data from './data/pathfinder/pathfinder-198-no-breath-to-cry.json'
+import pf199Data from './data/pathfinder/pathfinder-199-to-bloom-below-the-web.json'
+import pf201Data from './data/pathfinder/pathfinder-201-pactbreaker.json'
+import pf202Data from './data/pathfinder/pathfinder-202-severed-at-the-root.json'
+import pf204Data from './data/pathfinder/pathfinder-204-stage-fright.json'
+import pf205Data from './data/pathfinder/pathfinder-205-singer-stalker-skinsaw-man.json'
+import pf206Data from './data/pathfinder/pathfinder-206-bring-the-house-down.json'
+import pf207Data from './data/pathfinder/pathfinder-207-resurrection-flood.json'
+import pf208Data from './data/pathfinder/pathfinder-208-hoof-cinder-and-storm.json'
+import pf209Data from './data/pathfinder/pathfinder-209-destroyer-s-doom.json'
+import pf211Data from './data/pathfinder/pathfinder-211-the-secret-of-deathstalk-tower.json'
+import pf212Data from './data/pathfinder/pathfinder-212-a-voice-in-the-blight.json'
+import pf213Data from './data/pathfinder/pathfinder-213-thirst-for-blood.json'
+import pf214Data from './data/pathfinder/pathfinder-214-the-broken-palace.json'
+import pf215Data from './data/pathfinder/pathfinder-215-to-blot-out-the-sun.json'
+import pfGameNightData from './data/pathfinder/pathfinder-game-night-dawn-of-the-frogs-deluxe-adventure.json'
+
+// Pathfinder 2e - Standalone Adventures
+import theFallOfPlaquestoneData from './data/pathfinder/the-fall-of-plaguestone.json'
+import troublesInOtariData from './data/pathfinder/troubles-in-otari.json'
+import theSlitherData from './data/pathfinder/the-slithering.json'
+import malevolenceData from './data/pathfinder/malevolence.json'
+import shadowsAtSundownData from './data/pathfinder/shadows-at-sundown.json'
+import nightOfTheGrayDeathData from './data/pathfinder/night-of-the-gray-death.json'
+import theEnmityCycleData from './data/pathfinder/the-enmity-cycle.json'
+import rusthengeData from './data/pathfinder/rusthenge.json'
+
+// Pathfinder 2e - Sourcebooks
+import travelGuideData from './data/pathfinder/travel-guide.json'
+import npcCoreData from './data/pathfinder/npc-core.json'
+import highhelmData from './data/pathfinder/highhelm.json'
+import inDarknessData from './data/pathfinder/in-darkness.json'
+import darkArchiveData from './data/pathfinder/dark-archive.json'
+import grandBazaarData from './data/pathfinder/grand-bazaar.json'
+import playerCoreData from './data/pathfinder/player-core.json'
+
+// Pathfinder 2e - Unknown/Mixed Sources
+import unknownData from './data/pathfinder/unknown.json'
+
+// D&D 5e - Core Books
+import monsterManualSRDData from './data/dnd5e/monster-manual-srd.json'
+import monsterManualData from './data/dnd5e/monster-manual.json'
+import monsterManualBRData from './data/dnd5e/monster-manual-br.json'
+import volosGuideData from './data/dnd5e/volo-s-guide-to-monsters.json'
+import mordenkainensData from './data/dnd5e/mordenkainen-s-tome-of-foes.json'
+import essentialsKitData from './data/dnd5e/essentials-kit.json'
+
+// D&D 5e - Adventures
+import curseOfStrahdData from './data/dnd5e/adventures-curse-of-strahd.json'
+import descentIntoAvernusData from './data/dnd5e/adventures-descent-into-avernus.json'
+import dragonHeistData from './data/dnd5e/adventures-dragon-heist.json'
+import dungeonMadMageData from './data/dnd5e/adventures-dungeon-of-the-mad-mage.json'
+import princesApocalypseData from './data/dnd5e/adventures-princes-of-the-apocalypse.json'
+import stormKingsThunderData from './data/dnd5e/adventures-storm-king-s-thunder.json'
+import tombAnnihilationData from './data/dnd5e/adventures-tomb-of-annihilation.json'
+import tyrannyDragonsData from './data/dnd5e/adventures-tyranny-of-dragons.json'
+
+// D&D 5e - Extra Content
+import adventurersLeagueData from './data/dnd5e/extra-adventurers-league.json'
+import aideddData from './data/dnd5e/extra-aidedd.json'
+import dragonMagData from './data/dnd5e/extra-dragon-mag.json'
+
+// Game system types
+type GameSystem = 'pathfinder' | 'dnd5e'
+
+// Monster can be either a string (name only, defaults to HP 1) or an object with name, HP, and optional URL
+type MonsterEntry = string | { name: string; hp: number; url?: string }
+
+// Normalized monster type with name, HP, and optional URL
+type Monster = {
+    name: string
+    hp: number
+    url?: string
+}
+
+// Content source definition
+type ContentSource = {
+    id: string
+    name: string
+    system: GameSystem
+    enabledByDefault?: boolean
+    monsters: MonsterEntry[]
+}
+
+// Helper to normalize monster entries to Monster objects
+function normalizeMonster(entry: MonsterEntry): Monster {
+    if (typeof entry === 'string') {
+        return { name: entry, hp: 1 }
+    }
+    return {
+        name: entry.name,
+        hp: entry.hp,
+        ...(entry.url && { url: entry.url })
+    }
+}
+
+// All available content sources loaded from JSON
+const contentSources: ContentSource[] = [
+    // Pathfinder 2e - Core Bestiaries
+    monsterCoreData as ContentSource,
+    playerCoreData as ContentSource,
+    npcCoreData as ContentSource,
+    bestiaryData as ContentSource,
+    bestiary2Data as ContentSource,
+    bestiary3Data as ContentSource,
+    bookOfTheDeadData as ContentSource,
+    rageOfElementsData as ContentSource,
+    howlOfTheWildData as ContentSource,
+    battlecryData as ContentSource,
+    monstersOfMythData as ContentSource,
+    tianXiaWorldGuideData as ContentSource,
+    warOfImmortalsData as ContentSource,
+    shiningKingdomsData as ContentSource,
+    clawsOfTheTyrantData as ContentSource,
+    crownOfTheKoboldKingData as ContentSource,
+    preyForDeathData as ContentSource,
+
+    // Pathfinder 2e - Sourcebooks
+    travelGuideData as ContentSource,
+    highhelmData as ContentSource,
+    inDarknessData as ContentSource,
+    darkArchiveData as ContentSource,
+    grandBazaarData as ContentSource,
+
+    // Pathfinder 2e - Adventure Paths & Adventures
+    kingmakerData as ContentSource,
+    pf145Data as ContentSource,
+    pf146Data as ContentSource,
+    pf147Data as ContentSource,
+    pf148Data as ContentSource,
+    pf149Data as ContentSource,
+    pf150Data as ContentSource,
+    pf151Data as ContentSource,
+    pf152Data as ContentSource,
+    pf153Data as ContentSource,
+    pf154Data as ContentSource,
+    pf155Data as ContentSource,
+    pf157Data as ContentSource,
+    pf158Data as ContentSource,
+    pf159Data as ContentSource,
+    pf160Data as ContentSource,
+    pf161Data as ContentSource,
+    pf162Data as ContentSource,
+    pf163Data as ContentSource,
+    pf164Data as ContentSource,
+    pf167Data as ContentSource,
+    pf168Data as ContentSource,
+    pf169Data as ContentSource,
+    pf171Data as ContentSource,
+    pf173Data as ContentSource,
+    pf174Data as ContentSource,
+    pf175Data as ContentSource,
+    pf176Data as ContentSource,
+    pf177Data as ContentSource,
+    pf178Data as ContentSource,
+    pf179Data as ContentSource,
+    pf180Data as ContentSource,
+    pf181Data as ContentSource,
+    pf182Data as ContentSource,
+    pf183Data as ContentSource,
+    pf184Data as ContentSource,
+    pf185Data as ContentSource,
+    pf186Data as ContentSource,
+    pf187Data as ContentSource,
+    pf188Data as ContentSource,
+    pf190Data as ContentSource,
+    pf191Data as ContentSource,
+    pf192Data as ContentSource,
+    pf193Data as ContentSource,
+    pf194Data as ContentSource,
+    pf195Data as ContentSource,
+    pf196Data as ContentSource,
+    pf197Data as ContentSource,
+    pf198Data as ContentSource,
+    pf199Data as ContentSource,
+    pf201Data as ContentSource,
+    pf202Data as ContentSource,
+    pf204Data as ContentSource,
+    pf205Data as ContentSource,
+    pf206Data as ContentSource,
+    pf207Data as ContentSource,
+    pf208Data as ContentSource,
+    pf209Data as ContentSource,
+    pf211Data as ContentSource,
+    pf212Data as ContentSource,
+    pf213Data as ContentSource,
+    pf214Data as ContentSource,
+    pf215Data as ContentSource,
+    pfGameNightData as ContentSource,
+
+    // Pathfinder 2e - Standalone Adventures
+    theFallOfPlaquestoneData as ContentSource,
+    troublesInOtariData as ContentSource,
+    theSlitherData as ContentSource,
+    malevolenceData as ContentSource,
+    shadowsAtSundownData as ContentSource,
+    nightOfTheGrayDeathData as ContentSource,
+    theEnmityCycleData as ContentSource,
+    rusthengeData as ContentSource,
+
+    // Pathfinder 2e - Unknown/Mixed Sources
+    unknownData as ContentSource,
+
+    // D&D 5e - Core Books
+    monsterManualSRDData as ContentSource,
+    monsterManualData as ContentSource,
+    monsterManualBRData as ContentSource,
+    volosGuideData as ContentSource,
+    mordenkainensData as ContentSource,
+    essentialsKitData as ContentSource,
+
+    // D&D 5e - Adventures
+    curseOfStrahdData as ContentSource,
+    descentIntoAvernusData as ContentSource,
+    dragonHeistData as ContentSource,
+    dungeonMadMageData as ContentSource,
+    princesApocalypseData as ContentSource,
+    stormKingsThunderData as ContentSource,
+    tombAnnihilationData as ContentSource,
+    tyrannyDragonsData as ContentSource,
+
+    // D&D 5e - Extra Content
+    adventurersLeagueData as ContentSource,
+    aideddData as ContentSource,
+    dragonMagData as ContentSource
+]
+
+// Helper function to get content sources by system
+function getContentSourcesBySystem(system: GameSystem): ContentSource[] {
+    return contentSources.filter(source => source.system === system)
+}
+
+// Helper function to get default enabled source IDs for a system
+function getDefaultEnabledSources(system: GameSystem): string[] {
+    return contentSources
+        .filter(source => source.system === system && source.enabledByDefault === true)
+        .map(source => source.id)
+}
+
+// Helper function to get enabled monsters based on active content sources
+// Returns normalized Monster objects with name and HP
+function getEnabledMonsters(enabledSourceIds: string[]): Monster[] {
+    const monsters: Monster[] = []
+    enabledSourceIds.forEach(id => {
+        const source = contentSources.find(s => s.id === id)
+        if (source) {
+            const normalizedMonsters = source.monsters.map(normalizeMonster)
+            monsters.push(...normalizedMonsters)
+        }
+    })
+    return monsters.sort((a, b) => a.name.localeCompare(b.name))
+}
+
+// Legacy classes for backward compatibility (deprecated)
 class MonsterCore {
-    monsters: string[] = ['Aapoph Granitescale', 'Aapoph Serpentfolk', 'Adult Adamantine Dragon', 'Adult Conspirator Dragon', 'Adult Diabolic Dragon', 'Adult Empyreal Dragon', 'Adult Fortune Dragon', 'Adult Horned Dragon', 'Adult Mirage Dragon', 'Adult Omen Dragon', 'Aeolaeka', 'Aesra', 'Air Scamp', 'Akhana', 'Ancient Adamantine Dragon', 'Ancient Conspirator Dragon', 'Ancient Diabolic Dragon', 'Ancient Empyreal Dragon', 'Ancient Fortune Dragon', 'Ancient Horned Dragon', 'Ancient Mirage Dragon', 'Ancient Omen Dragon', 'Animated Armor', 'Animated Broom', 'Animated Statue', 'Ankhrav', 'Ankhrav Hive Mother', 'Ankylosaurus', 'Aolaz', 'Arbiter', 'Arboreal Regent', 'Arboreal Warden', 'Army Ant Swarm', 'Astradaemon', 'Athamaru Hunter', 'Augnagar', 'Awakened Tree', 'Axiomite', 'Azarketi Crab Catcher', 'Azarketi Tide Tamer', 'Azuretzi', 'Balisse', 'Bandersnatch', 'Banshee', 'Barghest', 'Basilisk', 'Benthic Worm', 'Boar', 'Boggard Scout', 'Boggard Swampseer', 'Boggard Warrior', 'Bogwid', 'Bone Prophet', 'Bottlenose Dolphin', 'Brimorak', 'Brine Shark', 'Brontosaurus', 'Bugbear Prowler', 'Bugbear Tormentor', 'Cacodaemon', 'Caldera Oni', 'Caligni Dancer', 'Caligni Hunter', 'Caligni Skulker', 'Cassisian', 'Cauthooj', 'Cave Bear', 'Cave Worm', 'Centipede Swarm', 'Changeling Exile', 'Charnel Creation', 'Chimera', 'Choral', 'Chupacabra', 'Cinder Rat', 'Clay Effigy', 'Cloud Giant', 'Coarti', 'Cockatrice', 'Coil Spy', 'Compsognathus', 'Con Rit', 'Crag Linnorm', 'Crawling Hand', 'Crocodile', 'Cuckoo Hag', 'Cyclops', 'Cythnigot', 'Daeodon', 'Deadly Mantis', 'Deinonychus', 'Deinosuchus', 'Dero Magister', 'Dero Stalker', 'Dero Strangler', 'Desert Drake', 'Dezullon', 'Dire Wolf', 'Doldrums Heap', 'Dragon Turtle', 'Draxie', 'Dryad', 'Dryad Queen', 'Dullahan', 'Dybbuk', 'Eagle', 'Earth Scamp', 'Elananx', 'Electric Eel', 'Elemental Avalanche', 'Elemental Hurricane', 'Elemental Inferno', 'Elemental Tsunami', 'Elephant', 'Faydhaan', 'Fey Dragonet', 'Fire Giant', 'Fire Scamp', 'Firewyrm', 'Flame Drake', 'Flash Beetle', 'Forest Troll', 'Frost Drake', 'Frost Giant', 'Gancanagh', 'Gargoyle', 'Ghost Commoner', 'Ghost Mage', 'Ghoul Soldier', 'Ghoul Stalker', 'Giant Anaconda', 'Giant Animated Statue', 'Giant Ant', 'Giant Bat', 'Giant Centipede', 'Giant Crawling Hand', 'Giant Eagle', 'Giant Flytrap', 'Giant Frilled Lizard', 'Giant Gecko', 'Giant Hippocampus', 'Giant Mantis', 'Giant Monitor Lizard', 'Giant Moray Eel', 'Giant Octopus', 'Giant Rat', 'Giant Scorpion', 'Giant Stag Beetle', 'Giant Tarantula', 'Giant Viper', 'Giant Wasp', 'Gimmerling', 'Giylea', 'Globster', 'Goblin Dog', 'Gogiteth', 'Goliath Spider', 'Gongorinan', 'Gorilla', 'Gosreg', 'Graveknight', 'Great Cyclops', 'Great White Shark', 'Greater Hell Hound', 'Greater Nightmare', 'Greater Shadow', 'Griffon', 'Grikkitog', 'Grim Reaper', 'Grindylow', 'Grizzly Bear', 'Grothlut', 'Guard Dog', 'Guthallath', 'Gylou', 'Hadrosaurid', 'Halfling Street Watcher', 'Halfling Troublemaker', 'Harpy', 'Hell Hound', 'Herexen', 'Hippocampus', 'Hippogriff', 'Hobgoblin Archer', 'Hobgoblin General', 'Hobgoblin Soldier', 'Homunculus', 'Hryngar Bombardier', 'Hryngar Sharpshooter', 'Hryngar Taskmaster', 'Hunting Spider', 'Hyaenodon', 'Hydra', 'Hyena', 'Ice Linnorm', 'Ifrit', 'Imp', 'Irnakurse', 'Iron Hag', 'Iron Warden', 'Island Oni', 'Jaathoom', 'Jabali', 'Jah-Tohl', 'Jann', 'Jinkin', 'Jungle Drake', 'Kanya', 'Keketar', 'Kholo Bonekeeper', 'Kholo Hunter', 'Kholo Sergeant', 'Kraken', 'Krooth', 'Lamia', 'Lamia Matriarch', 'Larval Ofalth', 'Leopard', 'Lesser Death', 'Leukodaemon', 'Lich', 'Lion', 'Living Landslide', 'Living Tar', 'Living Waterfall', 'Living Whirlwind', 'Living Wildfire', 'Lyrakien', 'Magma Worm', 'Mammoth', 'Manticore', 'Marsh Giant', 'Medusa', 'Megalodon', 'Megaprimatus', 'Merfolk Warrior', 'Merfolk Wavecaller', 'Mitflit', 'Morrigna', 'Mountain Oni', 'Mukradi', 'Mummy Guardian', 'Mummy Pharaoh', 'Naiad', 'Naiad Queen', 'Nessari', 'Nightmare', 'Nilith', 'Norn', 'Nosoi', 'Noxious Needler', 'Nuckelavee', 'Ofalth', 'Ogre Boss', 'Ogre Glutton', 'Ogre Warrior', 'Omox', 'Orca', 'Ort', 'Pachycephalosaurus', 'Paleohemoth', 'Pegasus', 'Phade', 'Phantom Beast', 'Phantom Knight', 'Phistophilus', 'Phoenix', 'Pipefox', 'Pixie', 'Plague Zombie', 'Pleroma', 'Poltergeist', 'Poracha', 'Pteranodon', 'Pugwampi', 'Pukwudgie', 'Pusk', 'Python', 'Qarna', 'Quai Dau To', 'Quatoid', 'Quelaunt', 'Quetz Coatl', 'Quetzalcoatlus', 'Raja-Krodha', 'Raktavarna', 'Rat Swarm', 'Redcap', 'Reefclaw', 'Rekhep', 'Revenant', 'Rhinoceros', 'Rhu-Chalik', 'Riding Dog', 'Riding Horse', 'Riding Pony', 'River Drake', 'Roc', 'Rune Giant', 'Sargassum Heap', 'Sarglagon', 'Satyr', 'Scarecrow', 'Scorpion Swarm', 'Sea Hag', 'Sea Serpent', 'Sedacthy', 'Sedacthy Marauder', 'Sedacthy Scout', 'Seraptis', 'Sewer Ooze', 'Shadow', 'Shadow Giant', 'Shemhazian', 'Shining Child', 'Shuln', 'Sinspawn', 'Skeletal Champion', 'Skeletal Giant', 'Skeletal Horse', 'Skeletal Hulk', 'Skeleton Guard', 'Skulltaker', 'Slurk', 'Smaranava', 'Smilodon', 'Snapping Flytrap', 'Snow Oni', 'Sod Hound', 'Soulbound Doll', 'Sphinx', 'Spider Swarm', 'Sprigjack', 'Sprite', 'Stegosaurus', 'Stone Bulwark', 'Stone Giant', 'Stone Mauler', 'String Slime', 'Succubus', 'Sweet Hag', 'Tabellia', 'Tarn Linnorm', 'Terotricus', 'Thulgant', 'Tiger', 'Tomb Jelly', 'Tooth Fairy', 'Tooth Fairy Swarm', 'Tor Linnorm', 'Treerazer', 'Triceratops', 'Troll Warleader', 'Twigjack', 'Tyrannosaurus', 'Ugothol', 'Unicorn', 'Vampire Bat Swarm', 'Vampire Count', 'Vampire Mastermind', 'Vampire Servitor', 'Vanth', 'Velociraptor', 'Venedaemon', 'Vescavor Queen', 'Vescavor Swarm', 'Vicharamuni', 'Vidileth', 'Vilderavn', 'Viper', 'Voidworm', 'Vordine', 'Vrolikai', 'War Horse', 'War Pony', 'Warg', 'Warsworn', 'Wasp Swarm', 'Water Scamp', 'Werebear', 'Wererat', 'Weretiger', 'Werewolf', 'Wight', 'Will-O\'-Wisp', 'Witchwarg', 'Wolf', 'Woolly Rhinoceros', 'Wraith', 'Wyvern', 'Xoarian', 'Xulgath Leader', 'Xulgath Skulker', 'Xulgath Warrior', 'Yamaraj', 'Yeti', 'Young Adamantine Dragon', 'Young Conspirator Dragon', 'Young Diabolic Dragon', 'Young Empyreal Dragon', 'Young Fortune Dragon', 'Young Horned Dragon', 'Young Mirage Dragon', 'Young Omen Dragon', 'Zecui', 'Zephyr Hawk', 'Zoaem', 'Zombie Brute', 'Zombie Hulk', 'Zombie Shambler', 'Zyss Serpentfolk']
-    npc: string[] = ['Aiuvarin Elementalist', 'Catfolk Pouncer', 'Centaur Herbalist', 'Dhampir Wizard', 'Dromaar Mountaineer', 'Duskwalker Ghost Hunter', 'Dwarf Stonecaster', 'Dwarf Warrior', 'Elf Ranger', 'Fungus Leshy', 'Gnome Bard', 'Goblin Commando', 'Goblin Pyro', 'Goblin War Chanter', 'Goblin Warrior', 'Gourd Leshy', 'Kobold Cavern Mage', 'Kobold Scout', 'Kobold Warrior', 'Lawbringer Warpriest', 'Leaf Leshy', 'Lizardfolk Defender', 'Lizardfolk Scout', 'Lizardfolk Stargazer', 'Minotaur Hunter', 'Orc Commander', 'Orc Scrapper', 'Orc Veteran', 'Pitborn Adept', 'Ratfolk Grenadier', 'Tengu Sneak', 'Umbral Gnome Rockwarden', 'Umbral Gnome Scout', 'Umbral Gnome Warrior']
+    monsters: string[] = contentSources.find(s => s.id === 'monsterCore')?.monsters.map(m => typeof m === 'string' ? m : m.name) || []
+    npc: string[] = contentSources.find(s => s.id === 'monsterCoreNPC')?.monsters.map(m => typeof m === 'string' ? m : m.name) || []
 }
 
 class AgeOfAshes {
-    monsters: string[] = [
-        'Anadi Elder', 'Anadi Hunter', 'Anadi Sage', 'Doorwarden', 'Emperor Bird', 'Grauladon', 'Graveshell', 'Hellcrown', 'Tixitog',
-        'Asanbosam', 'Bida', 'Biloko Veteran', 'Biloko Warrior', 'Charau-ka Acolyte of Angazhan', 'Charau-ka Butcher', 'Charau-ka Warrior', 'Eloko', 'Grippli Archer', 'Grippli Greenspeaker', 'Grippli Scout', 'Kishi', 'Living Sap', 'Mokele-Mbembe', 'Sabosan',
-        'Augur', 'Blood Boar', 'Evangelist', 'Interlocutor', 'Kalavakus', 'Osyluth', 'Precentor', 'Remnant of Barzillai', 'Rusalka', 'Shadow Giant',
-        'Adult Magma Dragon', 'Ancient Magma Dragon', 'Carnivorous Crystal', 'Dalos', 'Deculi', 'Devourer', 'Dragonscarred Dead', 'Forge-Spurned', 'Gashadokuro', 'Soulbound Ruin', 'Young Magma Dragon',
-        'Aluum Enforcer', 'Calikang', 'Cornugon', 'Crucidaemon', 'Duneshaker Solifugid', 'Giant Solifugid', 'Immortal Ichor', 'Nalfeshnee', 'Spiritbound Aluum', 'Witchwyrd', 'Xotanispawn',
-        'Aiudara Wraith', 'Dragonshard Guardian', 'Elder Wyrmwraith', 'Tarrasque', 'Tzitzimitl', 'Vazgorlu', 'Wyrmwraith', 'Xotani',
-    ]
+    monsters: string[] = contentSources.find(s => s.id === 'ageOfAshes')?.monsters.map(m => typeof m === 'string' ? m : m.name) || []
 }
 
 type Locale = 'en' | 'pt_BR'
@@ -252,4 +566,17 @@ function useConditions(locale: Locale) {
     return conditionsData[locale]
 }
 
-export { MonsterCore, AgeOfAshes, useConditions, conditionsData }
+export {
+    MonsterCore,
+    AgeOfAshes,
+    useConditions,
+    conditionsData,
+    contentSources,
+    getContentSourcesBySystem,
+    getDefaultEnabledSources,
+    getEnabledMonsters,
+    type GameSystem,
+    type ContentSource,
+    type Monster,
+    type MonsterEntry
+}

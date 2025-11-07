@@ -1,0 +1,33 @@
+{
+  "id": "pathfinder-206-bring-the-house-down",
+  "name": "Pathfinder #206: Bring the House Down",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Echosyvne",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3750"
+    },
+    {
+      "name": "Egarhowl",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3749"
+    },
+    {
+      "name": "Mask of Norgorber",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3748"
+    },
+    {
+      "name": "Venomfist",
+      "hp": 430,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3751"
+    },
+    {
+      "name": "Zimiezek",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3752"
+    }
+  ]
+}

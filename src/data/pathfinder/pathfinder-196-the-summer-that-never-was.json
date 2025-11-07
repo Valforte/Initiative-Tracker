@@ -1,0 +1,73 @@
+{
+  "id": "pathfinder-196-the-summer-that-never-was",
+  "name": "Pathfinder #196: The Summer That Never Was",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Noppera-Bo Grunt",
+      "hp": 18,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2720"
+    },
+    {
+      "name": "Noppera-Bo Occultist",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2722"
+    },
+    {
+      "name": "Noppera-Bo Trickster",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2721"
+    },
+    {
+      "name": "Phantom Boar",
+      "hp": 22,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2729"
+    },
+    {
+      "name": "Phantom Gecko",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2732"
+    },
+    {
+      "name": "Phantom Raven",
+      "hp": 6,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2730"
+    },
+    {
+      "name": "Phantom Wolf",
+      "hp": 14,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2731"
+    },
+    {
+      "name": "Red-Hooded Thatchling",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2726"
+    },
+    {
+      "name": "Shinigami",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2723"
+    },
+    {
+      "name": "Stone Spider",
+      "hp": 62,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2724"
+    },
+    {
+      "name": "Thatchling",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2725"
+    },
+    {
+      "name": "Very Drunk Jinkin",
+      "hp": 9,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2733"
+    },
+    {
+      "name": "Zoudou the Zealous",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2734"
+    }
+  ]
+}

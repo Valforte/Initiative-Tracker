@@ -1,0 +1,63 @@
+{
+  "id": "pathfinder-193-mantle-of-gold",
+  "name": "Pathfinder #193: Mantle of Gold",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Anarchic Living Graffiti",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2610"
+    },
+    {
+      "name": "Ancestral Echo",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2609"
+    },
+    {
+      "name": "Blacknoon Apprentice",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2612"
+    },
+    {
+      "name": "Heldin Ulgincamp",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2608"
+    },
+    {
+      "name": "Hhruklaz",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2611"
+    },
+    {
+      "name": "Hyphae Tyrant",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2602"
+    },
+    {
+      "name": "Soulbound Mauler",
+      "hp": 72,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2603"
+    },
+    {
+      "name": "Sporeborn Myceloid",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2604"
+    },
+    {
+      "name": "Tuom Molgrade",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2613"
+    },
+    {
+      "name": "Unfeeling Empath",
+      "hp": 36,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2605"
+    },
+    {
+      "name": "Xulgath Ravening",
+      "hp": 72,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2606"
+    }
+  ]
+}

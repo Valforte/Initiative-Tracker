@@ -1,0 +1,103 @@
+{
+  "id": "pathfinder-182-graveclaw",
+  "name": "Pathfinder #182: Graveclaw",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Animated Fireplace",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2059"
+    },
+    {
+      "name": "Arboreal Snag",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2050"
+    },
+    {
+      "name": "Azmakian Effigy",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2051"
+    },
+    {
+      "name": "Clockwork Rifler",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2066"
+    },
+    {
+      "name": "Creeping Crone",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2052"
+    },
+    {
+      "name": "Drusilla",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2058"
+    },
+    {
+      "name": "Ghostly Mob",
+      "hp": 105,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2053"
+    },
+    {
+      "name": "Ghoul Crocodile",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2062"
+    },
+    {
+      "name": "Grave Hag",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2055"
+    },
+    {
+      "name": "Iron Taviah",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2069"
+    },
+    {
+      "name": "Kapoacinth",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2060"
+    },
+    {
+      "name": "Meat Guardian",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2064"
+    },
+    {
+      "name": "Mechanical Laborer",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2065"
+    },
+    {
+      "name": "Rust Hag",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2054"
+    },
+    {
+      "name": "Sahni Bride-Of-The-Sea",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2070"
+    },
+    {
+      "name": "Sulvik",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2067"
+    },
+    {
+      "name": "Virulak Necromancer",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2057"
+    },
+    {
+      "name": "Virulak Villager",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2056"
+    },
+    {
+      "name": "Zombie Chuul",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2063"
+    }
+  ]
+}

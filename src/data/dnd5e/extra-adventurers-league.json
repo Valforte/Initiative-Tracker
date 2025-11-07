@@ -1,0 +1,20 @@
+{
+  "id": "extra-adventurers-league",
+  "name": "Extra (Adventurers League)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Giant Two Headed Goat",
+      "hp": 19
+    },
+    {
+      "name": "Wild Dog",
+      "hp": 5
+    },
+    {
+      "name": "Wild Dog Alpha",
+      "hp": 26
+    }
+  ]
+}

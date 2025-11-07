@@ -1,0 +1,28 @@
+{
+  "id": "extra-aidedd",
+  "name": "Extra (AideDD)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ancient Shadow",
+      "hp": 32
+    },
+    {
+      "name": "Devilroot",
+      "hp": 105
+    },
+    {
+      "name": "Mummified Warrior",
+      "hp": 19
+    },
+    {
+      "name": "Reef Manta Ray",
+      "hp": 16
+    },
+    {
+      "name": "Venerable Shadow",
+      "hp": 27
+    }
+  ]
+}

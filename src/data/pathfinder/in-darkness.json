@@ -1,0 +1,18 @@
+{
+  "id": "in-darkness",
+  "name": "In Darkness",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Cocoon Of Lucid Potential",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2072"
+    },
+    {
+      "name": "Redacted, The Weaver In Dreams",
+      "hp": 310,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2071"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "adventures-storm-king-s-thunder",
+  "name": "Adventures (Storm King's Thunder)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Crag Cat",
+      "hp": 34
+    },
+    {
+      "name": "Hulking Crab",
+      "hp": 76
+    },
+    {
+      "name": "Purple Wormling",
+      "hp": 42
+    },
+    {
+      "name": "Uthgardt Shaman",
+      "hp": 38
+    }
+  ]
+}

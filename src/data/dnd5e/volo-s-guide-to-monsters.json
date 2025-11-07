@@ -1,0 +1,476 @@
+{
+  "id": "volo-s-guide-to-monsters",
+  "name": "Volo's Guide to Monsters",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Abjurer",
+      "hp": 84
+    },
+    {
+      "name": "Alhoon",
+      "hp": 120
+    },
+    {
+      "name": "Annis Hag",
+      "hp": 75
+    },
+    {
+      "name": "Apprentice Wizard",
+      "hp": 9
+    },
+    {
+      "name": "Archdruid",
+      "hp": 132
+    },
+    {
+      "name": "Archer",
+      "hp": 75
+    },
+    {
+      "name": "Aurochs",
+      "hp": 38
+    },
+    {
+      "name": "Babau",
+      "hp": 82
+    },
+    {
+      "name": "Banderhobb",
+      "hp": 84
+    },
+    {
+      "name": "Bard",
+      "hp": 44
+    },
+    {
+      "name": "Barghest",
+      "hp": 90
+    },
+    {
+      "name": "Bheur Hag",
+      "hp": 91
+    },
+    {
+      "name": "Blackguard",
+      "hp": 153
+    },
+    {
+      "name": "Bodak",
+      "hp": 58
+    },
+    {
+      "name": "Boggle",
+      "hp": 18
+    },
+    {
+      "name": "Catoblepas",
+      "hp": 84
+    },
+    {
+      "name": "Cave Fisher",
+      "hp": 58
+    },
+    {
+      "name": "Champion",
+      "hp": 143
+    },
+    {
+      "name": "Chitine",
+      "hp": 18
+    },
+    {
+      "name": "Choldrith",
+      "hp": 66
+    },
+    {
+      "name": "Cloud Giant Smiling One",
+      "hp": 262
+    },
+    {
+      "name": "Conjurer",
+      "hp": 40
+    },
+    {
+      "name": "Cow",
+      "hp": 15
+    },
+    {
+      "name": "Cranium Rat",
+      "hp": 2
+    },
+    {
+      "name": "Darkling",
+      "hp": 13
+    },
+    {
+      "name": "Darkling Elder",
+      "hp": 27
+    },
+    {
+      "name": "Death Kiss",
+      "hp": 161
+    },
+    {
+      "name": "Deep Scion",
+      "hp": 67
+    },
+    {
+      "name": "Devourer",
+      "hp": 178
+    },
+    {
+      "name": "Diviner",
+      "hp": 67
+    },
+    {
+      "name": "Dolphin",
+      "hp": 11
+    },
+    {
+      "name": "Draegloth",
+      "hp": 123
+    },
+    {
+      "name": "Elder Brain",
+      "hp": 210
+    },
+    {
+      "name": "Enchanter",
+      "hp": 40
+    },
+    {
+      "name": "Evoker",
+      "hp": 66
+    },
+    {
+      "name": "Fire Giant Dreadnought",
+      "hp": 187
+    },
+    {
+      "name": "Firenewt Warlock Of Imix",
+      "hp": 33
+    },
+    {
+      "name": "Firenewt Warrior",
+      "hp": 22
+    },
+    {
+      "name": "Flail Snail",
+      "hp": 52
+    },
+    {
+      "name": "Flind",
+      "hp": 127
+    },
+    {
+      "name": "Froghemoth",
+      "hp": 184
+    },
+    {
+      "name": "Frost Giant Everlasting One",
+      "hp": 189
+    },
+    {
+      "name": "Gauth",
+      "hp": 67
+    },
+    {
+      "name": "Gazer",
+      "hp": 13
+    },
+    {
+      "name": "Giant Strider",
+      "hp": 22
+    },
+    {
+      "name": "Girallon",
+      "hp": 59
+    },
+    {
+      "name": "Gnoll Flesh Gnawer",
+      "hp": 22
+    },
+    {
+      "name": "Gnoll Hunter",
+      "hp": 22
+    },
+    {
+      "name": "Gnoll Witherling",
+      "hp": 11
+    },
+    {
+      "name": "Grung",
+      "hp": 11
+    },
+    {
+      "name": "Grung Elite Warrior",
+      "hp": 49
+    },
+    {
+      "name": "Grung Wildling",
+      "hp": 27
+    },
+    {
+      "name": "Guard Drake",
+      "hp": 52
+    },
+    {
+      "name": "Hobgoblin Devastator",
+      "hp": 45
+    },
+    {
+      "name": "Hobgoblin Iron Shadow",
+      "hp": 32
+    },
+    {
+      "name": "Illusionist",
+      "hp": 38
+    },
+    {
+      "name": "Ki Rin",
+      "hp": 152
+    },
+    {
+      "name": "Kobold Dragonshield",
+      "hp": 44
+    },
+    {
+      "name": "Kobold Inventor",
+      "hp": 13
+    },
+    {
+      "name": "Kobold Scale Sorcerer",
+      "hp": 27
+    },
+    {
+      "name": "Korred",
+      "hp": 102
+    },
+    {
+      "name": "Kraken Priest",
+      "hp": 75
+    },
+    {
+      "name": "Leucrotta",
+      "hp": 67
+    },
+    {
+      "name": "Martial Arts Adept",
+      "hp": 60
+    },
+    {
+      "name": "Master Thief",
+      "hp": 84
+    },
+    {
+      "name": "Maw Demon",
+      "hp": 33
+    },
+    {
+      "name": "Meenlock",
+      "hp": 31
+    },
+    {
+      "name": "Mindwitness",
+      "hp": 75
+    },
+    {
+      "name": "Morkoth",
+      "hp": 130
+    },
+    {
+      "name": "Mouth Of Grolantor",
+      "hp": 105
+    },
+    {
+      "name": "Necromancer",
+      "hp": 66
+    },
+    {
+      "name": "Neogi",
+      "hp": 33
+    },
+    {
+      "name": "Neogi Hatchling",
+      "hp": 7
+    },
+    {
+      "name": "Neogi Master",
+      "hp": 71
+    },
+    {
+      "name": "Neothelid",
+      "hp": 325
+    },
+    {
+      "name": "Nilbog",
+      "hp": 7
+    },
+    {
+      "name": "Orc Blade Of Ilneval",
+      "hp": 60
+    },
+    {
+      "name": "Orc Claw Of Luthic",
+      "hp": 45
+    },
+    {
+      "name": "Orc Hand Of Yurtrus",
+      "hp": 30
+    },
+    {
+      "name": "Orc Red Fang Of Shargaas",
+      "hp": 52
+    },
+    {
+      "name": "Quetzalcoatlus",
+      "hp": 30
+    },
+    {
+      "name": "Quickling",
+      "hp": 10
+    },
+    {
+      "name": "Redcap",
+      "hp": 45
+    },
+    {
+      "name": "Sea Spawn",
+      "hp": 32
+    },
+    {
+      "name": "Shadow Mastiff",
+      "hp": 33
+    },
+    {
+      "name": "Shoosuva",
+      "hp": 110
+    },
+    {
+      "name": "Slithering Tracker",
+      "hp": 32
+    },
+    {
+      "name": "Spawn Of Kyuss",
+      "hp": 76
+    },
+    {
+      "name": "Stone Giant Dreamwalker",
+      "hp": 161
+    },
+    {
+      "name": "Storm Giant Quintessent",
+      "hp": 230
+    },
+    {
+      "name": "Swarm Of Cranium Rats",
+      "hp": 36
+    },
+    {
+      "name": "Swarm Of Rot Grubs",
+      "hp": 22
+    },
+    {
+      "name": "Swashbuckler",
+      "hp": 66
+    },
+    {
+      "name": "Tanarukk",
+      "hp": 95
+    },
+    {
+      "name": "Thorny",
+      "hp": 27
+    },
+    {
+      "name": "Tlincalli",
+      "hp": 85
+    },
+    {
+      "name": "Transmuter",
+      "hp": 40
+    },
+    {
+      "name": "Trapper",
+      "hp": 85
+    },
+    {
+      "name": "Ulitharid",
+      "hp": 127
+    },
+    {
+      "name": "Vargouille",
+      "hp": 13
+    },
+    {
+      "name": "Vegepygmy",
+      "hp": 9
+    },
+    {
+      "name": "Vegepygmy Chief",
+      "hp": 33
+    },
+    {
+      "name": "Velociraptor",
+      "hp": 10
+    },
+    {
+      "name": "War Priest",
+      "hp": 117
+    },
+    {
+      "name": "Warlock Of The Archfey",
+      "hp": 49
+    },
+    {
+      "name": "Warlock Of The Fiend",
+      "hp": 78
+    },
+    {
+      "name": "Warlock Of The Great Old One",
+      "hp": 91
+    },
+    {
+      "name": "Warlord",
+      "hp": 229
+    },
+    {
+      "name": "Wood Woad",
+      "hp": 75
+    },
+    {
+      "name": "Xvart",
+      "hp": 7
+    },
+    {
+      "name": "Xvart Warlock Of Raxivort",
+      "hp": 22
+    },
+    {
+      "name": "Yeth Hound",
+      "hp": 51
+    },
+    {
+      "name": "Yuan Ti Anathema",
+      "hp": 189
+    },
+    {
+      "name": "Yuan Ti Broodguard",
+      "hp": 45
+    },
+    {
+      "name": "Yuan Ti Mind Whisperer",
+      "hp": 71
+    },
+    {
+      "name": "Yuan Ti Nightmare Speaker",
+      "hp": 71
+    },
+    {
+      "name": "Yuan Ti Pit Master",
+      "hp": 88
+    }
+  ]
+}

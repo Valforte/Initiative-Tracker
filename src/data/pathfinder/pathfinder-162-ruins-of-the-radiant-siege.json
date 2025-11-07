@@ -1,0 +1,53 @@
+{
+  "id": "pathfinder-162-ruins-of-the-radiant-siege",
+  "name": "Pathfinder #162: Ruins of the Radiant Siege",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Agradaemon",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1018"
+    },
+    {
+      "name": "Baatamidar",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1015"
+    },
+    {
+      "name": "Camarach",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1016"
+    },
+    {
+      "name": "Hegessik",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1019"
+    },
+    {
+      "name": "Izfiitar",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1020"
+    },
+    {
+      "name": "Nenchuuj",
+      "hp": 355,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1023"
+    },
+    {
+      "name": "Penqual",
+      "hp": 205,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1022"
+    },
+    {
+      "name": "Rhevanna",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1021"
+    },
+    {
+      "name": "Sordesdaemon",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1017"
+    }
+  ]
+}

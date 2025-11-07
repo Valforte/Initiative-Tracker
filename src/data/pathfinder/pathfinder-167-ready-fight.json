@@ -1,0 +1,48 @@
+{
+  "id": "pathfinder-167-ready-fight",
+  "name": "Pathfinder #167: Ready? Fight!",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Angoyang",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1402"
+    },
+    {
+      "name": "Drake Courser",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1479"
+    },
+    {
+      "name": "Grandfather Mantis",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1489"
+    },
+    {
+      "name": "Melodic Squalls",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1511"
+    },
+    {
+      "name": "Portal Eater",
+      "hp": 420,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1510"
+    },
+    {
+      "name": "Rivka",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1407"
+    },
+    {
+      "name": "Shadow Yai",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1404"
+    },
+    {
+      "name": "Taiga Yai",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1405"
+    }
+  ]
+}

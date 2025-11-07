@@ -1,0 +1,63 @@
+{
+  "id": "pathfinder-185-a-taste-of-ashes",
+  "name": "Pathfinder #185: A Taste of Ashes",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Afziaka Brute",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2359"
+    },
+    {
+      "name": "Afziaka Stalker",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2360"
+    },
+    {
+      "name": "Facetbound Cascader",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2363"
+    },
+    {
+      "name": "Facetbound Nullifier",
+      "hp": 305,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2362"
+    },
+    {
+      "name": "Ghiasi The Unraveler",
+      "hp": 285,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2417"
+    },
+    {
+      "name": "Necrohulk Flailer",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2364"
+    },
+    {
+      "name": "Necrohulk Smasher",
+      "hp": 345,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2365"
+    },
+    {
+      "name": "Pokmit Bloody-Pike",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2418"
+    },
+    {
+      "name": "Tenebric Giant",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2366"
+    },
+    {
+      "name": "Theater Phantasm",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2367"
+    },
+    {
+      "name": "Umbraex",
+      "hp": 450,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2361"
+    }
+  ]
+}

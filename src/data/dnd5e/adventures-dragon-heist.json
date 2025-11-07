@@ -1,0 +1,24 @@
+{
+  "id": "adventures-dragon-heist",
+  "name": "Adventures (Dragon Heist)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Jarlaxle Baenre",
+      "hp": 123
+    },
+    {
+      "name": "Laeral Silverhand",
+      "hp": 228
+    },
+    {
+      "name": "Manshoon",
+      "hp": 126
+    },
+    {
+      "name": "Vajra Safahr",
+      "hp": 126
+    }
+  ]
+}

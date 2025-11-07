@@ -1,0 +1,13 @@
+{
+  "id": "player-core",
+  "name": "Player Core",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Phantasmal Minion",
+      "hp": 4,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2750"
+    }
+  ]
+}

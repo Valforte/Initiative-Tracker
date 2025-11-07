@@ -1,0 +1,68 @@
+{
+  "id": "pathfinder-150-broken-promises",
+  "name": "Pathfinder #150: Broken Promises",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aiudara Wraith",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=488"
+    },
+    {
+      "name": "Animated Dragonstorms",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1586"
+    },
+    {
+      "name": "Candlaron's Echo",
+      "hp": 315,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1594"
+    },
+    {
+      "name": "Dragonshard Guardian",
+      "hp": 430,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=489"
+    },
+    {
+      "name": "Dragonstorm Fire Giant",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1587"
+    },
+    {
+      "name": "Hermean Mutant",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1593"
+    },
+    {
+      "name": "Lesser Manifestation Of Dahak",
+      "hp": 500,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1588"
+    },
+    {
+      "name": "Manifestation Of Dahak",
+      "hp": 600,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1596"
+    },
+    {
+      "name": "Mengkare",
+      "hp": 575,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1599"
+    },
+    {
+      "name": "Tarrasque",
+      "hp": 540,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=490"
+    },
+    {
+      "name": "Vazgorlu",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=493"
+    },
+    {
+      "name": "Xotani",
+      "hp": 385,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=491"
+    }
+  ]
+}

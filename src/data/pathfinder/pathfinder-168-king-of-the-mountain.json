@@ -1,0 +1,73 @@
+{
+  "id": "pathfinder-168-king-of-the-mountain",
+  "name": "Pathfinder #168: King of the Mountain",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Canopy Elder",
+      "hp": 445,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1410"
+    },
+    {
+      "name": "Cloudsplitter",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1517"
+    },
+    {
+      "name": "Dancing Night Parade",
+      "hp": 450,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1519"
+    },
+    {
+      "name": "Desecrated Guardian",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1412"
+    },
+    {
+      "name": "Flying Mountain Kaminari",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1518"
+    },
+    {
+      "name": "Gumiho",
+      "hp": 310,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1413"
+    },
+    {
+      "name": "Inmyeonjo",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1414"
+    },
+    {
+      "name": "Laruhao",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1520"
+    },
+    {
+      "name": "Lophiithu",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1415"
+    },
+    {
+      "name": "Orochi",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1416"
+    },
+    {
+      "name": "Sanzuwu",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1417"
+    },
+    {
+      "name": "Spirit Turtle",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1418"
+    },
+    {
+      "name": "Sthira",
+      "hp": 475,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1419"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "malevolence",
+  "name": "Malevolence",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Algea",
+      "hp": 144,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1420"
+    },
+    {
+      "name": "Tanglebones",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1421"
+    }
+  ]
+}

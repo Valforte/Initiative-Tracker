@@ -1,0 +1,78 @@
+{
+  "id": "pathfinder-177-burning-tundra",
+  "name": "Pathfinder #177: Burning Tundra",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Arboreal Tar Tree",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1825"
+    },
+    {
+      "name": "Calcifda",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1826"
+    },
+    {
+      "name": "Everburning Mammoths",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1829"
+    },
+    {
+      "name": "Graylok Ambusher",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1824"
+    },
+    {
+      "name": "Graylok Artillerist",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1822"
+    },
+    {
+      "name": "Graylok Gatebreaker",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1823"
+    },
+    {
+      "name": "Hegremon",
+      "hp": 225,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1831"
+    },
+    {
+      "name": "Summer Hora",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1813"
+    },
+    {
+      "name": "Summer Hora Queen",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1814"
+    },
+    {
+      "name": "Tar Ooze",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1815"
+    },
+    {
+      "name": "Tar Zombie Mammoth",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1819"
+    },
+    {
+      "name": "Tar Zombie Predator",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1818"
+    },
+    {
+      "name": "Tar Zombie Snatcher",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1817"
+    },
+    {
+      "name": "Weykoward",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1816"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "adventures-descent-into-avernus",
+  "name": "Adventures (Descent into Avernus)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Black Gauntlet Of Bane",
+      "hp": 51
+    },
+    {
+      "name": "Crokek Toeck",
+      "hp": 297
+    },
+    {
+      "name": "Death's Head Of Bhaal",
+      "hp": 76
+    },
+    {
+      "name": "Fist Of Bane",
+      "hp": 22
+    },
+    {
+      "name": "Hellwasp",
+      "hp": 52
+    },
+    {
+      "name": "Iron Consul",
+      "hp": 45
+    },
+    {
+      "name": "Master Of Souls",
+      "hp": 45
+    },
+    {
+      "name": "Necromite Of Myrkul",
+      "hp": 13
+    },
+    {
+      "name": "Night Blade",
+      "hp": 11
+    },
+    {
+      "name": "Reaper Of Bhaal",
+      "hp": 27
+    },
+    {
+      "name": "Skull Lasher Of Myrkul",
+      "hp": 32
+    }
+  ]
+}

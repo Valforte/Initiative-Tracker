@@ -1,0 +1,23 @@
+{
+  "id": "troubles-in-otari",
+  "name": "Troubles in Otari",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Kurnugian Jackal",
+      "hp": 98,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1024"
+    },
+    {
+      "name": "Scalliwing",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1025"
+    },
+    {
+      "name": "Stinkweed Shambler",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1026"
+    }
+  ]
+}

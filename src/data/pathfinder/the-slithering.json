@@ -1,0 +1,18 @@
+{
+  "id": "the-slithering",
+  "name": "The Slithering",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ahvothian",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=983"
+    },
+    {
+      "name": "Fuming Sludge",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=984"
+    }
+  ]
+}

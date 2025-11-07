@@ -22,6 +22,9 @@ import HelpTextLine from "./HelpTextLine.vue";
 const { t, lang } = useTranslations()
 const conditions = computed(() => useConditions(lang.value))
 
+// Settings
+const useTempHP = useStorage('useTempHP', true)
+
 const props = defineProps<{
   turn: number,
   combatants: Combatant[]
@@ -125,7 +128,7 @@ function removeCombatant(i: number): void {
         <td class="text-center">
           <div>
             <progress
-              v-if="combatant.maxTempHP > 0"
+              v-if="useTempHP && combatant.maxTempHP > 0"
               class="progress h-3 w-full progress-info"
               :value="combatant.tempHP"
               :max="combatant.maxTempHP"
@@ -167,7 +170,7 @@ function removeCombatant(i: number): void {
               :aria-label="`${combatant.name} HP: ${combatant.currentHP} of ${combatant.totalHP}`"
             >
               {{combatant.currentHP}}/{{combatant.totalHP}}
-              <span v-if="combatant.maxTempHP > 0"> +{{combatant.tempHP}}/{{combatant.maxTempHP}}</span>
+              <span v-if="useTempHP && combatant.maxTempHP > 0"> +{{combatant.tempHP}}/{{combatant.maxTempHP}}</span>
             </button>
             <button
               class="btn btn-success p-2"
@@ -177,6 +180,7 @@ function removeCombatant(i: number): void {
               <Icon icon="tabler:plus" height="24" />
             </button>
             <button
+              v-if="useTempHP"
               class="btn btn-info p-2"
               @click="() => combatant.addTempHP(HPValue)"
               :aria-label="`Add temporary HP to ${combatant.name}`"

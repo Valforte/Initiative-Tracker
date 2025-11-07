@@ -48,6 +48,7 @@ or
 - 🎯 **Condition Tracking**: Add, modify, and remove conditions with auto-generated color-coding
 - 🔄 **Dual View System**: Separate interfaces for DM (full control) and players (read-only)
 - 💾 **Auto-Save**: All combat state persists automatically to localStorage
+- 🌐 **Online Mode (Optional)**: Enable real-time multiplayer sync using Firebase - [Setup Guide](ONLINE_MODE_QUICK_START.md)
 
 ### Customization
 - 🎨 **35+ Themes**: Choose from a wide variety of DaisyUI themes with live preview
@@ -163,6 +164,22 @@ Players will see:
 - No controls or hidden information
 
 **Tip**: Open the player view on a separate screen. Both views share the same localStorage, so changes update in real-time.
+
+### Online Mode (Optional)
+
+Enable real-time multiplayer sync to share combat sessions with remote players:
+
+1. **Toggle Online Mode**: Click the "Online Mode" toggle in the DM view
+2. **Share URL**: Click "Copy Player URL" and send it to your players
+3. **Real-time Sync**: All changes are instantly visible to all connected players
+
+See the [Quick Start Guide](ONLINE_MODE_QUICK_START.md) for setup instructions (takes ~15 minutes).
+
+**Benefits**:
+- Perfect for remote/hybrid games
+- No need for screen sharing
+- Players get their own clean interface
+- Works alongside in-person play
 
 ### Multi-Table Setup
 If you need to run multiple tables simultaneously:
