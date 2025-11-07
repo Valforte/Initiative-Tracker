@@ -1,0 +1,58 @@
+{
+  "id": "pathfinder-202-severed-at-the-root",
+  "name": "Pathfinder #202: Severed at the Root",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Avathrael Realmshaper",
+      "hp": 214,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3713"
+    },
+    {
+      "name": "Durnolith",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3712"
+    },
+    {
+      "name": "Eyelet",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3706"
+    },
+    {
+      "name": "Eyelet Swarm",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3707"
+    },
+    {
+      "name": "Glitterspore",
+      "hp": 105,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3708"
+    },
+    {
+      "name": "Khasprickle",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3714"
+    },
+    {
+      "name": "Ogre Bully",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3702"
+    },
+    {
+      "name": "Putrifer",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3709"
+    },
+    {
+      "name": "Ruzadoya's Chosen",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3710"
+    },
+    {
+      "name": "Thrailorn",
+      "hp": 99,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3711"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "battlecry",
+  "name": "Battlecry!",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Angelic Chorus",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3898"
+    },
+    {
+      "name": "Animated Army",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3899"
+    },
+    {
+      "name": "Apprentice Magician Clique",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3900"
+    },
+    {
+      "name": "Arboreal Copse",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3901"
+    },
+    {
+      "name": "Archer Regiment",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3902"
+    },
+    {
+      "name": "Archon Bastion",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3903"
+    },
+    {
+      "name": "Boggard Dreadknot",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3904"
+    },
+    {
+      "name": "Boggard Scouting Party",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3905"
+    },
+    {
+      "name": "Charau-Ka Shrieker Crew",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3906"
+    },
+    {
+      "name": "Clockwork Infantry",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3907"
+    },
+    {
+      "name": "Clockwork Runner Pack",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3908"
+    },
+    {
+      "name": "Deinonychus Pack",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3909"
+    },
+    {
+      "name": "Dezullon Thicket",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3910"
+    },
+    {
+      "name": "Drake Flight",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3911"
+    },
+    {
+      "name": "Dromaar Company",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3912"
+    },
+    {
+      "name": "Druid Circle",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3913"
+    },
+    {
+      "name": "Dwarf Longshot Squad",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3914"
+    },
+    {
+      "name": "First-Class Infantry",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3915"
+    },
+    {
+      "name": "Fleshwarp Amalgam",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3916"
+    },
+    {
+      "name": "Gargoyle Wing",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3917"
+    },
+    {
+      "name": "Giant Ant Army",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3918"
+    },
+    {
+      "name": "Gnome Cannon Corps",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3919"
+    },
+    {
+      "name": "Goblin Rabble",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3920"
+    },
+    {
+      "name": "Halfling Lucky Draw",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3921"
+    },
+    {
+      "name": "Hell Hound Pack",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3922"
+    },
+    {
+      "name": "Hobgoblin Veteran Regiment",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3923"
+    },
+    {
+      "name": "Kobold Trap Squad",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3924"
+    },
+    {
+      "name": "Leukodaemon Plague",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3925"
+    },
+    {
+      "name": "Lich Legion",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3926"
+    },
+    {
+      "name": "Mitflit Vermin Cavalry",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3927"
+    },
+    {
+      "name": "Monk Cadre",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3928"
+    },
+    {
+      "name": "Ofalth Stampede",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3929"
+    },
+    {
+      "name": "Omox Slime Pool",
+      "hp": 315,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3930"
+    },
+    {
+      "name": "Orc Raiding Party",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3931"
+    },
+    {
+      "name": "Protean Tumult",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3932"
+    },
+    {
+      "name": "Qadiran Camel Corps",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3933"
+    },
+    {
+      "name": "Ratfolk Shank Squad",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3934"
+    },
+    {
+      "name": "Redcap Brigade",
+      "hp": 165,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3935"
+    },
+    {
+      "name": "Scamp Inferno",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3936"
+    },
+    {
+      "name": "Sinswarm",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3937"
+    },
+    {
+      "name": "Skeleton Mob",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3938"
+    },
+    {
+      "name": "Vanth Guardian Flock",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3939"
+    },
+    {
+      "name": "Viking Guard",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3940"
+    },
+    {
+      "name": "Vordine Legion",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3941"
+    },
+    {
+      "name": "Wight Battalion",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3942"
+    },
+    {
+      "name": "Wolf Pack",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3943"
+    },
+    {
+      "name": "Xulgath Army",
+      "hp": 99,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3944"
+    },
+    {
+      "name": "Xulgath Dinosaur Cavalry",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3945"
+    },
+    {
+      "name": "Zecui Horde",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3946"
+    }
+  ]
+}

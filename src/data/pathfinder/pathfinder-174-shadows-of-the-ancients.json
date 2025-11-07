@@ -1,0 +1,103 @@
+{
+  "id": "pathfinder-174-shadows-of-the-ancients",
+  "name": "Pathfinder #174: Shadows of the Ancients",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Alapolo",
+      "hp": 310,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1794"
+    },
+    {
+      "name": "Alate Ant",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1837"
+    },
+    {
+      "name": "Cataclysm Beetle",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1809"
+    },
+    {
+      "name": "Chromatic Ooze",
+      "hp": 550,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1797"
+    },
+    {
+      "name": "Clockwork Clock Tower",
+      "hp": 325,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1795"
+    },
+    {
+      "name": "Crawling Slurry",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1796"
+    },
+    {
+      "name": "Ironclad Annihilator Beetle",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1811"
+    },
+    {
+      "name": "Lignified Adamantine Golem",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1802"
+    },
+    {
+      "name": "Red Commander Ant",
+      "hp": 315,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1838"
+    },
+    {
+      "name": "Red Guard Ant",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1836"
+    },
+    {
+      "name": "Red Queen",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1810"
+    },
+    {
+      "name": "Shianshi Waymaker",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1806"
+    },
+    {
+      "name": "Slana",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1798"
+    },
+    {
+      "name": "Ta'apundo",
+      "hp": 440,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1799"
+    },
+    {
+      "name": "Tatterthread",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1834"
+    },
+    {
+      "name": "Thorn Guardian",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1804"
+    },
+    {
+      "name": "Wereant Disciple",
+      "hp": 305,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1800"
+    },
+    {
+      "name": "Wereant Poisoner",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1801"
+    },
+    {
+      "name": "Wereant Sentinel",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1812"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-161-belly-of-the-black-whale",
+  "name": "Pathfinder #161: Belly of the Black Whale",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Clockwork Amalgam",
+      "hp": 455,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1008"
+    },
+    {
+      "name": "Elemental Vessel, Water",
+      "hp": 225,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1009"
+    },
+    {
+      "name": "Lusca",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1010"
+    },
+    {
+      "name": "Minchgorm",
+      "hp": 440,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1011"
+    },
+    {
+      "name": "Myrucarx",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1012"
+    },
+    {
+      "name": "Zealborn",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1014"
+    }
+  ]
+}

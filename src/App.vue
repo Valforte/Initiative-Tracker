@@ -13,6 +13,7 @@ import {
 } from "reka-ui";
 import {useTranslations} from "./lang.ts";
 import {useStorage} from "@vueuse/core";
+import {initializeFirebase} from "./firebase.ts";
 
 const { t, lang } = useTranslations()
 
@@ -29,6 +30,15 @@ watch(selectedTheme, (newVal) => {
 
 onMounted(() => {
   document.querySelector('html')?.setAttribute('data-theme', selectedTheme.value)
+
+  // Try to initialize Firebase if config exists
+  import('./firebase.config.ts')
+    .then((module) => {
+      initializeFirebase(module.firebaseConfig)
+    })
+    .catch(() => {
+      // Firebase config not found - online mode will be unavailable
+    })
 })
 </script>
 

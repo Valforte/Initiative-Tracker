@@ -1,0 +1,33 @@
+{
+  "id": "pathfinder-207-resurrection-flood",
+  "name": "Pathfinder #207: Resurrection Flood",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aurochs",
+      "hp": 42,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3753"
+    },
+    {
+      "name": "Bristle Boar",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3754"
+    },
+    {
+      "name": "Floodslain Orc",
+      "hp": 44,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3755"
+    },
+    {
+      "name": "Skinslough",
+      "hp": 72,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3759"
+    },
+    {
+      "name": "Stormblood Tiger",
+      "hp": 114,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3760"
+    }
+  ]
+}

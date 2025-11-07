@@ -1,0 +1,103 @@
+{
+  "id": "prey-for-death",
+  "name": "Prey for Death",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Alktherisa and Omprisgor",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3388"
+    },
+    {
+      "name": "Bloodfog",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3389"
+    },
+    {
+      "name": "Bloody Hands",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3393"
+    },
+    {
+      "name": "Einherji Host",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3390"
+    },
+    {
+      "name": "Frost Roc",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3392"
+    },
+    {
+      "name": "Frostripper",
+      "hp": 232,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3375"
+    },
+    {
+      "name": "Gorumite Infantry",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3376"
+    },
+    {
+      "name": "Gorumite Veteran",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3373"
+    },
+    {
+      "name": "Gorumite Warpriest",
+      "hp": 212,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3374"
+    },
+    {
+      "name": "Niesha",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3385"
+    },
+    {
+      "name": "Ordulf Bladecaller",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3377"
+    },
+    {
+      "name": "Rage Rider",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3371"
+    },
+    {
+      "name": "Roc Rider",
+      "hp": 256,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3372"
+    },
+    {
+      "name": "Saint Fang",
+      "hp": 365,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3394"
+    },
+    {
+      "name": "Silver Saber",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3396"
+    },
+    {
+      "name": "Temperbrand",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3395"
+    },
+    {
+      "name": "The First Blade",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3391"
+    },
+    {
+      "name": "Valkyrie Tempest",
+      "hp": 312,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3397"
+    },
+    {
+      "name": "Vatumledor",
+      "hp": 345,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3398"
+    }
+  ]
+}

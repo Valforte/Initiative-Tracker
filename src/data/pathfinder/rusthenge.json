@@ -1,0 +1,48 @@
+{
+  "id": "rusthenge",
+  "name": "Rusthenge",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Clockwork Belimarius",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2745"
+    },
+    {
+      "name": "Clockwork Serpent Spy",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2744"
+    },
+    {
+      "name": "Glutu",
+      "hp": 44,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2747"
+    },
+    {
+      "name": "Primordial Envy",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2728"
+    },
+    {
+      "name": "Theiltemar",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2748"
+    },
+    {
+      "name": "Vloriak",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2727"
+    },
+    {
+      "name": "Vlorian Cythnigot",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2741"
+    },
+    {
+      "name": "Zaiox",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2746"
+    }
+  ]
+}

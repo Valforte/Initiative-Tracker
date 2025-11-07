@@ -1,0 +1,53 @@
+{
+  "id": "pathfinder-178-punks-in-a-powderkeg",
+  "name": "Pathfinder #178: Punks in a Powderkeg",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Clockwork Brewer",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1926"
+    },
+    {
+      "name": "Clockwork Fabricator",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1927"
+    },
+    {
+      "name": "Clockwork Handler",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1925"
+    },
+    {
+      "name": "Clockwork Hunter",
+      "hp": 12,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1924"
+    },
+    {
+      "name": "Follower Of Shumfallow",
+      "hp": 8,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1935"
+    },
+    {
+      "name": "Prairie Drake",
+      "hp": 36,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1928"
+    },
+    {
+      "name": "Rust Ooze",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1930"
+    },
+    {
+      "name": "Sludgespine Killers",
+      "hp": 8,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1934"
+    },
+    {
+      "name": "Yeast Ooze",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1929"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "night-of-the-gray-death",
+  "name": "Night of the Gray Death",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Chakanaj",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1644"
+    },
+    {
+      "name": "Conqueror Worm",
+      "hp": 460,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1642"
+    },
+    {
+      "name": "Gray Death",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1641"
+    },
+    {
+      "name": "Guillotine Golem",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1650"
+    },
+    {
+      "name": "Riekanoy",
+      "hp": 410,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1643"
+    },
+    {
+      "name": "Tumblak",
+      "hp": 305,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1645"
+    }
+  ]
+}

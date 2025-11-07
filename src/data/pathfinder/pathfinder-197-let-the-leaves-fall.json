@@ -1,0 +1,48 @@
+{
+  "id": "pathfinder-197-let-the-leaves-fall",
+  "name": "Pathfinder #197: Let the Leaves Fall",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bakeneko",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2753"
+    },
+    {
+      "name": "Dalgyal Gwishin",
+      "hp": 58,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2754"
+    },
+    {
+      "name": "Guhdggi",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2757"
+    },
+    {
+      "name": "Heart-Eating Vulture",
+      "hp": 68,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2751"
+    },
+    {
+      "name": "Ijda",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2758"
+    },
+    {
+      "name": "Meokdan",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2755"
+    },
+    {
+      "name": "Sojiruh",
+      "hp": 58,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2756"
+    },
+    {
+      "name": "Yuni",
+      "hp": 82,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2752"
+    }
+  ]
+}

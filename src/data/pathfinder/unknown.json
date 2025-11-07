@@ -1,0 +1,1268 @@
+{
+  "id": "unknown",
+  "name": "Unknown",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Abstalar Zantus",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3329"
+    },
+    {
+      "name": "Adimar Scarnetti",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3353"
+    },
+    {
+      "name": "Aigamuxa",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1425"
+    },
+    {
+      "name": "Ainamuuren (Corrupted)",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2514"
+    },
+    {
+      "name": "Aliver \"Pillbug\" Podiker",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3344"
+    },
+    {
+      "name": "Anadi Elder",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1424"
+    },
+    {
+      "name": "Anadi Hunter",
+      "hp": 27,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1422"
+    },
+    {
+      "name": "Anadi Sage",
+      "hp": 58,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1423"
+    },
+    {
+      "name": "Ancient Tupilaq",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2512"
+    },
+    {
+      "name": "Anugobu Apprentice",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1392"
+    },
+    {
+      "name": "Anugobu Wondercrafter",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1393"
+    },
+    {
+      "name": "Ardande Ghost",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3723"
+    },
+    {
+      "name": "Arika Avertin",
+      "hp": 78,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3350"
+    },
+    {
+      "name": "Asanbosam",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1426"
+    },
+    {
+      "name": "Ascended Disciple",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3345"
+    },
+    {
+      "name": "Asmerelli",
+      "hp": 92,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3340"
+    },
+    {
+      "name": "Avatar Of Walkena",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1707"
+    },
+    {
+      "name": "Ba'aupa Mdoudu",
+      "hp": 245,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1661"
+    },
+    {
+      "name": "Barking Stag",
+      "hp": 245,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2140"
+    },
+    {
+      "name": "Bee Borer",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3956"
+    },
+    {
+      "name": "Benthic Reaver",
+      "hp": 500,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2403"
+    },
+    {
+      "name": "Berberoka",
+      "hp": 310,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1394"
+    },
+    {
+      "name": "Biloko Reaver",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1700"
+    },
+    {
+      "name": "Biloko Veteran",
+      "hp": 58,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1428"
+    },
+    {
+      "name": "Biloko Warrior",
+      "hp": 19,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1427"
+    },
+    {
+      "name": "Blackfrost Guecubu",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2509"
+    },
+    {
+      "name": "Blackfrost Prophet",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2498"
+    },
+    {
+      "name": "Blackfrost Zombie",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2497"
+    },
+    {
+      "name": "Blighted Speaker in Spores",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3733"
+    },
+    {
+      "name": "Bonebleacher Bugbear",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3725"
+    },
+    {
+      "name": "Bright Walker",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1379"
+    },
+    {
+      "name": "Bristled Reef Shark",
+      "hp": 21,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3948"
+    },
+    {
+      "name": "Caustic Monitor",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1398"
+    },
+    {
+      "name": "Caustic Wraith",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3718"
+    },
+    {
+      "name": "Charau-ka Acolyte of Angazhan",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1431"
+    },
+    {
+      "name": "Charau-ka Butcher",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1432"
+    },
+    {
+      "name": "Charau-ka Warrior",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1430"
+    },
+    {
+      "name": "Chertus Jheed",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3351"
+    },
+    {
+      "name": "Children Of Mhar",
+      "hp": 420,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=975"
+    },
+    {
+      "name": "Cleansed Cultist",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2383"
+    },
+    {
+      "name": "Clockwork Cannoneer",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2404"
+    },
+    {
+      "name": "Clockwork Serpent",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3362"
+    },
+    {
+      "name": "Coiled Conifer",
+      "hp": 238,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3729"
+    },
+    {
+      "name": "Coloxus",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3363"
+    },
+    {
+      "name": "Convergent Giant Eagle",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2136"
+    },
+    {
+      "name": "Coralclaw",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3949"
+    },
+    {
+      "name": "Creeping Cone Swarm",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3728"
+    },
+    {
+      "name": "Crownbound Constellation",
+      "hp": 98,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2499"
+    },
+    {
+      "name": "Cursed King",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2405"
+    },
+    {
+      "name": "Cyclops Seeker",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3968"
+    },
+    {
+      "name": "Damibwa",
+      "hp": 62,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1621"
+    },
+    {
+      "name": "Deathless Pirate",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3980"
+    },
+    {
+      "name": "Deck Crew",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3978"
+    },
+    {
+      "name": "Deepwater Dhuthorex",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1382"
+    },
+    {
+      "name": "Degholau",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3776"
+    },
+    {
+      "name": "Devil's Disciple",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3338"
+    },
+    {
+      "name": "Dimari-Diji",
+      "hp": 550,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1708"
+    },
+    {
+      "name": "Divine Warden Of Brigh",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1137"
+    },
+    {
+      "name": "Divine Warden Of Haagenti",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3332"
+    },
+    {
+      "name": "Dragon's Blood Puffball",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1380"
+    },
+    {
+      "name": "Dread Dhuthorex",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1383"
+    },
+    {
+      "name": "Dread Roc",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1457"
+    },
+    {
+      "name": "Dread Wisp",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1384"
+    },
+    {
+      "name": "Dreamscraper",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2500"
+    },
+    {
+      "name": "Drenchdead",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1662"
+    },
+    {
+      "name": "Dromornis",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1395"
+    },
+    {
+      "name": "Drow Hunter",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1386"
+    },
+    {
+      "name": "Drow Shootist",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1387"
+    },
+    {
+      "name": "Drow Warden",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1385"
+    },
+    {
+      "name": "Druulbach",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3719"
+    },
+    {
+      "name": "Dust Bunny Swarm",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3681"
+    },
+    {
+      "name": "Ekundayo's Dog",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2392"
+    },
+    {
+      "name": "Elder Cauthooj",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1467"
+    },
+    {
+      "name": "Elder Thing",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2501"
+    },
+    {
+      "name": "Elder Thing Researcher",
+      "hp": 218,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2502"
+    },
+    {
+      "name": "Eloko",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1429"
+    },
+    {
+      "name": "Elysian Sheep",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2139"
+    },
+    {
+      "name": "Encymion",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3990"
+    },
+    {
+      "name": "Equendia",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2511"
+    },
+    {
+      "name": "Eshmok",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3777"
+    },
+    {
+      "name": "Eumenid",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3962"
+    },
+    {
+      "name": "Eylthia's Basilisk",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3993"
+    },
+    {
+      "name": "False Devil",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3341"
+    },
+    {
+      "name": "False Priestess",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2386"
+    },
+    {
+      "name": "Fiendish Flock",
+      "hp": 88,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3361"
+    },
+    {
+      "name": "Fionn",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2376"
+    },
+    {
+      "name": "Firehoof Minotaur",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3961"
+    },
+    {
+      "name": "Fleshforged Conformer",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2406"
+    },
+    {
+      "name": "Fleshforged Dreadnought",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2407"
+    },
+    {
+      "name": "Forgotten Dead",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3955"
+    },
+    {
+      "name": "Fungus Tyrant",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3364"
+    },
+    {
+      "name": "Gale Frenzy",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3969"
+    },
+    {
+      "name": "Gambulami",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1701"
+    },
+    {
+      "name": "Gbahali",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1622"
+    },
+    {
+      "name": "Ghast Cultists",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3356"
+    },
+    {
+      "name": "Ghost Monk",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1454"
+    },
+    {
+      "name": "Giant Longlegs",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3365"
+    },
+    {
+      "name": "Gigantic Bee Drone",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3957"
+    },
+    {
+      "name": "Gigantic Bee Guard",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3958"
+    },
+    {
+      "name": "Gigantic Bee Royal Guardian",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3959"
+    },
+    {
+      "name": "Glorkus",
+      "hp": 59,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3330"
+    },
+    {
+      "name": "Goblin Bat-Dog",
+      "hp": 53,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2382"
+    },
+    {
+      "name": "Gold Defender",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1703"
+    },
+    {
+      "name": "Gold Defender Garrison",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1704"
+    },
+    {
+      "name": "Gorlak",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3339"
+    },
+    {
+      "name": "Grave Karina",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1699"
+    },
+    {
+      "name": "Grave Spinosaurus",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1460"
+    },
+    {
+      "name": "Graveknight Captain",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1663"
+    },
+    {
+      "name": "Graveknight Champion",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1664"
+    },
+    {
+      "name": "Great Grodair",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1637"
+    },
+    {
+      "name": "Grippli Jinxer",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1624"
+    },
+    {
+      "name": "Grippli Skirmisher",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1623"
+    },
+    {
+      "name": "Gritblight",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3732"
+    },
+    {
+      "name": "Grizzer",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3778"
+    },
+    {
+      "name": "Grootslang",
+      "hp": 370,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1433"
+    },
+    {
+      "name": "Gunpowder Ooze",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2412"
+    },
+    {
+      "name": "Gurlunk",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3335"
+    },
+    {
+      "name": "Hantu Belian",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1397"
+    },
+    {
+      "name": "Hantu Denai",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1396"
+    },
+    {
+      "name": "I'iko Dragon",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1625"
+    },
+    {
+      "name": "Iazmilor",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3342"
+    },
+    {
+      "name": "Iblydan Hind",
+      "hp": 62,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3950"
+    },
+    {
+      "name": "Ilakni",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2510"
+    },
+    {
+      "name": "Jaggedbriar Hag",
+      "hp": 92,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2380"
+    },
+    {
+      "name": "Jaiban",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1465"
+    },
+    {
+      "name": "Jervis Stoot",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3354"
+    },
+    {
+      "name": "Jordus Munt",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3346"
+    },
+    {
+      "name": "K'nonna",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1434"
+    },
+    {
+      "name": "Kaava Stalker",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1436"
+    },
+    {
+      "name": "Kaleb Valdemar's Body",
+      "hp": 112,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3358"
+    },
+    {
+      "name": "Kannitri",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1455"
+    },
+    {
+      "name": "Karina",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1437"
+    },
+    {
+      "name": "Kasesh",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2409"
+    },
+    {
+      "name": "Kashrishi Evaluator",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2410"
+    },
+    {
+      "name": "Keribos",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3963"
+    },
+    {
+      "name": "Kilia Mwibo",
+      "hp": 345,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1665"
+    },
+    {
+      "name": "Kimilekki",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2138"
+    },
+    {
+      "name": "Kirosthrek",
+      "hp": 375,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2142"
+    },
+    {
+      "name": "Kobold Tunnelrunner",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1032"
+    },
+    {
+      "name": "Kreekoss",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1636"
+    },
+    {
+      "name": "Lava Spitter",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3960"
+    },
+    {
+      "name": "Leshy Mob",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3730"
+    },
+    {
+      "name": "Leviathan Louse",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3970"
+    },
+    {
+      "name": "Lickweed",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2381"
+    },
+    {
+      "name": "Living Statues",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3997"
+    },
+    {
+      "name": "Living-Sun Spire",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1706"
+    },
+    {
+      "name": "Maliadi",
+      "hp": 285,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1438"
+    },
+    {
+      "name": "Mamlambo",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1439"
+    },
+    {
+      "name": "Mammoth Squid",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3971"
+    },
+    {
+      "name": "Mammoth Turtle",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1458"
+    },
+    {
+      "name": "Mari Lwyd",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1027"
+    },
+    {
+      "name": "Merfolk Storm Singer",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3979"
+    },
+    {
+      "name": "Minargul",
+      "hp": 92,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3336"
+    },
+    {
+      "name": "Mindmoppet",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2503"
+    },
+    {
+      "name": "Mnoghoth",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3348"
+    },
+    {
+      "name": "Mpeshi",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1626"
+    },
+    {
+      "name": "Muckish Creep",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1400"
+    },
+    {
+      "name": "Mutant Gnoll Hulk",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2411"
+    },
+    {
+      "name": "Mutated Centaur",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3983"
+    },
+    {
+      "name": "Mutated Sewer Ooze",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1633"
+    },
+    {
+      "name": "Narlo Nyrell",
+      "hp": 136,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3360"
+    },
+    {
+      "name": "Nkiruka",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1709"
+    },
+    {
+      "name": "Ogmunzorius",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2506"
+    },
+    {
+      "name": "Ogre Hurler",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1031"
+    },
+    {
+      "name": "Old Man Statue",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1456"
+    },
+    {
+      "name": "Old Thornbarker",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3722"
+    },
+    {
+      "name": "Old Thrasher",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1634"
+    },
+    {
+      "name": "Painted Griffon",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3991"
+    },
+    {
+      "name": "Painted Landscape",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3975"
+    },
+    {
+      "name": "Painted Pontifex",
+      "hp": 138,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3974"
+    },
+    {
+      "name": "Painted Ram",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3973"
+    },
+    {
+      "name": "Painted Soldier",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3972"
+    },
+    {
+      "name": "Painted Soldier (Matte)",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3985"
+    },
+    {
+      "name": "Phytohydra",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3734"
+    },
+    {
+      "name": "Phytomancer Ghost",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3724"
+    },
+    {
+      "name": "Planar Terra-Cotta Soldier",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1469"
+    },
+    {
+      "name": "Planar Terra-Cotta Squadron",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1470"
+    },
+    {
+      "name": "Primal Warden of Zibik",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3720"
+    },
+    {
+      "name": "Protosoul",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2513"
+    },
+    {
+      "name": "Pygmy Kaava",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1435"
+    },
+    {
+      "name": "Pyrefowl",
+      "hp": 24,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3951"
+    },
+    {
+      "name": "Pyrkaion",
+      "hp": 132,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3954"
+    },
+    {
+      "name": "Quantium Golem",
+      "hp": 325,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2413"
+    },
+    {
+      "name": "Ratajin Mastermind",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2414"
+    },
+    {
+      "name": "Reaper Skull Puffball",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1381"
+    },
+    {
+      "name": "Reborn Devotee",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3726"
+    },
+    {
+      "name": "Reborn Sun Hunter",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1696"
+    },
+    {
+      "name": "Reborn Sun Mage",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1697"
+    },
+    {
+      "name": "Reborn Sun Warrior",
+      "hp": 245,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1698"
+    },
+    {
+      "name": "Redwood Leshy",
+      "hp": 205,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3731"
+    },
+    {
+      "name": "Ripnugget",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3337"
+    },
+    {
+      "name": "Riptide Octopus Swarm",
+      "hp": 14,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3947"
+    },
+    {
+      "name": "Rompo",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1440"
+    },
+    {
+      "name": "Root Rotter",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3779"
+    },
+    {
+      "name": "Rootridden",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3717"
+    },
+    {
+      "name": "Rt5rrmn",
+      "hp": 172,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3682"
+    },
+    {
+      "name": "Ruzadoya Swiftmane",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3736"
+    },
+    {
+      "name": "Sarvel Ever-Hunger",
+      "hp": 430,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2143"
+    },
+    {
+      "name": "Saurian Warmonger",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=977"
+    },
+    {
+      "name": "Saurian Worldwatcher",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=978"
+    },
+    {
+      "name": "Scarhorn",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3359"
+    },
+    {
+      "name": "Serpentfolk Granitescale",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1627"
+    },
+    {
+      "name": "Serpentfolk Venom Caller",
+      "hp": 105,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1628"
+    },
+    {
+      "name": "Sicklefang Longlegs",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3366"
+    },
+    {
+      "name": "Sié Goluo",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1441"
+    },
+    {
+      "name": "Sigbin",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1401"
+    },
+    {
+      "name": "Sinmold",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3780"
+    },
+    {
+      "name": "Skinskitter",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2408"
+    },
+    {
+      "name": "Solar Ibis",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1442"
+    },
+    {
+      "name": "Soul Swarm",
+      "hp": 234,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1702"
+    },
+    {
+      "name": "Spectral Devil",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3355"
+    },
+    {
+      "name": "Speiroikos",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3952"
+    },
+    {
+      "name": "Spellscar Fext",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2415"
+    },
+    {
+      "name": "Spitting Sawfly",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3727"
+    },
+    {
+      "name": "Statue Of Alaznist",
+      "hp": 54,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3331"
+    },
+    {
+      "name": "Stone Sister",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2098"
+    },
+    {
+      "name": "Sunburst Corpse",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1666"
+    },
+    {
+      "name": "Sylirican Phalanx",
+      "hp": 165,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3996"
+    },
+    {
+      "name": "Tamikan",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1464"
+    },
+    {
+      "name": "The Guest",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2507"
+    },
+    {
+      "name": "Thorn River Bandit",
+      "hp": 8,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2279"
+    },
+    {
+      "name": "Tiluatchek",
+      "hp": 221,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3357"
+    },
+    {
+      "name": "Timberweb",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3735"
+    },
+    {
+      "name": "Tithekeeper",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3781"
+    },
+    {
+      "name": "Torcheater",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3953"
+    },
+    {
+      "name": "Tulvak",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2387"
+    },
+    {
+      "name": "Tunch",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3334"
+    },
+    {
+      "name": "Tyrannosaurus Imperator",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1459"
+    },
+    {
+      "name": "Ugvashi",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2416"
+    },
+    {
+      "name": "Ungkore Bounty Hunter",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3994"
+    },
+    {
+      "name": "Urdefhan Blood Mage",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1390"
+    },
+    {
+      "name": "Urdefhan Death Scout",
+      "hp": 92,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1388"
+    },
+    {
+      "name": "Urdefhan Lasher",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1389"
+    },
+    {
+      "name": "Vavakia",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=976"
+    },
+    {
+      "name": "Vengeful Shade",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3986"
+    },
+    {
+      "name": "Viskithrel",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=981"
+    },
+    {
+      "name": "Vizmivool",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3352"
+    },
+    {
+      "name": "Watchtower Poltergeist",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1461"
+    },
+    {
+      "name": "Watchtower Shadow",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1462"
+    },
+    {
+      "name": "Watchtower Wraith",
+      "hp": 285,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1463"
+    },
+    {
+      "name": "Wolgur Wrabs",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3333"
+    },
+    {
+      "name": "Woodweave Caterpillar",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3721"
+    },
+    {
+      "name": "Xae",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2378"
+    },
+    {
+      "name": "Xulgath Thoughtmaw",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=982"
+    },
+    {
+      "name": "Yaiafineti",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2504"
+    },
+    {
+      "name": "Zalavexus",
+      "hp": 148,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3349"
+    },
+    {
+      "name": "Zibik",
+      "hp": 525,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3737"
+    },
+    {
+      "name": "Zinba",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1443"
+    },
+    {
+      "name": "Ziondriel",
+      "hp": 154,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3347"
+    },
+    {
+      "name": "Ziradnini",
+      "hp": 137,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3343"
+    },
+    {
+      "name": "Zoog",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3367"
+    },
+    {
+      "name": "Zoog Swarm",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3368"
+    }
+  ]
+}

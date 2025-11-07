@@ -1,0 +1,24 @@
+{
+  "id": "adventures-princes-of-the-apocalypse",
+  "name": "Adventures (Princes of the Apocalypse)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Imix",
+      "hp": 325
+    },
+    {
+      "name": "Ogremoch",
+      "hp": 526
+    },
+    {
+      "name": "Olhydra",
+      "hp": 324
+    },
+    {
+      "name": "Yan C Bin",
+      "hp": 283
+    }
+  ]
+}

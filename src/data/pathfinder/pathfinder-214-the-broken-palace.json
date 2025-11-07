@@ -1,0 +1,58 @@
+{
+  "id": "pathfinder-214-the-broken-palace",
+  "name": "Pathfinder #214: The Broken Palace",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Creeping Clot",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3871"
+    },
+    {
+      "name": "Dero Punk",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3859"
+    },
+    {
+      "name": "Fogfisher",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3873"
+    },
+    {
+      "name": "Fulthrethu",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3870"
+    },
+    {
+      "name": "Grusk The Pusk",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3863"
+    },
+    {
+      "name": "Kalakaigh",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3872"
+    },
+    {
+      "name": "Morlock Thrall",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3866"
+    },
+    {
+      "name": "Vampire Nettle",
+      "hp": 36,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3874"
+    },
+    {
+      "name": "Vinn Karskell",
+      "hp": 93,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3864"
+    },
+    {
+      "name": "Viper Bat",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3875"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "shining-kingdoms",
+  "name": "Shining Kingdoms",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aurosrath",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3798"
+    },
+    {
+      "name": "Beiran Frosthunt",
+      "hp": 54,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3809"
+    },
+    {
+      "name": "Bibliodaemon",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3810"
+    },
+    {
+      "name": "Corbayrant",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3822"
+    },
+    {
+      "name": "Failed Prophet",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3811"
+    },
+    {
+      "name": "Goldpebble",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3816"
+    },
+    {
+      "name": "Lamp Blighter",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3817"
+    },
+    {
+      "name": "Shroudwing",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3818"
+    },
+    {
+      "name": "Torn Quartet",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3819"
+    },
+    {
+      "name": "Vorvorak",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3820"
+    },
+    {
+      "name": "Walcofinde",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3821"
+    }
+  ]
+}

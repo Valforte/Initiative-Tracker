@@ -1,0 +1,104 @@
+{
+  "id": "essentials-kit",
+  "name": "Essentials Kit",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Expert Lvl 1",
+      "hp": 11
+    },
+    {
+      "name": "Expert Lvl 2",
+      "hp": 16
+    },
+    {
+      "name": "Expert Lvl 3",
+      "hp": 22
+    },
+    {
+      "name": "Expert Lvl 4",
+      "hp": 27
+    },
+    {
+      "name": "Expert Lvl 5",
+      "hp": 33
+    },
+    {
+      "name": "Expert Lvl 6",
+      "hp": 38
+    },
+    {
+      "name": "Spellcaster Healer Lvl 1",
+      "hp": 9
+    },
+    {
+      "name": "Spellcaster Healer Lvl 2",
+      "hp": 13
+    },
+    {
+      "name": "Spellcaster Healer Lvl 3",
+      "hp": 18
+    },
+    {
+      "name": "Spellcaster Healer Lvl 4",
+      "hp": 22
+    },
+    {
+      "name": "Spellcaster Healer Lvl 5",
+      "hp": 27
+    },
+    {
+      "name": "Spellcaster Healer Lvl 6",
+      "hp": 31
+    },
+    {
+      "name": "Spellcaster Mage Lvl 1",
+      "hp": 9
+    },
+    {
+      "name": "Spellcaster Mage Lvl 2",
+      "hp": 13
+    },
+    {
+      "name": "Spellcaster Mage Lvl 3",
+      "hp": 18
+    },
+    {
+      "name": "Spellcaster Mage Lvl 4",
+      "hp": 22
+    },
+    {
+      "name": "Spellcaster Mage Lvl 5",
+      "hp": 27
+    },
+    {
+      "name": "Spellcaster Mage Lvl 6",
+      "hp": 31
+    },
+    {
+      "name": "Warrior Lvl 1",
+      "hp": 13
+    },
+    {
+      "name": "Warrior Lvl 2",
+      "hp": 19
+    },
+    {
+      "name": "Warrior Lvl 3",
+      "hp": 26
+    },
+    {
+      "name": "Warrior Lvl 4",
+      "hp": 32
+    },
+    {
+      "name": "Warrior Lvl 5",
+      "hp": 39
+    },
+    {
+      "name": "Warrior Lvl 6",
+      "hp": 45
+    }
+  ]
+}

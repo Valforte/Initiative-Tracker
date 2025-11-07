@@ -1,0 +1,58 @@
+{
+  "id": "pathfinder-190-the-choosing",
+  "name": "Pathfinder #190: The Choosing",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bhanyada Behemoth",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2518"
+    },
+    {
+      "name": "Bhanyada Scavenger",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2516"
+    },
+    {
+      "name": "Bhanyada Swarm",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2517"
+    },
+    {
+      "name": "Ferrugon",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2519"
+    },
+    {
+      "name": "Harpy Warbird",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2552"
+    },
+    {
+      "name": "Hurlilu",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2521"
+    },
+    {
+      "name": "Kannijo",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2548"
+    },
+    {
+      "name": "Oppali",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2522"
+    },
+    {
+      "name": "Queen Kawlinawk",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2553"
+    },
+    {
+      "name": "Uniila",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2520"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "pathfinder-195-heavy-is-the-crown",
+  "name": "Pathfinder #195: Heavy is the Crown",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ashrin",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2716"
+    },
+    {
+      "name": "Hryngar Assassin",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2707"
+    },
+    {
+      "name": "Hryngar Breccia Squad",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2708"
+    },
+    {
+      "name": "Juvenile Cave Worm",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2705"
+    },
+    {
+      "name": "Larval Cave Worm Brood",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2706"
+    },
+    {
+      "name": "Stoneriver",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2709"
+    },
+    {
+      "name": "Toilforged Sentinel",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2710"
+    }
+  ]
+}

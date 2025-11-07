@@ -1,0 +1,12 @@
+{
+  "id": "adventures-curse-of-strahd",
+  "name": "Adventures (Curse of Strahd)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Strahd Von Zarovich",
+      "hp": 144
+    }
+  ]
+}

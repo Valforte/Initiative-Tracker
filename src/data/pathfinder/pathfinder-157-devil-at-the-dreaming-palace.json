@@ -1,0 +1,28 @@
+{
+  "id": "pathfinder-157-devil-at-the-dreaming-palace",
+  "name": "Pathfinder #157: Devil at the Dreaming Palace",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Binumir",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=985"
+    },
+    {
+      "name": "Pickled Punk",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2481"
+    },
+    {
+      "name": "Siege Shard",
+      "hp": 37,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=987"
+    },
+    {
+      "name": "Zrukbat",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=988"
+    }
+  ]
+}

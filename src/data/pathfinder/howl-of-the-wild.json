@@ -1,0 +1,388 @@
+{
+  "id": "howl-of-the-wild",
+  "name": "Howl of the Wild",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Alicorn",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3320"
+    },
+    {
+      "name": "Almiraj",
+      "hp": 63,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3253"
+    },
+    {
+      "name": "Apothecary Bee",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3254"
+    },
+    {
+      "name": "Ascendant Griffon",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3287"
+    },
+    {
+      "name": "Barded Manticore",
+      "hp": 440,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3300"
+    },
+    {
+      "name": "Blooming Guardian",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3256"
+    },
+    {
+      "name": "Carnotaurus",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3263"
+    },
+    {
+      "name": "Chaos Falcon",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3270"
+    },
+    {
+      "name": "Concert Frog",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3281"
+    },
+    {
+      "name": "Crying Cicada",
+      "hp": 48,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3258"
+    },
+    {
+      "name": "Decapod Dinghy",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3259"
+    },
+    {
+      "name": "Desert Manticore",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3299"
+    },
+    {
+      "name": "Drthak",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3268"
+    },
+    {
+      "name": "Fangtooth School",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3276"
+    },
+    {
+      "name": "Flynkett",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3279"
+    },
+    {
+      "name": "Ghost Ape",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3272"
+    },
+    {
+      "name": "Giant Coppermouth",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3283"
+    },
+    {
+      "name": "Giant Fangtooth",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3278"
+    },
+    {
+      "name": "Giant Tardigrade",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3316"
+    },
+    {
+      "name": "Goblin Shark",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3307"
+    },
+    {
+      "name": "Greater Chimera",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3257"
+    },
+    {
+      "name": "Harbor Seal",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3305"
+    },
+    {
+      "name": "Hardhead Mole",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3288"
+    },
+    {
+      "name": "Heliocoprion",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3308"
+    },
+    {
+      "name": "Hexmoth",
+      "hp": 105,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3290"
+    },
+    {
+      "name": "Hexworm",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3289"
+    },
+    {
+      "name": "Holdfast",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3291"
+    },
+    {
+      "name": "Hooplamander",
+      "hp": 78,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3292"
+    },
+    {
+      "name": "Karkadann",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3318"
+    },
+    {
+      "name": "Leopard Seal",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3306"
+    },
+    {
+      "name": "Lightning Turtle",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3284"
+    },
+    {
+      "name": "Magnegor",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3297"
+    },
+    {
+      "name": "Magnetic Gecko",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3282"
+    },
+    {
+      "name": "Majungasaurus",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3262"
+    },
+    {
+      "name": "Mammoth Land Star",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3298"
+    },
+    {
+      "name": "Marp",
+      "hp": 48,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3301"
+    },
+    {
+      "name": "Mirror Wolf",
+      "hp": 117,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3312"
+    },
+    {
+      "name": "Mist Bear",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3273"
+    },
+    {
+      "name": "Mjolgat",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3302"
+    },
+    {
+      "name": "Mocking Chorus",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3296"
+    },
+    {
+      "name": "Morthak",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3267"
+    },
+    {
+      "name": "Pale Horse",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3319"
+    },
+    {
+      "name": "Plated Python",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3286"
+    },
+    {
+      "name": "Prismhydra",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3295"
+    },
+    {
+      "name": "Protoceratops",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3261"
+    },
+    {
+      "name": "Rift Chameleon",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3271"
+    },
+    {
+      "name": "Royal Basilisk",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3255"
+    },
+    {
+      "name": "Rumindrol",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3303"
+    },
+    {
+      "name": "Scroungefeather",
+      "hp": 76,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3304"
+    },
+    {
+      "name": "Shotalashu",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3309"
+    },
+    {
+      "name": "Sky Fisher",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3310"
+    },
+    {
+      "name": "Soniphak",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3269"
+    },
+    {
+      "name": "Sporeback Frog",
+      "hp": 94,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3280"
+    },
+    {
+      "name": "Stargut Hydra",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3293"
+    },
+    {
+      "name": "Stonefish",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3274"
+    },
+    {
+      "name": "Stonefish Swarm",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3275"
+    },
+    {
+      "name": "Stony Bat",
+      "hp": 48,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3285"
+    },
+    {
+      "name": "Stony Goat",
+      "hp": 28,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3313"
+    },
+    {
+      "name": "Storm Snake",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3314"
+    },
+    {
+      "name": "Sunscale Serpent",
+      "hp": 251,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3311"
+    },
+    {
+      "name": "Swordfish",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3277"
+    },
+    {
+      "name": "Taldan Cave Squirrel",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3315"
+    },
+    {
+      "name": "Tardigrade Swarm",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3317"
+    },
+    {
+      "name": "Therizinosaurus",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3264"
+    },
+    {
+      "name": "Thruneosaurus Rex",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3266"
+    },
+    {
+      "name": "Titanosaur",
+      "hp": 370,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3265"
+    },
+    {
+      "name": "Troodon",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3260"
+    },
+    {
+      "name": "Tyrafdir",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3294"
+    },
+    {
+      "name": "Vibrant Pup Swarm",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3321"
+    },
+    {
+      "name": "Virtuosic Lyrebird",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3322"
+    },
+    {
+      "name": "Warden of Caverns and Burrows",
+      "hp": 500,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3325"
+    },
+    {
+      "name": "Warden of Forests and Meadows",
+      "hp": 435,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3326"
+    },
+    {
+      "name": "Warden of Ocean and Rivers",
+      "hp": 540,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3327"
+    },
+    {
+      "name": "Warden of Peaks and Skies",
+      "hp": 445,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3328"
+    },
+    {
+      "name": "Weremoose",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3323"
+    },
+    {
+      "name": "Wereshark",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3324"
+    }
+  ]
+}

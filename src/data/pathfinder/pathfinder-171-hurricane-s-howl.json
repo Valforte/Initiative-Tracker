@@ -1,0 +1,83 @@
+{
+  "id": "pathfinder-171-hurricane-s-howl",
+  "name": "Pathfinder #171: Hurricane's Howl",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bharlen Sajor",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1683"
+    },
+    {
+      "name": "Bog Mummy Amalgamation",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1681"
+    },
+    {
+      "name": "Boggard Hunter",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1685"
+    },
+    {
+      "name": "Cyclops Bully",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1690"
+    },
+    {
+      "name": "Golgopo",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1653"
+    },
+    {
+      "name": "Grouloop",
+      "hp": 185,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1684"
+    },
+    {
+      "name": "Halbrux Far-Sight",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1693"
+    },
+    {
+      "name": "Ixamè",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1682"
+    },
+    {
+      "name": "Karumzek",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1654"
+    },
+    {
+      "name": "Karumzek Swarm",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1655"
+    },
+    {
+      "name": "Screaming Sulfur",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1659"
+    },
+    {
+      "name": "Ssumzili",
+      "hp": 201,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1660"
+    },
+    {
+      "name": "Terwa Chosen",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1658"
+    },
+    {
+      "name": "Terwa Prodigy",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1656"
+    },
+    {
+      "name": "Terwa Star Reader",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1657"
+    }
+  ]
+}

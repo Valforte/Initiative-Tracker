@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-146-cult-of-cinders",
+  "name": "Pathfinder #146: Cult of Cinders",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Belmazog",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1546"
+    },
+    {
+      "name": "Bida",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=440"
+    },
+    {
+      "name": "Charau-ka Dragon Priest",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1545"
+    },
+    {
+      "name": "Grippli Archer",
+      "hp": 44,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=448"
+    },
+    {
+      "name": "Grippli Greenspeaker",
+      "hp": 71,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=449"
+    },
+    {
+      "name": "Living Sap",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=451"
+    }
+  ]
+}

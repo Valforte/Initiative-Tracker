@@ -1,0 +1,98 @@
+{
+  "id": "pathfinder-155-lord-of-the-black-sands",
+  "name": "Pathfinder #155: Lord of the Black Sands",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ammut",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=872"
+    },
+    {
+      "name": "Ararda",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=874"
+    },
+    {
+      "name": "Death Drider",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2130"
+    },
+    {
+      "name": "Dyzallin Shraen",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2133"
+    },
+    {
+      "name": "Hollow Hush",
+      "hp": 355,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2131"
+    },
+    {
+      "name": "Iffdahsil",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=876"
+    },
+    {
+      "name": "Muurfeli",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=873"
+    },
+    {
+      "name": "Obsidian Golem",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=875"
+    },
+    {
+      "name": "Qormintur",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2135"
+    },
+    {
+      "name": "Raptor Guard",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2128"
+    },
+    {
+      "name": "Shraen Graveknight",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2132"
+    },
+    {
+      "name": "Urdefhan Dominator",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=879"
+    },
+    {
+      "name": "Urdefhan High Tormentor",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=877"
+    },
+    {
+      "name": "Urdefhan Hunter",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=878"
+    },
+    {
+      "name": "Vitalia",
+      "hp": 425,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=880"
+    },
+    {
+      "name": "War Champion Kharostan",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2134"
+    },
+    {
+      "name": "Xulgath Deepmouth",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=881"
+    },
+    {
+      "name": "Zinogyvaz",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2129"
+    }
+  ]
+}

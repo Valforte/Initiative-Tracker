@@ -1,0 +1,540 @@
+{
+  "id": "mordenkainen-s-tome-of-foes",
+  "name": "Mordenkainen's Tome of Foes",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Adult Kruthik",
+      "hp": 39
+    },
+    {
+      "name": "Adult Oblex",
+      "hp": 75
+    },
+    {
+      "name": "Air Elemental Myrmidon",
+      "hp": 117
+    },
+    {
+      "name": "Alkilith",
+      "hp": 157
+    },
+    {
+      "name": "Allip",
+      "hp": 40
+    },
+    {
+      "name": "Amnizu",
+      "hp": 202
+    },
+    {
+      "name": "Armanite",
+      "hp": 84
+    },
+    {
+      "name": "Astral Dreadnought",
+      "hp": 297
+    },
+    {
+      "name": "Autumn Eladrin",
+      "hp": 127
+    },
+    {
+      "name": "Bael",
+      "hp": 189
+    },
+    {
+      "name": "Balhannoth",
+      "hp": 114
+    },
+    {
+      "name": "Baphomet",
+      "hp": 275
+    },
+    {
+      "name": "Berbalang",
+      "hp": 38
+    },
+    {
+      "name": "Black Abishai",
+      "hp": 58
+    },
+    {
+      "name": "Blue Abishai",
+      "hp": 195
+    },
+    {
+      "name": "Boneclaw",
+      "hp": 127
+    },
+    {
+      "name": "Bulezau",
+      "hp": 52
+    },
+    {
+      "name": "Cadaver Collector",
+      "hp": 189
+    },
+    {
+      "name": "Canoloth",
+      "hp": 120
+    },
+    {
+      "name": "Choker",
+      "hp": 13
+    },
+    {
+      "name": "Corpse Flower",
+      "hp": 127
+    },
+    {
+      "name": "Deathlock",
+      "hp": 36
+    },
+    {
+      "name": "Deathlock Mastermind",
+      "hp": 110
+    },
+    {
+      "name": "Deathlock Wight",
+      "hp": 37
+    },
+    {
+      "name": "Demogorgon",
+      "hp": 406
+    },
+    {
+      "name": "Derro",
+      "hp": 13
+    },
+    {
+      "name": "Derro Savant",
+      "hp": 36
+    },
+    {
+      "name": "Dhergoloth",
+      "hp": 119
+    },
+    {
+      "name": "Dire Troll",
+      "hp": 172
+    },
+    {
+      "name": "Drow Arachnomancer",
+      "hp": 162
+    },
+    {
+      "name": "Drow Favored Consort",
+      "hp": 225
+    },
+    {
+      "name": "Drow House Captain",
+      "hp": 162
+    },
+    {
+      "name": "Drow Inquisitor",
+      "hp": 143
+    },
+    {
+      "name": "Drow Matron Mother",
+      "hp": 262
+    },
+    {
+      "name": "Drow Shadowblade",
+      "hp": 150
+    },
+    {
+      "name": "Duergar Despot",
+      "hp": 119
+    },
+    {
+      "name": "Duergar Kavalrachni",
+      "hp": 26
+    },
+    {
+      "name": "Duergar Mind Master",
+      "hp": 39
+    },
+    {
+      "name": "Duergar Soulblade",
+      "hp": 18
+    },
+    {
+      "name": "Duergar Stone Guard",
+      "hp": 39
+    },
+    {
+      "name": "Duergar Warlord",
+      "hp": 75
+    },
+    {
+      "name": "Duergar Xarrorn",
+      "hp": 26
+    },
+    {
+      "name": "Dybbuk",
+      "hp": 37
+    },
+    {
+      "name": "Earth Elemental Myrmidon",
+      "hp": 127
+    },
+    {
+      "name": "Eidolon",
+      "hp": 63
+    },
+    {
+      "name": "Elder Oblex",
+      "hp": 115
+    },
+    {
+      "name": "Elder Tempest",
+      "hp": 264
+    },
+    {
+      "name": "Female Steeder",
+      "hp": 30
+    },
+    {
+      "name": "Fire Elemental Myrmidon",
+      "hp": 123
+    },
+    {
+      "name": "Fraz Urb Luu",
+      "hp": 337
+    },
+    {
+      "name": "Frost Salamander",
+      "hp": 168
+    },
+    {
+      "name": "Geryon",
+      "hp": 300
+    },
+    {
+      "name": "Giff",
+      "hp": 60
+    },
+    {
+      "name": "Githyanki Gish",
+      "hp": 123
+    },
+    {
+      "name": "Githyanki Kith  Rak",
+      "hp": 180
+    },
+    {
+      "name": "Githyanki Supreme Commander",
+      "hp": 187
+    },
+    {
+      "name": "Githzerai Anarch",
+      "hp": 144
+    },
+    {
+      "name": "Githzerai Enlightned",
+      "hp": 112
+    },
+    {
+      "name": "Gloom Weaver",
+      "hp": 104
+    },
+    {
+      "name": "Gray Render",
+      "hp": 189
+    },
+    {
+      "name": "Graz Zt",
+      "hp": 346
+    },
+    {
+      "name": "Green Abishai",
+      "hp": 187
+    },
+    {
+      "name": "Hellfire Engine",
+      "hp": 216
+    },
+    {
+      "name": "Howler",
+      "hp": 90
+    },
+    {
+      "name": "Hutijin",
+      "hp": 200
+    },
+    {
+      "name": "Hydroloth",
+      "hp": 135
+    },
+    {
+      "name": "Iron Cobra",
+      "hp": 45
+    },
+    {
+      "name": "Juiblex",
+      "hp": 350
+    },
+    {
+      "name": "Kruthik Hive Lord",
+      "hp": 102
+    },
+    {
+      "name": "Leviathan",
+      "hp": 328
+    },
+    {
+      "name": "Male Steeder",
+      "hp": 13
+    },
+    {
+      "name": "Marut",
+      "hp": 432
+    },
+    {
+      "name": "Maurezhi",
+      "hp": 88
+    },
+    {
+      "name": "Meazel",
+      "hp": 35
+    },
+    {
+      "name": "Merregon",
+      "hp": 45
+    },
+    {
+      "name": "Merrenoloth",
+      "hp": 40
+    },
+    {
+      "name": "Moloch",
+      "hp": 253
+    },
+    {
+      "name": "Molydeus",
+      "hp": 216
+    },
+    {
+      "name": "Nabassu",
+      "hp": 190
+    },
+    {
+      "name": "Nagpa",
+      "hp": 187
+    },
+    {
+      "name": "Narzugon",
+      "hp": 112
+    },
+    {
+      "name": "Nightwalker",
+      "hp": 297
+    },
+    {
+      "name": "Nupperibo",
+      "hp": 11
+    },
+    {
+      "name": "Oblex Spawn",
+      "hp": 18
+    },
+    {
+      "name": "Ogre Battering Ram",
+      "hp": 59
+    },
+    {
+      "name": "Ogre Bolt Launcher",
+      "hp": 59
+    },
+    {
+      "name": "Ogre Chain Brute",
+      "hp": 59
+    },
+    {
+      "name": "Ogre Howdah",
+      "hp": 59
+    },
+    {
+      "name": "Oinoloth",
+      "hp": 126
+    },
+    {
+      "name": "Orcus",
+      "hp": 405
+    },
+    {
+      "name": "Orthon",
+      "hp": 105
+    },
+    {
+      "name": "Phoenix",
+      "hp": 175
+    },
+    {
+      "name": "Red Abishai",
+      "hp": 255
+    },
+    {
+      "name": "Retriever",
+      "hp": 210
+    },
+    {
+      "name": "Rot Troll",
+      "hp": 138
+    },
+    {
+      "name": "Rutterkin",
+      "hp": 37
+    },
+    {
+      "name": "Shadow Dancer",
+      "hp": 71
+    },
+    {
+      "name": "Sibriex",
+      "hp": 150
+    },
+    {
+      "name": "Skulk",
+      "hp": 18
+    },
+    {
+      "name": "Skull Lord",
+      "hp": 105
+    },
+    {
+      "name": "Soul Monger",
+      "hp": 123
+    },
+    {
+      "name": "Spirit Troll",
+      "hp": 97
+    },
+    {
+      "name": "Spring Eladrin",
+      "hp": 127
+    },
+    {
+      "name": "Star Spawn Grue",
+      "hp": 17
+    },
+    {
+      "name": "Star Spawn Hulk",
+      "hp": 136
+    },
+    {
+      "name": "Star Spawn Larva Mage",
+      "hp": 168
+    },
+    {
+      "name": "Star Spawn Mangler",
+      "hp": 71
+    },
+    {
+      "name": "Star Spawn Seer",
+      "hp": 153
+    },
+    {
+      "name": "Steel Predator",
+      "hp": 207
+    },
+    {
+      "name": "Stone Cursed",
+      "hp": 19
+    },
+    {
+      "name": "Summer Eladrin",
+      "hp": 127
+    },
+    {
+      "name": "Sword Wraith Commander",
+      "hp": 127
+    },
+    {
+      "name": "Sword Wraith Warrior",
+      "hp": 45
+    },
+    {
+      "name": "The Angry",
+      "hp": 255
+    },
+    {
+      "name": "The Hungry",
+      "hp": 225
+    },
+    {
+      "name": "The Lonely",
+      "hp": 112
+    },
+    {
+      "name": "The Lost",
+      "hp": 78
+    },
+    {
+      "name": "The Wretched",
+      "hp": 10
+    },
+    {
+      "name": "Titivilus",
+      "hp": 127
+    },
+    {
+      "name": "Tortle",
+      "hp": 22
+    },
+    {
+      "name": "Tortle Druid",
+      "hp": 33
+    },
+    {
+      "name": "Vampiric Mist",
+      "hp": 30
+    },
+    {
+      "name": "Venom Troll",
+      "hp": 94
+    },
+    {
+      "name": "Wastrilith",
+      "hp": 157
+    },
+    {
+      "name": "Water Elemental Myrmidon",
+      "hp": 127
+    },
+    {
+      "name": "White Abishai",
+      "hp": 68
+    },
+    {
+      "name": "Winter Eladrin",
+      "hp": 127
+    },
+    {
+      "name": "Yagnoloth",
+      "hp": 147
+    },
+    {
+      "name": "Yeenoghu",
+      "hp": 333
+    },
+    {
+      "name": "Young Kruthik",
+      "hp": 9
+    },
+    {
+      "name": "Zaratan",
+      "hp": 307
+    },
+    {
+      "name": "Zariel",
+      "hp": 580
+    },
+    {
+      "name": "Zuggtmoy",
+      "hp": 304
+    }
+  ]
+}

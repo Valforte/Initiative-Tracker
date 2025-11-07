@@ -1,0 +1,23 @@
+{
+  "id": "pathfinder-160-assault-on-hunting-lodge-seven",
+  "name": "Pathfinder #160: Assault on Hunting Lodge Seven",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Clockwork Assassin",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1004"
+    },
+    {
+      "name": "Shatterling",
+      "hp": 305,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1006"
+    },
+    {
+      "name": "The Stabbing Beast",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1007"
+    }
+  ]
+}

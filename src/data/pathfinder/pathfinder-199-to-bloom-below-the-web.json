@@ -1,0 +1,48 @@
+{
+  "id": "pathfinder-199-to-bloom-below-the-web",
+  "name": "Pathfinder #199: To Bloom Below the Web",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Algriever",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2800"
+    },
+    {
+      "name": "Argyrzei",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2803"
+    },
+    {
+      "name": "False Governor",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2808"
+    },
+    {
+      "name": "Gurglegut",
+      "hp": 216,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2810"
+    },
+    {
+      "name": "Hong Meigui",
+      "hp": 128,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2809"
+    },
+    {
+      "name": "Imprecasia",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2802"
+    },
+    {
+      "name": "Path Maiden",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2805"
+    },
+    {
+      "name": "Shisagishin",
+      "hp": 214,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2804"
+    }
+  ]
+}

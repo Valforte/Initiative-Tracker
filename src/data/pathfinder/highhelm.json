@@ -1,0 +1,38 @@
+{
+  "id": "highhelm",
+  "name": "Highhelm",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Augdunar",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2596"
+    },
+    {
+      "name": "Draft Lizard",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2597"
+    },
+    {
+      "name": "Grand Defender",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2599"
+    },
+    {
+      "name": "Graul",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2600"
+    },
+    {
+      "name": "Pagulin",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2601"
+    },
+    {
+      "name": "The Bloodstorm",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2598"
+    }
+  ]
+}

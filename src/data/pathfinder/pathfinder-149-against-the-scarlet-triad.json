@@ -1,0 +1,43 @@
+{
+  "id": "pathfinder-149-against-the-scarlet-triad",
+  "name": "Pathfinder #149: Against the Scarlet Triad",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aluum Enforcer",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=476"
+    },
+    {
+      "name": "Crucidaemon",
+      "hp": 225,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=479"
+    },
+    {
+      "name": "Immortal Ichor",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=483"
+    },
+    {
+      "name": "Ishti",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1580"
+    },
+    {
+      "name": "Spiritbound Aluum",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=477"
+    },
+    {
+      "name": "Teyam Ishtori",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1584"
+    },
+    {
+      "name": "Xotanispawn",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=487"
+    }
+  ]
+}

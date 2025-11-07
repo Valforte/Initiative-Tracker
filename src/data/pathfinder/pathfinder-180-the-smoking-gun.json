@@ -1,0 +1,58 @@
+{
+  "id": "pathfinder-180-the-smoking-gun",
+  "name": "Pathfinder #180: The Smoking Gun",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Clockwork Buccaneer",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1980"
+    },
+    {
+      "name": "Clockwork Puppeteer",
+      "hp": 205,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1981"
+    },
+    {
+      "name": "Clockwork Shambler Horde",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1990"
+    },
+    {
+      "name": "Cranium Preserver",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1982"
+    },
+    {
+      "name": "Glass Elephant",
+      "hp": 245,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1991"
+    },
+    {
+      "name": "Mutant Bat",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1989"
+    },
+    {
+      "name": "Pyronite Ooze",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1983"
+    },
+    {
+      "name": "Shock Zombie",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1985"
+    },
+    {
+      "name": "Smog Wraith",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1984"
+    },
+    {
+      "name": "Viewslog",
+      "hp": 161,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1988"
+    }
+  ]
+}

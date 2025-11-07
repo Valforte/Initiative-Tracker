@@ -1,0 +1,68 @@
+{
+  "id": "pathfinder-187-the-seventh-arch",
+  "name": "Pathfinder #187: The Seventh Arch",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Amelekana",
+      "hp": 72,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2443"
+    },
+    {
+      "name": "Desa-Desa",
+      "hp": 34,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2444"
+    },
+    {
+      "name": "Immolis",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2447"
+    },
+    {
+      "name": "Kaneepo The Slim",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2450"
+    },
+    {
+      "name": "Kareq",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2448"
+    },
+    {
+      "name": "Leiko",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2452"
+    },
+    {
+      "name": "Oaksteward Enforcer",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2451"
+    },
+    {
+      "name": "Ocluai",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2446"
+    },
+    {
+      "name": "Quarry Construct",
+      "hp": 23,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2455"
+    },
+    {
+      "name": "Temagyr",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2445"
+    },
+    {
+      "name": "The Looksee Man",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2453"
+    },
+    {
+      "name": "Tree Fisher",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2454"
+    }
+  ]
+}

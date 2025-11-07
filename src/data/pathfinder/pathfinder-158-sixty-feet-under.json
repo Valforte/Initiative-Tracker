@@ -1,0 +1,58 @@
+{
+  "id": "pathfinder-158-sixty-feet-under",
+  "name": "Pathfinder #158: Sixty Feet Under",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bone Skipper Swarm",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=989"
+    },
+    {
+      "name": "Dreadsong Dancer",
+      "hp": 160,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=991"
+    },
+    {
+      "name": "Frefferth",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2489"
+    },
+    {
+      "name": "Giant Bone Skipper",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=990"
+    },
+    {
+      "name": "Najra Lizard",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=993"
+    },
+    {
+      "name": "Ofalth Zombie",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2491"
+    },
+    {
+      "name": "Tenome",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=995"
+    },
+    {
+      "name": "Teraphant",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=996"
+    },
+    {
+      "name": "Tyrroicese",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2490"
+    },
+    {
+      "name": "Vaultbreaker Ooze",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=997"
+    }
+  ]
+}

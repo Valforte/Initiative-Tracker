@@ -1,0 +1,23 @@
+{
+  "id": "the-fall-of-plaguestone",
+  "name": "The Fall of Plaguestone",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Blood Ooze",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=429"
+    },
+    {
+      "name": "Bloodlash Bush",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=427"
+    },
+    {
+      "name": "Vine Lasher",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=428"
+    }
+  ]
+}

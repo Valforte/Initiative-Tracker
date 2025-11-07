@@ -1,0 +1,78 @@
+{
+  "id": "pathfinder-152-legacy-of-the-lost-god",
+  "name": "Pathfinder #152: Legacy of the Lost God",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Adrivallo",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2021"
+    },
+    {
+      "name": "Bogey",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=507"
+    },
+    {
+      "name": "Bogeyman",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=509"
+    },
+    {
+      "name": "Bugaboo",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=508"
+    },
+    {
+      "name": "Chimpanzee Visitant",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=512"
+    },
+    {
+      "name": "Gluttondark Babau",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2017"
+    },
+    {
+      "name": "Iridescent Elephant",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=510"
+    },
+    {
+      "name": "Lion Visitant",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=513"
+    },
+    {
+      "name": "Muse Phantom",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=511"
+    },
+    {
+      "name": "Ulthadar",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2026"
+    },
+    {
+      "name": "Xulgath Demon-Caller",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2018"
+    },
+    {
+      "name": "Xulgath Mage",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2019"
+    },
+    {
+      "name": "Xulgath Spinesnapper",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=514"
+    },
+    {
+      "name": "Zuipnyrn",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=515"
+    }
+  ]
+}

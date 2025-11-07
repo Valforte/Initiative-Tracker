@@ -1,0 +1,78 @@
+{
+  "id": "pathfinder-176-lost-mammoth-valley",
+  "name": "Pathfinder #176: Lost Mammoth Valley",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bargott",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1780"
+    },
+    {
+      "name": "Beaver",
+      "hp": 8,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1771"
+    },
+    {
+      "name": "Bone Warrior",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1781"
+    },
+    {
+      "name": "Castoroides",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1772"
+    },
+    {
+      "name": "Crawling Hand Swarm",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1783"
+    },
+    {
+      "name": "Lagofir",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1777"
+    },
+    {
+      "name": "Long-Horned Bison",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1773"
+    },
+    {
+      "name": "Long-Horned Bison Beheaded",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1779"
+    },
+    {
+      "name": "Necrohusk",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1778"
+    },
+    {
+      "name": "Roru",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1774"
+    },
+    {
+      "name": "Skeletal Woolly Rhinoceros",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1782"
+    },
+    {
+      "name": "Venexus",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1793"
+    },
+    {
+      "name": "Venexus's Wyrmlings",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1790"
+    },
+    {
+      "name": "Zombie Mammoths",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1789"
+    }
+  ]
+}

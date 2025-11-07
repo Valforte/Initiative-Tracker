@@ -1,0 +1,123 @@
+{
+  "id": "pathfinder-154-siege-of-the-dinosaurs",
+  "name": "Pathfinder #154: Siege of the Dinosaurs",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Arskuva The Gnasher",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2124"
+    },
+    {
+      "name": "Aukashungi Swarm",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2122"
+    },
+    {
+      "name": "Brughadatch",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=528"
+    },
+    {
+      "name": "Doblagub",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=529"
+    },
+    {
+      "name": "Faceless Butcher",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=530"
+    },
+    {
+      "name": "Gahlepod",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=527"
+    },
+    {
+      "name": "Giant Aukashungi",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=526"
+    },
+    {
+      "name": "Harrow Doll",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=531"
+    },
+    {
+      "name": "Helg Eats-The-Eaters",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2125"
+    },
+    {
+      "name": "Lyrt Cozurn",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2119"
+    },
+    {
+      "name": "Qurashith",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=532"
+    },
+    {
+      "name": "Sodden Sentinel",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2115"
+    },
+    {
+      "name": "Starved Staff",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2113"
+    },
+    {
+      "name": "Tallow Ooze",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=533"
+    },
+    {
+      "name": "The Vanish Man",
+      "hp": 265,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2121"
+    },
+    {
+      "name": "War Sauropelta",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2120"
+    },
+    {
+      "name": "Wight Cultist",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2116"
+    },
+    {
+      "name": "Xilvirek",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=534"
+    },
+    {
+      "name": "Xulgath Gutrager",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=535"
+    },
+    {
+      "name": "Xulgath Hardscale",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2123"
+    },
+    {
+      "name": "Xulgath Herd-Tender",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2112"
+    },
+    {
+      "name": "Xulgath Roughrider",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2114"
+    },
+    {
+      "name": "Zashathal Head-Taker",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2127"
+    }
+  ]
+}

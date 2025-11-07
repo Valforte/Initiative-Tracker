@@ -1,0 +1,93 @@
+{
+  "id": "pathfinder-186-ghost-king-s-rage",
+  "name": "Pathfinder #186: Ghost King's Rage",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Basiri, Wellspring Keeper",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2432"
+    },
+    {
+      "name": "Chancellor Kemnebi",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2441"
+    },
+    {
+      "name": "Drowned Mummy",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2420"
+    },
+    {
+      "name": "Ectoplasmic Amalgam",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2430"
+    },
+    {
+      "name": "Eseneth",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2422"
+    },
+    {
+      "name": "Ghiono",
+      "hp": 339,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2440"
+    },
+    {
+      "name": "Intellect Assemblage",
+      "hp": 355,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2419"
+    },
+    {
+      "name": "Matron Uldrula",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2442"
+    },
+    {
+      "name": "Necromancer Troop",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2434"
+    },
+    {
+      "name": "Seldeg Bheldis (Ghost King's Rage)",
+      "hp": 390,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2431"
+    },
+    {
+      "name": "Shabti Slayer",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2423"
+    },
+    {
+      "name": "Shabti Votary",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2424"
+    },
+    {
+      "name": "Shadow Worm",
+      "hp": 450,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2425"
+    },
+    {
+      "name": "Shoki",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2421"
+    },
+    {
+      "name": "Soul Slime",
+      "hp": 420,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2426"
+    },
+    {
+      "name": "Vanth Warrior",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2427"
+    },
+    {
+      "name": "Vice-Chancellor Vikroti Stroh",
+      "hp": 245,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2435"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "pathfinder-game-night-dawn-of-the-frogs-deluxe-adventure",
+  "name": "Pathfinder Game Night: Dawn of the Frogs (Deluxe Adventure)",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Boggard Guard",
+      "hp": 9,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4006"
+    },
+    {
+      "name": "Boggard Scout",
+      "hp": 24,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4000"
+    },
+    {
+      "name": "Giant Frog",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4008"
+    },
+    {
+      "name": "Giant Swamp Fly",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4002"
+    },
+    {
+      "name": "Hunting Spider",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4007"
+    },
+    {
+      "name": "Leather Cap",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4003"
+    },
+    {
+      "name": "Python",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4001"
+    },
+    {
+      "name": "Skeleton Guard",
+      "hp": 4,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4004"
+    },
+    {
+      "name": "Swamp Beetle",
+      "hp": 6,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3998"
+    },
+    {
+      "name": "Two Tusk",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=4005"
+    },
+    {
+      "name": "Young Monitor Lizard",
+      "hp": 24,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3999"
+    }
+  ]
+}

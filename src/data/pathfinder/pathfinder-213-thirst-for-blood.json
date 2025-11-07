@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-213-thirst-for-blood",
+  "name": "Pathfinder #213: Thirst for Blood",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Alzira Mustanir",
+      "hp": 36,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3857"
+    },
+    {
+      "name": "Batkin Guard",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3850"
+    },
+    {
+      "name": "Camazotz Cultist",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3856"
+    },
+    {
+      "name": "Lesser Shadow Scamp",
+      "hp": 10,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3854"
+    },
+    {
+      "name": "Vampire Servant",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3858"
+    },
+    {
+      "name": "Werebat Warrior",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3851"
+    }
+  ]
+}
