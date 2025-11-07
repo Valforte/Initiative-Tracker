@@ -120,10 +120,10 @@ class Combatant {
 }
 
 const defaultCombatants: Array<Combatant> = [
-    new Combatant("Yogo", 25, 4, 25, [], Visibility.Full, 0, 0),
-    new Combatant("Lesher", 19, 3, 19, [], Visibility.Full, 0, 0),
-    new Combatant("Croak", 18, 2, 18, [], Visibility.Full, 0, 0),
-    new Combatant("Drikk", 20, 1, 20, [], Visibility.Full, 0, 0),
+    new Combatant("Amiri", 22, 4, 22, [], Visibility.Full, 0, 0),
+    new Combatant("Lini", 18, 3, 18, [], Visibility.Full, 0, 0),
+    new Combatant("Ezren", 16, 2, 16, [], Visibility.Full, 0, 0),
+    new Combatant("Kyra", 16, 1, 16, [], Visibility.Full, 0, 0),
 ]
 
 function colorIsDark(bgColor: string): boolean {
