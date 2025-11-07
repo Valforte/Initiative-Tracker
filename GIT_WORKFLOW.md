@@ -103,7 +103,7 @@ DEPLOY JOB:
 Step 8: Deploy to GitHub Pages
    ↓ Publishes the built files to your live site
    ↓
-   🌐 Site is now live at: https://valforte.github.io/iniciative-tracker/
+   🌐 Site is now live at: https://valforte.github.io/initiative-tracker/
 ```
 
 **Purpose**: Automatically deploys your site when you're ready to release.
@@ -284,7 +284,7 @@ git push --force origin prod
    - **Deploy workflow** (runs only on prod)
 4. Click the latest "Deploy to GitHub Pages" run
 5. Watch the steps execute (takes ~2 min)
-6. When complete, visit: https://valforte.github.io/iniciative-tracker/
+6. When complete, visit: https://valforte.github.io/initiative-tracker/
 
 ---
 
@@ -330,7 +330,7 @@ git push --force origin prod
 │     └─ Deploy to GitHub Pages                          │
 │     ↓                                                    │
 │  9. 🌐 Site updates at:                                 │
-│     https://valforte.github.io/iniciative-tracker/      │
+│     https://valforte.github.io/initiative-tracker/      │
 │                                                          │
 └─────────────────────────────────────────────────────────┘
 ```

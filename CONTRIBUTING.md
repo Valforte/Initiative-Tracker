@@ -33,13 +33,13 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/iniciative-tracker.git
-   cd iniciative-tracker
+   git clone https://github.com/YOUR-USERNAME/initiative-tracker.git
+   cd initiative-tracker
    ```
 
 3. **Add upstream remote**:
    ```bash
-   git remote add upstream https://github.com/Valforte/iniciative-tracker.git
+   git remote add upstream https://github.com/Valforte/initiative-tracker.git
    ```
 
 4. **Install dependencies**:

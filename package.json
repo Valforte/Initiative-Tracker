@@ -1,5 +1,5 @@
 {
-  "name": "iniciative-tracker",
+  "name": "initiative-tracker",
   "private": false,
   "version": "1.0.0",
   "type": "module",
@@ -8,12 +8,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Valforte/iniciative-tracker.git"
+    "url": "https://github.com/Valforte/initiative-tracker.git"
   },
   "bugs": {
-    "url": "https://github.com/Valforte/iniciative-tracker/issues"
+    "url": "https://github.com/Valforte/initiative-tracker/issues"
   },
-  "homepage": "https://valforte.github.io/iniciative-tracker/",
+  "homepage": "https://valforte.github.io/initiative-tracker/",
   "keywords": [
     "pathfinder",
     "pathfinder-2e",

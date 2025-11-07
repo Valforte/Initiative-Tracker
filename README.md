@@ -1,13 +1,13 @@
 # 🎲 Pathfinder 2e Initiative Tracker
 
-![CI](https://github.com/Valforte/iniciative-tracker/workflows/CI/badge.svg)
-![License](https://img.shields.io/github/license/Valforte/iniciative-tracker)
-![Version](https://img.shields.io/github/package-json/v/Valforte/iniciative-tracker)
-![Stars](https://img.shields.io/github/stars/Valforte/iniciative-tracker?style=social)
+![CI](https://github.com/Valforte/initiative-tracker/workflows/CI/badge.svg)
+![License](https://img.shields.io/github/license/Valforte/initiative-tracker)
+![Version](https://img.shields.io/github/package-json/v/Valforte/initiative-tracker)
+![Stars](https://img.shields.io/github/stars/Valforte/initiative-tracker?style=social)
 
 A modern, themeable initiative tracker for Pathfinder 2e combat encounters with separate DM and player views. Built with Vue 3, TypeScript, and Tailwind CSS.
 
-**[🎮 Live Demo](https://valforte.github.io/iniciative-tracker/)**
+**[🎮 Live Demo](https://valforte.github.io/initiative-tracker/)**
 
 <!-- TODO: Add screenshot or animated GIF here
 Suggested content to showcase:
@@ -84,8 +84,8 @@ or
 
 ```bash
 # Clone the repository
-git clone https://github.com/Valforte/iniciative-tracker.git
-cd iniciative-tracker
+git clone https://github.com/Valforte/initiative-tracker.git
+cd initiative-tracker
 
 # Install dependencies
 pnpm install
@@ -191,7 +191,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter any issues or have suggestions:
-- Open an issue on [GitHub Issues](https://github.com/Valforte/iniciative-tracker/issues)
+- Open an issue on [GitHub Issues](https://github.com/Valforte/initiative-tracker/issues)
 - Check existing issues to avoid duplicates
 - Provide as much detail as possible (browser, steps to reproduce, screenshots)
 
