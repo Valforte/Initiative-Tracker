@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import {ref} from "vue";
+import {ref, computed} from "vue";
 import {colorIsDark, Combatant, Visibility} from "./functions.ts";
 import { Icon } from "@iconify/vue";
 import {useStorage} from "@vueuse/core";
@@ -14,16 +14,17 @@ import {
   PopoverRoot,
   PopoverTrigger
 } from "reka-ui";
-import {conditions} from "./db.ts";
+import {useConditions} from "./db.ts";
 import {useTranslations} from "./lang.ts";
 import HelpText from "./HelpText.vue";
 import HelpTextLine from "./HelpTextLine.vue";
 
 const { t, lang } = useTranslations()
+const conditions = computed(() => useConditions(lang.value))
 
 const props = defineProps<{
-  turn: Number,
-  combatants: Array<Combatant>
+  turn: number,
+  combatants: Combatant[]
 }>()
 
 const emit = defineEmits<{
@@ -96,12 +97,21 @@ function removeCombatant(i: number): void {
       >
         <td>
           <div class="flex justify-center gap-1">
-            <button class="btn btn-neutral btn-sm p-2" @click.left="() => combatant.changeVisibility(false)" @click.right.prevent="() => combatant.changeVisibility(true)">
+            <button
+              class="btn btn-neutral btn-sm p-2"
+              @click.left="() => combatant.changeVisibility(false)"
+              @click.right.prevent="() => combatant.changeVisibility(true)"
+              :aria-label="`Change visibility for ${combatant.name}`"
+            >
               <Icon v-if="combatant.visibility === Visibility.Full" icon="tabler:eye" height="24" />
               <Icon v-else-if="combatant.visibility === Visibility.Half" icon="tabler:eye-off" height="24" />
               <Icon v-else-if="combatant.visibility === Visibility.None" icon="tabler:eye-closed" height="24" />
             </button>
-            <button class="btn btn-error btn-sm p-2" @click="() => removeCombatant(i)">
+            <button
+              class="btn btn-error btn-sm p-2"
+              @click="() => removeCombatant(i)"
+              :aria-label="`Remove ${combatant.name}`"
+            >
               <Icon icon="tabler:trash" height="24" />
             </button>
           </div>
@@ -132,7 +142,11 @@ function removeCombatant(i: number): void {
             />
           </div>
           <div class="flex justify-center items-center gap-1 mt-1">
-            <button class="btn p-2 btn-error" @click="() => combatant.changeHP(-HPValue)">
+            <button
+              class="btn p-2 btn-error"
+              @click="() => combatant.changeHP(-HPValue)"
+              :aria-label="`Damage ${combatant.name}`"
+            >
               <Icon icon="tabler:minus" height="24" />
             </button>
             <button
@@ -150,34 +164,50 @@ function removeCombatant(i: number): void {
                   combatant.currentHP = combatant.totalHP;
                 }
               }"
+              :aria-label="`${combatant.name} HP: ${combatant.currentHP} of ${combatant.totalHP}`"
             >
               {{combatant.currentHP}}/{{combatant.totalHP}}
               <span v-if="combatant.maxTempHP > 0"> +{{combatant.tempHP}}/{{combatant.maxTempHP}}</span>
             </button>
-            <button class="btn btn-success p-2" @click="() => combatant.changeHP(HPValue)">
+            <button
+              class="btn btn-success p-2"
+              @click="() => combatant.changeHP(HPValue)"
+              :aria-label="`Heal ${combatant.name}`"
+            >
               <Icon icon="tabler:plus" height="24" />
             </button>
-            <button class="btn btn-info p-2" @click="() => combatant.addTempHP(HPValue)">
+            <button
+              class="btn btn-info p-2"
+              @click="() => combatant.addTempHP(HPValue)"
+              :aria-label="`Add temporary HP to ${combatant.name}`"
+            >
               <Icon icon="tabler:plus" height="24" />
             </button>
           </div>
         </td>
         <td>
-          <button class="btn btn-neutral p-2" @click="() => combatant.changeConditionValue()">
+          <button
+            class="btn btn-neutral p-2"
+            @click="() => combatant.changeConditionValue()"
+            :aria-label="`Reduce all conditions on ${combatant.name}`"
+          >
             <Icon icon="tabler:minus" height="24" />
           </button>
           <PopoverRoot :open="isConditionPopoverOpen[i]" @update:open="value => isConditionPopoverOpen[i] = value">
             <PopoverTrigger as-child>
-              <button class="btn btn-neutral p-2 mx-1">
+              <button
+                class="btn btn-neutral p-2 mx-1"
+                :aria-label="`Add condition to ${combatant.name}`"
+              >
                 <Icon icon="tabler:plus" height="24" />
               </button>
             </PopoverTrigger>
             <PopoverPortal>
-              <PopoverContent class="card w-80 bg-base-300 card-md shadow-l">
+              <PopoverContent class="card w-80 bg-base-300 card-md shadow-l" role="dialog" aria-label="Add condition">
                 <div class="card-body" @keydown.enter.prevent="() => addNewCondition(combatant, newConditionName, newConditionValue)">
                   <div class="grid grid-cols-3 items-center gap-4">
                     <Label for="newConditionName">{{t.dm_table.addConditionName}}</Label>
-                    <input id="newConditionName" tabindex="1" type="text" class="input col-span-2 h-8" list="conditions" v-model="newConditionName" />
+                    <input id="newConditionName" tabindex="1" type="text" class="input col-span-2 h-8" list="conditions" v-model="newConditionName" aria-label="Condition name" />
                   </div>
                   <div class="grid grid-cols-3 items-center gap-4">
                     <Label for="newConditionValue">{{t.dm_table.addConditionValue}}</Label>
@@ -216,7 +246,7 @@ function removeCombatant(i: number): void {
       </tbody>
     </table>
     <datalist id="conditions">
-      <option v-for="condition in conditions">{{condition['name_'+lang]}}</option>
+      <option v-for="(condition, key) in conditions" :key="key">{{condition.name}}</option>
     </datalist>
   </div>
 </template>

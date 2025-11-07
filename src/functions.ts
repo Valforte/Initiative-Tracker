@@ -1,9 +1,19 @@
+/**
+ * Visibility levels for combatants in the player view
+ * - None: Hidden from players, skipped during turn advancement
+ * - Half: Name and initiative visible, HP hidden
+ * - Full: All information visible including HP
+ */
 enum Visibility {
     None = 0,
     Half = 1,
     Full = 2,
 }
 
+/**
+ * Represents a status condition affecting a combatant
+ * Automatically generates a unique color based on the condition name
+ */
 class Condition {
     value: number
     color: string
@@ -15,6 +25,12 @@ class Condition {
         this.color = this._stringToColor(this.name)
     }
 
+    /**
+     * Generates a consistent hex color from a string using hash-based algorithm
+     * Uses the first word of the condition name to ensure consistency
+     * @param str - The condition name to convert to a color
+     * @returns Hex color string (e.g., "#a3c4f2")
+     */
     _stringToColor(str: string) {
         str = str.split(' ')[0]
         let hash = 0
@@ -30,6 +46,10 @@ class Condition {
     }
 }
 
+/**
+ * Represents a combatant in the initiative tracker
+ * Manages HP (including temporary HP), conditions, and visibility settings
+ */
 class Combatant {
     name: string
     currentHP: number
@@ -51,6 +71,13 @@ class Combatant {
         this.visibility = visibility
     }
 
+    /**
+     * Modifies combatant's HP following Pathfinder 2e rules
+     * Positive amounts heal (capped at totalHP)
+     * Negative amounts deal damage (temp HP absorbs first, then regular HP)
+     * Automatically resets maxTempHP tracking when temp HP reaches 0
+     * @param amount - HP change (positive for healing, negative for damage)
+     */
     public changeHP(amount: number = 1) {
         if (amount > 0) {
             // Healing adds to current HP (stops at max)
@@ -85,6 +112,11 @@ class Combatant {
         }
     }
 
+    /**
+     * Adds temporary HP to the combatant
+     * Tracks the maximum temporary HP value for display purposes
+     * @param amount - Amount of temporary HP to add (default: 1)
+     */
     public addTempHP(amount: number = 1) {
         this.tempHP += amount
         // Track the highest temp HP value
@@ -93,6 +125,12 @@ class Combatant {
         }
     }
 
+    /**
+     * Changes the visibility level of the combatant
+     * Left-click cycles between None and Half
+     * Right-click sets to Full
+     * @param setVisible - If true, sets to Full visibility (from right-click)
+     */
     public changeVisibility(setVisible: boolean = false) {
         if (setVisible) {
             this.visibility = Visibility.Full
@@ -101,6 +139,13 @@ class Combatant {
         this.visibility = (this.visibility + 1) % 2
     }
 
+    /**
+     * Modifies condition values for this combatant
+     * Can target a specific condition or all conditions
+     * Automatically removes conditions that reach 0
+     * @param condition - Specific condition to modify (optional, if omitted affects all)
+     * @param isIncrement - If true, increases value; if false, decreases value
+     */
     public changeConditionValue(condition?: Condition, isIncrement: boolean = false) {
         this.conditions.forEach(c => {
             if (condition) {
@@ -114,18 +159,34 @@ class Combatant {
         this.conditions = this.conditions.filter(condition => condition.value > 0)
     }
 
+    /**
+     * Adds a new condition to this combatant
+     * @param name - Name of the condition
+     * @param value - Initial value/stage of the condition (default: 1)
+     */
     public newCondition(name: string, value: number = 1) {
         this.conditions.push(new Condition(name, value))
     }
 }
 
+/**
+ * Default combatants shown on first load
+ * Uses iconic Pathfinder 2e characters from the Core Rulebook
+ */
 const defaultCombatants: Array<Combatant> = [
-    new Combatant("Yogo", 25, 4, 25, [], Visibility.Full, 0, 0),
-    new Combatant("Lesher", 19, 3, 19, [], Visibility.Full, 0, 0),
-    new Combatant("Croak", 18, 2, 18, [], Visibility.Full, 0, 0),
-    new Combatant("Drikk", 20, 1, 20, [], Visibility.Full, 0, 0),
+    new Combatant("Amiri", 22, 4, 22, [], Visibility.Full, 0, 0),
+    new Combatant("Lini", 18, 3, 18, [], Visibility.Full, 0, 0),
+    new Combatant("Ezren", 16, 2, 16, [], Visibility.Full, 0, 0),
+    new Combatant("Kyra", 16, 1, 16, [], Visibility.Full, 0, 0),
 ]
 
+/**
+ * Determines if a hex color should be considered "dark"
+ * Used to decide whether to use light or dark text on colored condition badges
+ * Uses weighted RGB formula (ITU-R BT.601)
+ * @param bgColor - Hex color string with or without # prefix
+ * @returns true if the color is dark (luminance <= 100)
+ */
 function colorIsDark(bgColor: string): boolean {
     let color = (bgColor.charAt(0) === '#') ? bgColor.substring(1, 7) : bgColor;
     let r = parseInt(color.substring(0, 2), 16); // hexToR

@@ -7,9 +7,9 @@ import {useTranslations} from "./lang.ts";
 const { t } = useTranslations()
 
 defineProps<{
-  turn: Number,
-  round: Number,
-  combatants: Array<Combatant>,
+  turn: number,
+  round: number,
+  combatants: Combatant[],
 }>()
 </script>
 

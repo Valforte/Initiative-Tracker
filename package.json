@@ -1,29 +1,60 @@
 {
-  "name": "iniciative-tracker",
-  "private": true,
-  "version": "0.0.0",
+  "name": "initiative-tracker",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "description": "A modern, themeable initiative tracker for Pathfinder 2e combat encounters with separate DM and player views",
+  "author": "Gabriel Valforte",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valforte/initiative-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Valforte/initiative-tracker/issues"
+  },
+  "homepage": "https://valforte.github.io/Initiative-Tracker/",
+  "keywords": [
+    "pathfinder",
+    "pathfinder-2e",
+    "initiative-tracker",
+    "combat-tracker",
+    "rpg",
+    "tabletop",
+    "vue3",
+    "typescript",
+    "dnd",
+    "ttrpg"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "type-check": "vue-tsc -b --noEmit"
+
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.8",
-    "@vueuse/core": "^13.3.0",
-    "reka-ui": "^2.3.1",
-    "tailwindcss": "^4.1.8",
-    "vue": "^3.5.13"
+    "@tailwindcss/vite": "^4.1.17",
+    "@vueuse/core": "14.0.0",
+    "reka-ui": "^2.6.0",
+    "tailwindcss": "^4.1.17",
+    "vue": "^3.5.24"
   },
   "devDependencies": {
     "@iconify/vue": "^5.0.0",
-    "@tailwindcss/typography": "^0.5.16",
-    "@vitejs/plugin-vue": "^5.2.3",
+    "@tailwindcss/typography": "^0.5.19",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitest/ui": "^4.0.8",
     "@vue/tsconfig": "^0.7.0",
-    "daisyui": "^5.0.43",
+    "daisyui": "^5.4.7",
+    "jsdom": "^27.1.0",
     "typescript": "~5.8.3",
-    "vite": "^6.3.5",
-    "vite-plugin-vue-devtools": "^7.7.6",
-    "vue-tsc": "^2.2.8"
+    "vite": "7.2.2",
+    "vite-plugin-vue-devtools": "^8.0.3",
+    "vitest": "^4.0.8",
+    "vue-tsc": "^3.1.3"
   }
 }

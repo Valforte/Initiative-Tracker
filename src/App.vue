@@ -20,7 +20,6 @@ const themes = ['light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate',
 const selectedTheme = useStorage('theme', 'dracula')
 
 function setTheme(theme: string): void {
-  console.log(theme);
   selectedTheme.value = theme
 }
 
