@@ -412,6 +412,11 @@ That's it! The robots (GitHub Actions) handle the testing and deployment for you
 - Check package.json has all deps
 - Try deleting node_modules and pnpm-lock.yaml, then pnpm install
 
+**Q: CI fails with "packages field missing or empty"?**
+- You have a `pnpm-workspace.yaml` file you don't need
+- This file is only for monorepos (multiple packages)
+- Solution: Delete `pnpm-workspace.yaml`
+
 ---
 
 Need help? Open an issue and show:
