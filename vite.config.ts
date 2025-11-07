@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue(), tailwindcss()],
   base: './',
   build: {
-    outDir: './docs'
+    cssMinify: 'esbuild', // Use esbuild instead of lightningcss to avoid @property warnings
   },
   test: {
     globals: true,
