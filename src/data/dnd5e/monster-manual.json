@@ -1,0 +1,268 @@
+{
+  "id": "monster-manual",
+  "name": "Monster Manual",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Abominable Yeti",
+      "hp": 137
+    },
+    {
+      "name": "Adult Blue Dracolich",
+      "hp": 225
+    },
+    {
+      "name": "Arcanaloth",
+      "hp": 104
+    },
+    {
+      "name": "Beholder",
+      "hp": 180
+    },
+    {
+      "name": "Beholder Zombie",
+      "hp": 93
+    },
+    {
+      "name": "Blue Slaad",
+      "hp": 123
+    },
+    {
+      "name": "Bone Naga",
+      "hp": 58
+    },
+    {
+      "name": "Bugbear Chief",
+      "hp": 65
+    },
+    {
+      "name": "Cambion",
+      "hp": 82
+    },
+    {
+      "name": "Carrion Crawler",
+      "hp": 51
+    },
+    {
+      "name": "Chasme",
+      "hp": 84
+    },
+    {
+      "name": "Death Knight",
+      "hp": 180
+    },
+    {
+      "name": "Death Slaad",
+      "hp": 170
+    },
+    {
+      "name": "Death Tyrant",
+      "hp": 187
+    },
+    {
+      "name": "Demilich",
+      "hp": 80
+    },
+    {
+      "name": "Displacer Beast",
+      "hp": 85
+    },
+    {
+      "name": "Drow Elite Warrior",
+      "hp": 71
+    },
+    {
+      "name": "Drow Priestress Of Lolth",
+      "hp": 71
+    },
+    {
+      "name": "Duodrone",
+      "hp": 11
+    },
+    {
+      "name": "Empyrean",
+      "hp": 313
+    },
+    {
+      "name": "Faerie Dragon",
+      "hp": 14
+    },
+    {
+      "name": "Flumph",
+      "hp": 7
+    },
+    {
+      "name": "Fomorian",
+      "hp": 149
+    },
+    {
+      "name": "Gas Spore",
+      "hp": 1
+    },
+    {
+      "name": "Githyanki Knight",
+      "hp": 91
+    },
+    {
+      "name": "Githyanki Warrior",
+      "hp": 49
+    },
+    {
+      "name": "Githzerai Monk",
+      "hp": 38
+    },
+    {
+      "name": "Githzerai Zerth",
+      "hp": 84
+    },
+    {
+      "name": "Gnoll Fang Of Yeenoghu",
+      "hp": 65
+    },
+    {
+      "name": "Goblin Boss",
+      "hp": 21
+    },
+    {
+      "name": "Goristro",
+      "hp": 310
+    },
+    {
+      "name": "Gray Slaad",
+      "hp": 127
+    },
+    {
+      "name": "Green Slaad",
+      "hp": 127
+    },
+    {
+      "name": "Grick Alpha",
+      "hp": 75
+    },
+    {
+      "name": "Hobgoblin Warlord",
+      "hp": 97
+    },
+    {
+      "name": "Intellect Devourer",
+      "hp": 21
+    },
+    {
+      "name": "Manes",
+      "hp": 9
+    },
+    {
+      "name": "Marid",
+      "hp": 229
+    },
+    {
+      "name": "Mind Flayer",
+      "hp": 71
+    },
+    {
+      "name": "Monodrone",
+      "hp": 5
+    },
+    {
+      "name": "Myconid Adult",
+      "hp": 22
+    },
+    {
+      "name": "Myconid Sovereign",
+      "hp": 60
+    },
+    {
+      "name": "Myconid Sprout",
+      "hp": 7
+    },
+    {
+      "name": "Needle Blight",
+      "hp": 11
+    },
+    {
+      "name": "Nothic",
+      "hp": 45
+    },
+    {
+      "name": "Orc War Chief",
+      "hp": 93
+    },
+    {
+      "name": "Pentadrone",
+      "hp": 32
+    },
+    {
+      "name": "Pixie",
+      "hp": 1
+    },
+    {
+      "name": "Quadrone",
+      "hp": 22
+    },
+    {
+      "name": "Quaggoth",
+      "hp": 45
+    },
+    {
+      "name": "Quaggoth Spore Servant",
+      "hp": 45
+    },
+    {
+      "name": "Red Slaad",
+      "hp": 93
+    },
+    {
+      "name": "Sahuagin Baron",
+      "hp": 76
+    },
+    {
+      "name": "Sahuagin Priestess",
+      "hp": 33
+    },
+    {
+      "name": "Scarecrow",
+      "hp": 36
+    },
+    {
+      "name": "Slaad Tadpole",
+      "hp": 10
+    },
+    {
+      "name": "Spectator",
+      "hp": 39
+    },
+    {
+      "name": "Spined Devil",
+      "hp": 22
+    },
+    {
+      "name": "Thri Kreen",
+      "hp": 33
+    },
+    {
+      "name": "Tridrone",
+      "hp": 16
+    },
+    {
+      "name": "Ultroloth",
+      "hp": 153
+    },
+    {
+      "name": "Vine Blight",
+      "hp": 26
+    },
+    {
+      "name": "Yochlol",
+      "hp": 136
+    },
+    {
+      "name": "Young Red Shadow Dragon",
+      "hp": 178
+    },
+    {
+      "name": "Young Remorhaz",
+      "hp": 93
+    }
+  ]
+}

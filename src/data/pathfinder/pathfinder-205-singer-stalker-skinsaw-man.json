@@ -1,0 +1,28 @@
+{
+  "id": "pathfinder-205-singer-stalker-skinsaw-man",
+  "name": "Pathfinder #205: Singer, Stalker, Skinsaw Man",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Agadaz",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3744"
+    },
+    {
+      "name": "Masque Mannequin",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3745"
+    },
+    {
+      "name": "Shanty Chanter",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3746"
+    },
+    {
+      "name": "Waxen Effigy",
+      "hp": 415,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3747"
+    }
+  ]
+}

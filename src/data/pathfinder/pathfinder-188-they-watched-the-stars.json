@@ -1,0 +1,58 @@
+{
+  "id": "pathfinder-188-they-watched-the-stars",
+  "name": "Pathfinder #188: They Watched the Stars",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Apothecary's Cabinet",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2465"
+    },
+    {
+      "name": "Capstan Swabbie",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2456"
+    },
+    {
+      "name": "Glimmervine",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2458"
+    },
+    {
+      "name": "Green Monkey",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2463"
+    },
+    {
+      "name": "Kithangian",
+      "hp": 205,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2457"
+    },
+    {
+      "name": "Kvernknurr",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2459"
+    },
+    {
+      "name": "Myroga",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2460"
+    },
+    {
+      "name": "Skin Beetle",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2461"
+    },
+    {
+      "name": "Skin Beetle Swarm",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2462"
+    },
+    {
+      "name": "Stone-Breasted Owl",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2464"
+    }
+  ]
+}

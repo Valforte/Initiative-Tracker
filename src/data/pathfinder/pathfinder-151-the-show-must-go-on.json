@@ -1,0 +1,83 @@
+{
+  "id": "pathfinder-151-the-show-must-go-on",
+  "name": "Pathfinder #151: The Show Must Go On",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Blood Wolf",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2007"
+    },
+    {
+      "name": "Cavnakash",
+      "hp": 83,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2011"
+    },
+    {
+      "name": "Corrosive Lizard",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2009"
+    },
+    {
+      "name": "Flea Swarm",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=502"
+    },
+    {
+      "name": "Giant Flea",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=501"
+    },
+    {
+      "name": "Juvenile Boar",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1998"
+    },
+    {
+      "name": "Leandrus",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2002"
+    },
+    {
+      "name": "Luminous Ooze",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=504"
+    },
+    {
+      "name": "Mechanical Carny",
+      "hp": 33,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=505"
+    },
+    {
+      "name": "Pinacosaurus",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2010"
+    },
+    {
+      "name": "Smiler",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2005"
+    },
+    {
+      "name": "Smoldering Leopard",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2008"
+    },
+    {
+      "name": "Vermlek",
+      "hp": 55,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=500"
+    },
+    {
+      "name": "Violet",
+      "hp": 24,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2000"
+    },
+    {
+      "name": "Xulgath Bilebearer",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=506"
+    }
+  ]
+}

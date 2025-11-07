@@ -1,0 +1,103 @@
+{
+  "id": "pathfinder-173-doorway-to-the-red-star",
+  "name": "Pathfinder #173: Doorway to the Red Star",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ancient Rivener",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1675"
+    },
+    {
+      "name": "Contemplative",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1667"
+    },
+    {
+      "name": "Contemplative Meditant",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1668"
+    },
+    {
+      "name": "Contemplative Mentor",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1669"
+    },
+    {
+      "name": "Dwandek",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1716"
+    },
+    {
+      "name": "Formian Mageslayer",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1671"
+    },
+    {
+      "name": "Formian Queen",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1672"
+    },
+    {
+      "name": "Formian Worker",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1670"
+    },
+    {
+      "name": "Gluttonworm",
+      "hp": 445,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1673"
+    },
+    {
+      "name": "Ikeshti Brood-Minder",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1674"
+    },
+    {
+      "name": "Khefak Scuttler",
+      "hp": 7,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1676"
+    },
+    {
+      "name": "Ravager Of Tindalos",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1717"
+    },
+    {
+      "name": "Shobhad Enforcer",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1678"
+    },
+    {
+      "name": "Shobhad Sniper",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1679"
+    },
+    {
+      "name": "Spawn Of Taon",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1714"
+    },
+    {
+      "name": "Taon",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1715"
+    },
+    {
+      "name": "Thasteron Khefak",
+      "hp": 42,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1677"
+    },
+    {
+      "name": "The King of Biting Ants",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1720"
+    },
+    {
+      "name": "Tollvych",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1713"
+    }
+  ]
+}

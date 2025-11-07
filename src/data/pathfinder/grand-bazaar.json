@@ -1,0 +1,13 @@
+{
+  "id": "grand-bazaar",
+  "name": "Grand Bazaar",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ethereal Sailor",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1652"
+    }
+  ]
+}

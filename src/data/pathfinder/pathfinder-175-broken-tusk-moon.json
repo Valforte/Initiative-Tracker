@@ -1,0 +1,53 @@
+{
+  "id": "pathfinder-175-broken-tusk-moon",
+  "name": "Pathfinder #175: Broken Tusk Moon",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Animated Blades",
+      "hp": 4,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1764"
+    },
+    {
+      "name": "Giant Tapir",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1760"
+    },
+    {
+      "name": "Glyptodon",
+      "hp": 65,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1755"
+    },
+    {
+      "name": "Groplit",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1756"
+    },
+    {
+      "name": "Hobji",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1767"
+    },
+    {
+      "name": "Kadlaka",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1757"
+    },
+    {
+      "name": "Loblobi",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1758"
+    },
+    {
+      "name": "Rime Sludge",
+      "hp": 38,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1759"
+    },
+    {
+      "name": "Syarstik Painted-Tiger",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1770"
+    }
+  ]
+}

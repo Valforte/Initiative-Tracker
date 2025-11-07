@@ -1,0 +1,33 @@
+{
+  "id": "travel-guide",
+  "name": "Travel Guide",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Baccali Alpaca",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2073"
+    },
+    {
+      "name": "Irriseni Owlbear",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2075"
+    },
+    {
+      "name": "Sarkorian Wolf",
+      "hp": 24,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2074"
+    },
+    {
+      "name": "Vulture Rat",
+      "hp": 8,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2076"
+    },
+    {
+      "name": "Whalesteed",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2077"
+    }
+  ]
+}

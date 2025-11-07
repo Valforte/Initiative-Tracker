@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-159-all-or-nothing",
+  "name": "Pathfinder #159: All or Nothing",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Avarek",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=998"
+    },
+    {
+      "name": "Barnacle Ghoul",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1001"
+    },
+    {
+      "name": "Bregdi",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=999"
+    },
+    {
+      "name": "Eberark",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1000"
+    },
+    {
+      "name": "Ravenile",
+      "hp": 306,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1002"
+    },
+    {
+      "name": "Svartalfar Killer",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1003"
+    }
+  ]
+}

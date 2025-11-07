@@ -1,0 +1,133 @@
+{
+  "id": "tian-xia-world-guide",
+  "name": "Tian Xia World Guide",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Animated Bamboo Figure",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2763"
+    },
+    {
+      "name": "Animated Kite",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2762"
+    },
+    {
+      "name": "Animated Wine Vessel",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2764"
+    },
+    {
+      "name": "Aoyin",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2765"
+    },
+    {
+      "name": "Aso Berang",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2766"
+    },
+    {
+      "name": "Bul-Gae",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2767"
+    },
+    {
+      "name": "Five-Color Orchid Mantis",
+      "hp": 137,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2779"
+    },
+    {
+      "name": "Gau Cho Rong",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2768"
+    },
+    {
+      "name": "Giant Orchid Mantis",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2777"
+    },
+    {
+      "name": "Hopping Head",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2770"
+    },
+    {
+      "name": "Ijhyeojin",
+      "hp": 310,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2783"
+    },
+    {
+      "name": "Imugi",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2772"
+    },
+    {
+      "name": "Inkdrop",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2761"
+    },
+    {
+      "name": "Jiidon",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2773"
+    },
+    {
+      "name": "Joseung Saja",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2782"
+    },
+    {
+      "name": "Kun",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2774"
+    },
+    {
+      "name": "Manananggal",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2775"
+    },
+    {
+      "name": "Nue",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2776"
+    },
+    {
+      "name": "Orchid Mantis Swarm",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2778"
+    },
+    {
+      "name": "Peng",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2780"
+    },
+    {
+      "name": "Pixiu",
+      "hp": 165,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2781"
+    },
+    {
+      "name": "Shui Gui",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2784"
+    },
+    {
+      "name": "The Caterpillar Carriage",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2771"
+    },
+    {
+      "name": "The Great Flood",
+      "hp": 472,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2769"
+    },
+    {
+      "name": "Yeongno",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2785"
+    }
+  ]
+}

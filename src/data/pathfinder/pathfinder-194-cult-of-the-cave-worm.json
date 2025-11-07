@@ -1,0 +1,103 @@
+{
+  "id": "pathfinder-194-cult-of-the-cave-worm",
+  "name": "Pathfinder #194: Cult of the Cave Worm",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bloodseeker Swarm",
+      "hp": 36,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2695"
+    },
+    {
+      "name": "Bronwyl Holloward",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2715"
+    },
+    {
+      "name": "Caligni Assassin",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2696"
+    },
+    {
+      "name": "Crimson Worm Statue",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2714"
+    },
+    {
+      "name": "Cultist Troop",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2712"
+    },
+    {
+      "name": "Ether Sprite",
+      "hp": 8,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2701"
+    },
+    {
+      "name": "Ether Sprite Swarm",
+      "hp": 32,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2702"
+    },
+    {
+      "name": "Four-Tooth",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2713"
+    },
+    {
+      "name": "Giant Bloodseeker",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2694"
+    },
+    {
+      "name": "Glacial Worm",
+      "hp": 370,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2703"
+    },
+    {
+      "name": "Gray Worm",
+      "hp": 248,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2704"
+    },
+    {
+      "name": "Hagegraf Royal Guard",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2697"
+    },
+    {
+      "name": "Hryngar Forgepriest",
+      "hp": 99,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2699"
+    },
+    {
+      "name": "Hryngar King's Agent",
+      "hp": 78,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2698"
+    },
+    {
+      "name": "Redcap Cavalry",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2700"
+    },
+    {
+      "name": "Slime Puppeteer",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2691"
+    },
+    {
+      "name": "Ulat-Kini Initiate",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2692"
+    },
+    {
+      "name": "Ulat-Kini Mindreaver",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2693"
+    },
+    {
+      "name": "Veavieve",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2711"
+    }
+  ]
+}

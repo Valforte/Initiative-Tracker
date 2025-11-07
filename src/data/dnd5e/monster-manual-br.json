@@ -1,0 +1,156 @@
+{
+  "id": "monster-manual-br",
+  "name": "Monster Manual (BR)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aarakocra",
+      "hp": 13
+    },
+    {
+      "name": "Barlgura",
+      "hp": 68
+    },
+    {
+      "name": "Bullywug",
+      "hp": 11
+    },
+    {
+      "name": "Crawling Claw",
+      "hp": 2
+    },
+    {
+      "name": "Dao",
+      "hp": 187
+    },
+    {
+      "name": "Drow Mage",
+      "hp": 45
+    },
+    {
+      "name": "Fire Snake",
+      "hp": 22
+    },
+    {
+      "name": "Galeb Duhr",
+      "hp": 85
+    },
+    {
+      "name": "Gnoll Pack Lord",
+      "hp": 49
+    },
+    {
+      "name": "Grell",
+      "hp": 55
+    },
+    {
+      "name": "Half Ogre",
+      "hp": 30
+    },
+    {
+      "name": "Half Red Dragon Veteran",
+      "hp": 65
+    },
+    {
+      "name": "Helmed Horror",
+      "hp": 60
+    },
+    {
+      "name": "Hobgoblin Captain",
+      "hp": 39
+    },
+    {
+      "name": "Hook Horror",
+      "hp": 75
+    },
+    {
+      "name": "Jackalwere",
+      "hp": 18
+    },
+    {
+      "name": "Kenku",
+      "hp": 13
+    },
+    {
+      "name": "Kuo Toa",
+      "hp": 18
+    },
+    {
+      "name": "Kuo Toa Archpriest",
+      "hp": 97
+    },
+    {
+      "name": "Kuo Toa Whip",
+      "hp": 65
+    },
+    {
+      "name": "Lizard King Queen",
+      "hp": 78
+    },
+    {
+      "name": "Lizardfolk Shaman",
+      "hp": 27
+    },
+    {
+      "name": "Mezzoloth",
+      "hp": 75
+    },
+    {
+      "name": "Nycaloth",
+      "hp": 123
+    },
+    {
+      "name": "Orc Eye Of Gruumsh",
+      "hp": 45
+    },
+    {
+      "name": "Orog",
+      "hp": 42
+    },
+    {
+      "name": "Peryton",
+      "hp": 33
+    },
+    {
+      "name": "Piercer",
+      "hp": 22
+    },
+    {
+      "name": "Revenant",
+      "hp": 136
+    },
+    {
+      "name": "Shadow Demon",
+      "hp": 66
+    },
+    {
+      "name": "Troglodyte",
+      "hp": 13
+    },
+    {
+      "name": "Umber Hulk",
+      "hp": 93
+    },
+    {
+      "name": "Water Weird",
+      "hp": 58
+    },
+    {
+      "name": "Winged Kobold",
+      "hp": 7
+    },
+    {
+      "name": "Yuan Ti Abomination",
+      "hp": 127
+    },
+    {
+      "name": "Yuan Ti Malison",
+      "hp": 66
+    },
+    {
+      "name": "Yuan Ti Pureblood",
+      "hp": 40
+    }
+  ]
+}

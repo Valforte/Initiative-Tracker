@@ -1,0 +1,103 @@
+{
+  "id": "pathfinder-169-kindled-magic",
+  "name": "Pathfinder #169: Kindled Magic",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Anadi Fateweaver",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1608"
+    },
+    {
+      "name": "Anadi Lurker",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1607"
+    },
+    {
+      "name": "Anadi Seeker",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1606"
+    },
+    {
+      "name": "Bramble Champion Construct",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1604"
+    },
+    {
+      "name": "Giant Mining Bee",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1610"
+    },
+    {
+      "name": "Giant Silverfish",
+      "hp": 17,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1615"
+    },
+    {
+      "name": "Giant Tsetse Fly",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1611"
+    },
+    {
+      "name": "Giant Worker Bee",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1609"
+    },
+    {
+      "name": "Gnagrif",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1613"
+    },
+    {
+      "name": "Kurshkin",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1617"
+    },
+    {
+      "name": "Scrit",
+      "hp": 18,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1612"
+    },
+    {
+      "name": "Shieldbearer Construct",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1602"
+    },
+    {
+      "name": "Sicklehand Construct",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1603"
+    },
+    {
+      "name": "Silverfish Swarm",
+      "hp": 9,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1614"
+    },
+    {
+      "name": "Spellskein",
+      "hp": 15,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1616"
+    },
+    {
+      "name": "Stone Ghost",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1618"
+    },
+    {
+      "name": "Takulu Ot",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1619"
+    },
+    {
+      "name": "Umbo",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1601"
+    },
+    {
+      "name": "Urbel",
+      "hp": 68,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1605"
+    }
+  ]
+}

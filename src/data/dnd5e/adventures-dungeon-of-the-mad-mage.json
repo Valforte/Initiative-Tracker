@@ -1,0 +1,12 @@
+{
+  "id": "adventures-dungeon-of-the-mad-mage",
+  "name": "Adventures (Dungeon of the Mad Mage)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Halaster Blackcloak",
+      "hp": 246
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "pathfinder-145-hellknight-hill",
+  "name": "Pathfinder #145: Hellknight Hill",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Charau-ka",
+      "hp": 18,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1533"
+    },
+    {
+      "name": "Doorwarden",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=433"
+    },
+    {
+      "name": "Emperor Bird",
+      "hp": 27,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=434"
+    },
+    {
+      "name": "Grauladon",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=435"
+    },
+    {
+      "name": "Graveshell",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=436"
+    },
+    {
+      "name": "Hellcrown",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=437"
+    },
+    {
+      "name": "Malarunk",
+      "hp": 63,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1537"
+    },
+    {
+      "name": "Skeletal Hellknight",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1534"
+    },
+    {
+      "name": "Tixitog",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=438"
+    }
+  ]
+}

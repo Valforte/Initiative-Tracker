@@ -1,0 +1,88 @@
+{
+  "id": "pathfinder-181-zombie-feast",
+  "name": "Pathfinder #181: Zombie Feast",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Charghar",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2031"
+    },
+    {
+      "name": "Chattering Jaws",
+      "hp": 8,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2027"
+    },
+    {
+      "name": "Cobblebone Swarm",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2032"
+    },
+    {
+      "name": "Dirge Piper",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2036"
+    },
+    {
+      "name": "Floating Femur",
+      "hp": 7,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2028"
+    },
+    {
+      "name": "Granite Vulture",
+      "hp": 28,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2046"
+    },
+    {
+      "name": "Mosghuta, Boss Cow",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2040"
+    },
+    {
+      "name": "Necromunculus",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2033"
+    },
+    {
+      "name": "Opkherab",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2045"
+    },
+    {
+      "name": "Pesgahi the Poisoner",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2048"
+    },
+    {
+      "name": "Phalanx Of Phalanges",
+      "hp": 16,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2029"
+    },
+    {
+      "name": "Scrabbling Ribcage",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2030"
+    },
+    {
+      "name": "Skull Fairy",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2034"
+    },
+    {
+      "name": "Tombstone Troll",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2035"
+    },
+    {
+      "name": "Zombie Horse",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2042"
+    },
+    {
+      "name": "Zombie Hound",
+      "hp": 18,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2041"
+    }
+  ]
+}

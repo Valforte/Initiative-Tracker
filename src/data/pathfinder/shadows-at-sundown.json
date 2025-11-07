@@ -1,0 +1,48 @@
+{
+  "id": "shadows-at-sundown",
+  "name": "Shadows at Sundown",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aliriel",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1962"
+    },
+    {
+      "name": "Bishop Keppira D'bear",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1957"
+    },
+    {
+      "name": "Ibrique",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1961"
+    },
+    {
+      "name": "Ileosa's Shell",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1963"
+    },
+    {
+      "name": "Loreavor",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1942"
+    },
+    {
+      "name": "Lorthact",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1945"
+    },
+    {
+      "name": "Profane Ghoul",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1958"
+    },
+    {
+      "name": "Scarlet Walker",
+      "hp": 225,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1943"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "crown-of-the-kobold-king",
+  "name": "Crown of the Kobold King",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Albino Giant Bat",
+      "hp": 72,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2178"
+    },
+    {
+      "name": "Darkmantle",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2180"
+    },
+    {
+      "name": "Dismemberment Table",
+      "hp": 56,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2175"
+    },
+    {
+      "name": "Drazmorg the Damned",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2174"
+    },
+    {
+      "name": "Forge-Spurned",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2181"
+    },
+    {
+      "name": "Grick",
+      "hp": 35,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2182"
+    },
+    {
+      "name": "Grimbal",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2171"
+    },
+    {
+      "name": "Hymmir Urath",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2172"
+    },
+    {
+      "name": "Id Ooze",
+      "hp": 105,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2183"
+    },
+    {
+      "name": "Kieragan Skross",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2176"
+    },
+    {
+      "name": "King Merlokrep",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2179"
+    },
+    {
+      "name": "Narlynark",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2177"
+    },
+    {
+      "name": "Tallow Guardian",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2184"
+    },
+    {
+      "name": "The Disciples",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2173"
+    },
+    {
+      "name": "Thoqqua",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2185"
+    },
+    {
+      "name": "Ulizmila's Cauldron",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2162"
+    },
+    {
+      "name": "Vargouille",
+      "hp": 28,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2186"
+    }
+  ]
+}

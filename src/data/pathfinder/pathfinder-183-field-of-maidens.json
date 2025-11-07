@@ -1,0 +1,78 @@
+{
+  "id": "pathfinder-183-field-of-maidens",
+  "name": "Pathfinder #183: Field of Maidens",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Animated Tea Cart",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2094"
+    },
+    {
+      "name": "Ghast Outlaw",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2091"
+    },
+    {
+      "name": "Guloval",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2078"
+    },
+    {
+      "name": "Hollow Husks",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2087"
+    },
+    {
+      "name": "Hungering Growths",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2086"
+    },
+    {
+      "name": "Kerinza",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2083"
+    },
+    {
+      "name": "Prachalla",
+      "hp": 205,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2093"
+    },
+    {
+      "name": "Shadowbound Monk Statue",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2095"
+    },
+    {
+      "name": "Shadowforged Guardian",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2084"
+    },
+    {
+      "name": "Shimmernewt",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2081"
+    },
+    {
+      "name": "Skeletal Knight",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2096"
+    },
+    {
+      "name": "Vampire Taviah",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2097"
+    },
+    {
+      "name": "Yshula",
+      "hp": 109,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2085"
+    },
+    {
+      "name": "Yulthruk",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2092"
+    }
+  ]
+}

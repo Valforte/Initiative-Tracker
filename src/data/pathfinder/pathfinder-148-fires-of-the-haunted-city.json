@@ -1,0 +1,73 @@
+{
+  "id": "pathfinder-148-fires-of-the-haunted-city",
+  "name": "Pathfinder #148: Fires of the Haunted City",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Accursed Forge-Spurned",
+      "hp": 285,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1568"
+    },
+    {
+      "name": "Carnivorous Crystal",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=464"
+    },
+    {
+      "name": "Dalos",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=465"
+    },
+    {
+      "name": "Deculi",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=466"
+    },
+    {
+      "name": "Dragonscarred Dead",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=472"
+    },
+    {
+      "name": "Falrok",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1573"
+    },
+    {
+      "name": "King Harral",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1570"
+    },
+    {
+      "name": "Lazurite-Infused Stone Golem",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1572"
+    },
+    {
+      "name": "Saggorak Poltergeist",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1571"
+    },
+    {
+      "name": "Soulbound Ruin",
+      "hp": 310,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=475"
+    },
+    {
+      "name": "Talamira",
+      "hp": 185,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1563"
+    },
+    {
+      "name": "Veshumirix",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1577"
+    },
+    {
+      "name": "Xevalorg",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1564"
+    }
+  ]
+}

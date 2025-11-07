@@ -1,0 +1,483 @@
+{
+  "id": "bestiary",
+  "name": "Bestiary",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aasimar Redeemer",
+      "hp": 73,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=333"
+    },
+    {
+      "name": "Adamantine Golem",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=243"
+    },
+    {
+      "name": "Adult Black Dragon",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=128"
+    },
+    {
+      "name": "Adult Blue Dragon",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=131"
+    },
+    {
+      "name": "Adult Brass Dragon",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=143"
+    },
+    {
+      "name": "Adult Bronze Dragon",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=146"
+    },
+    {
+      "name": "Adult Copper Dragon",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=149"
+    },
+    {
+      "name": "Adult Gold Dragon",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=152"
+    },
+    {
+      "name": "Adult Green Dragon",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=134"
+    },
+    {
+      "name": "Adult Red Dragon",
+      "hp": 305,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=137"
+    },
+    {
+      "name": "Adult Silver Dragon",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=155"
+    },
+    {
+      "name": "Adult White Dragon",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=140"
+    },
+    {
+      "name": "Alghollthu Master",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2"
+    },
+    {
+      "name": "Ancient Black Dragon",
+      "hp": 325,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=129"
+    },
+    {
+      "name": "Ancient Blue Dragon",
+      "hp": 370,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=132"
+    },
+    {
+      "name": "Ancient Brass Dragon",
+      "hp": 325,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=144"
+    },
+    {
+      "name": "Ancient Bronze Dragon",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=147"
+    },
+    {
+      "name": "Ancient Copper Dragon",
+      "hp": 345,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=150"
+    },
+    {
+      "name": "Ancient Gold Dragon",
+      "hp": 450,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=153"
+    },
+    {
+      "name": "Ancient Green Dragon",
+      "hp": 315,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=135"
+    },
+    {
+      "name": "Ancient Red Dragon",
+      "hp": 425,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=138"
+    },
+    {
+      "name": "Ancient Silver Dragon",
+      "hp": 410,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=156"
+    },
+    {
+      "name": "Ancient White Dragon",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=141"
+    },
+    {
+      "name": "Balor",
+      "hp": 480,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=104"
+    },
+    {
+      "name": "Baomal",
+      "hp": 315,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=40"
+    },
+    {
+      "name": "Black Pudding",
+      "hp": 165,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=323"
+    },
+    {
+      "name": "Bloodseeker",
+      "hp": 6,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=51"
+    },
+    {
+      "name": "Bulette",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=61"
+    },
+    {
+      "name": "Bunyip",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=62"
+    },
+    {
+      "name": "Centaur",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=76"
+    },
+    {
+      "name": "Ceustodaemon",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=89"
+    },
+    {
+      "name": "Chuul",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=81"
+    },
+    {
+      "name": "Cloaker",
+      "hp": 80,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=82"
+    },
+    {
+      "name": "Dandasuka",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=344"
+    },
+    {
+      "name": "Dark Naga",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=306"
+    },
+    {
+      "name": "Demilich",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=283"
+    },
+    {
+      "name": "Doppelganger",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=126"
+    },
+    {
+      "name": "Drakauthix",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=158"
+    },
+    {
+      "name": "Drider",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=207"
+    },
+    {
+      "name": "Drow Fighter",
+      "hp": 18,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=165"
+    },
+    {
+      "name": "Drow Priestess",
+      "hp": 39,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=167"
+    },
+    {
+      "name": "Drow Rogue",
+      "hp": 26,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=166"
+    },
+    {
+      "name": "Erinys",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=111"
+    },
+    {
+      "name": "Ether Spider",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=203"
+    },
+    {
+      "name": "Ettin",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=204"
+    },
+    {
+      "name": "Gelatinous Cube",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=321"
+    },
+    {
+      "name": "Gelugon",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=113"
+    },
+    {
+      "name": "Ghaele",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=37"
+    },
+    {
+      "name": "Ghast",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=219"
+    },
+    {
+      "name": "Gibbering Mouther",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=227"
+    },
+    {
+      "name": "Glabrezu",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=101"
+    },
+    {
+      "name": "Greater Barghest",
+      "hp": 105,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=43"
+    },
+    {
+      "name": "Grig",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=390"
+    },
+    {
+      "name": "Gug",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=252"
+    },
+    {
+      "name": "Hill Giant",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=220"
+    },
+    {
+      "name": "Kolyarut",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=10"
+    },
+    {
+      "name": "Lantern Archon",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=30"
+    },
+    {
+      "name": "Mimic",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=300"
+    },
+    {
+      "name": "Mu Spore",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=302"
+    },
+    {
+      "name": "Naunet",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=337"
+    },
+    {
+      "name": "Night Hag",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=257"
+    },
+    {
+      "name": "Ochre Jelly",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=322"
+    },
+    {
+      "name": "Otyugh",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=327"
+    },
+    {
+      "name": "Owlbear",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=328"
+    },
+    {
+      "name": "Quasit",
+      "hp": 25,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=97"
+    },
+    {
+      "name": "Remorhaz",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=351"
+    },
+    {
+      "name": "Roper",
+      "hp": 215,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=353"
+    },
+    {
+      "name": "Rust Monster",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=354"
+    },
+    {
+      "name": "Salamander",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=189"
+    },
+    {
+      "name": "Sea Devil Baron",
+      "hp": 95,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=360"
+    },
+    {
+      "name": "Sea Devil Brute",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=359"
+    },
+    {
+      "name": "Sea Devil Scout",
+      "hp": 30,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=358"
+    },
+    {
+      "name": "Shambler",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=364"
+    },
+    {
+      "name": "Shoggoth",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=368"
+    },
+    {
+      "name": "Simurgh",
+      "hp": 350,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=370"
+    },
+    {
+      "name": "Skum",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3"
+    },
+    {
+      "name": "Storm Giant",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=225"
+    },
+    {
+      "name": "Storm Lord",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=180"
+    },
+    {
+      "name": "Tidal Master",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=199"
+    },
+    {
+      "name": "Uthul",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=398"
+    },
+    {
+      "name": "Web Lurker",
+      "hp": 45,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=407"
+    },
+    {
+      "name": "Wemmuth",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=408"
+    },
+    {
+      "name": "Wendigo",
+      "hp": 315,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=409"
+    },
+    {
+      "name": "Xorn",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=184"
+    },
+    {
+      "name": "Young Black Dragon",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=127"
+    },
+    {
+      "name": "Young Blue Dragon",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=130"
+    },
+    {
+      "name": "Young Brass Dragon",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=142"
+    },
+    {
+      "name": "Young Bronze Dragon",
+      "hp": 170,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=145"
+    },
+    {
+      "name": "Young Copper Dragon",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=148"
+    },
+    {
+      "name": "Young Gold Dragon",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=151"
+    },
+    {
+      "name": "Young Green Dragon",
+      "hp": 135,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=133"
+    },
+    {
+      "name": "Young Red Dragon",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=136"
+    },
+    {
+      "name": "Young Silver Dragon",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=154"
+    },
+    {
+      "name": "Young White Dragon",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=139"
+    },
+    {
+      "name": "Zaramuun",
+      "hp": 291,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=422"
+    }
+  ]
+}

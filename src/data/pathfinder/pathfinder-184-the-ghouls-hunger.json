@@ -1,0 +1,93 @@
+{
+  "id": "pathfinder-184-the-ghouls-hunger",
+  "name": "Pathfinder #184: The Ghouls Hunger",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ancient Skaveling",
+      "hp": 270,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2151"
+    },
+    {
+      "name": "Bloodshroud",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2152"
+    },
+    {
+      "name": "Ghoul Antipaladin",
+      "hp": 155,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2154"
+    },
+    {
+      "name": "Ghoul Gnawer",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2144"
+    },
+    {
+      "name": "Ghoul Razorclaw",
+      "hp": 230,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2155"
+    },
+    {
+      "name": "Harmony In Agony",
+      "hp": 200,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2150"
+    },
+    {
+      "name": "Hyrune Loxenna",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2160"
+    },
+    {
+      "name": "Nydazuul",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2145"
+    },
+    {
+      "name": "Pyrogeist",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2156"
+    },
+    {
+      "name": "Rotbomber",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2157"
+    },
+    {
+      "name": "Solar Glass Golem",
+      "hp": 195,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2147"
+    },
+    {
+      "name": "Straugh",
+      "hp": 220,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2158"
+    },
+    {
+      "name": "Terrorguard",
+      "hp": 255,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2159"
+    },
+    {
+      "name": "Urglid",
+      "hp": 290,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2153"
+    },
+    {
+      "name": "Vampire Guardian",
+      "hp": 132,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2149"
+    },
+    {
+      "name": "Weeping Jack",
+      "hp": 210,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2187"
+    },
+    {
+      "name": "Yurgak",
+      "hp": 240,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2146"
+    }
+  ]
+}

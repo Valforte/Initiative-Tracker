@@ -1,0 +1,63 @@
+{
+  "id": "war-of-immortals",
+  "name": "War of Immortals",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Agyra",
+      "hp": 475,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3406"
+    },
+    {
+      "name": "Immortal Trickster",
+      "hp": 198,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3405"
+    },
+    {
+      "name": "Mythic Gogiteth",
+      "hp": 250,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3400"
+    },
+    {
+      "name": "Mythic Griffon",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3403"
+    },
+    {
+      "name": "Mythic Lich",
+      "hp": 190,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3402"
+    },
+    {
+      "name": "Mythic Ogre Boss",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3401"
+    },
+    {
+      "name": "Oliphaunt of Jandelay",
+      "hp": 680,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3407"
+    },
+    {
+      "name": "Sublime Breath",
+      "hp": 111,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3408"
+    },
+    {
+      "name": "Verex-That-Was",
+      "hp": 550,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3409"
+    },
+    {
+      "name": "Vulot",
+      "hp": 425,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3404"
+    },
+    {
+      "name": "Weaver Of Webs",
+      "hp": 335,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3410"
+    }
+  ]
+}

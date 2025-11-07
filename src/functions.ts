@@ -170,15 +170,50 @@ class Combatant {
 }
 
 /**
- * Default combatants shown on first load
- * Uses iconic Pathfinder 2e characters from the Core Rulebook
+ * Default combatants for Pathfinder 2e
+ * Uses iconic characters from the Core Rulebook
  */
-const defaultCombatants: Array<Combatant> = [
-    new Combatant("Amiri", 22, 4, 22, [], Visibility.Full, 0, 0),
-    new Combatant("Lini", 18, 3, 18, [], Visibility.Full, 0, 0),
-    new Combatant("Ezren", 16, 2, 16, [], Visibility.Full, 0, 0),
-    new Combatant("Kyra", 16, 1, 16, [], Visibility.Full, 0, 0),
+const defaultPathfinderCombatants: Array<Combatant> = [
+    new Combatant("Amiri", 22, 4, 22, [], Visibility.Full, 0, 0),  // Iconic Barbarian
+    new Combatant("Lini", 18, 3, 18, [], Visibility.Full, 0, 0),   // Iconic Druid
+    new Combatant("Ezren", 16, 2, 16, [], Visibility.Full, 0, 0),  // Iconic Wizard
+    new Combatant("Kyra", 16, 1, 16, [], Visibility.Full, 0, 0),   // Iconic Cleric
 ]
+
+/**
+ * Default combatants for D&D 5e
+ * Uses classic iconic characters
+ */
+const defaultDnd5eCombatants: Array<Combatant> = [
+    new Combatant("Tordek", 30, 1, 30, [], Visibility.Full, 0, 0),  // Dwarf Fighter
+    new Combatant("Lidda", 20, 3, 20, [], Visibility.Full, 0, 0),   // Halfling Rogue
+    new Combatant("Mialee", 15, 2, 15, [], Visibility.Full, 0, 0),  // Elf Wizard
+    new Combatant("Jozan", 24, 0, 24, [], Visibility.Full, 0, 0),   // Human Cleric
+]
+
+/**
+ * Get default combatants based on game system
+ * Creates fresh copies of combatants to avoid shared references
+ * @param gameSystem - 'pathfinder' or 'dnd5e'
+ * @returns Array of default combatants for the specified system
+ */
+function getDefaultCombatants(gameSystem: 'pathfinder' | 'dnd5e' = 'pathfinder'): Array<Combatant> {
+    const source = gameSystem === 'dnd5e' ? defaultDnd5eCombatants : defaultPathfinderCombatants
+    // Create fresh copies of combatants to avoid shared references
+    return source.map(c => new Combatant(
+        c.name,
+        c.totalHP,
+        c.initiative,
+        c.currentHP,
+        [],
+        c.visibility,
+        0,
+        0
+    ))
+}
+
+// Legacy export for backward compatibility
+const defaultCombatants = defaultPathfinderCombatants
 
 /**
  * Determines if a hex color should be considered "dark"
@@ -195,4 +230,4 @@ function colorIsDark(bgColor: string): boolean {
     return ((r * 0.299) + (g * 0.587) + (b * 0.114)) <= 100;
 }
 
-export {colorIsDark, Visibility, Condition, Combatant, defaultCombatants}
+export {colorIsDark, Visibility, Condition, Combatant, defaultCombatants, getDefaultCombatants}

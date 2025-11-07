@@ -1,0 +1,63 @@
+{
+  "id": "pathfinder-215-to-blot-out-the-sun",
+  "name": "Pathfinder #215: To Blot Out the Sun",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aeon Stone Swarm",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3891"
+    },
+    {
+      "name": "Animated Treasure Swarm",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3890"
+    },
+    {
+      "name": "Bulbous Blood Ooze",
+      "hp": 140,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3887"
+    },
+    {
+      "name": "Clockwork Corpse",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3879"
+    },
+    {
+      "name": "Clockwork Sentry",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3892"
+    },
+    {
+      "name": "Conductor",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3895"
+    },
+    {
+      "name": "Dero Sentry",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3878"
+    },
+    {
+      "name": "Favored Thrall",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3882"
+    },
+    {
+      "name": "Strigoi Progenitor",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3894"
+    },
+    {
+      "name": "Strigoi Servant",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3893"
+    },
+    {
+      "name": "Tokainen's Chosen",
+      "hp": 75,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3881"
+    }
+  ]
+}

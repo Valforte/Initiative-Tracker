@@ -1,0 +1,28 @@
+{
+  "id": "npc-core",
+  "name": "NPC Core",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Beast Eidolon",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3679"
+    },
+    {
+      "name": "Experienced Hound",
+      "hp": 115,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3678"
+    },
+    {
+      "name": "Trained Bat",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3676"
+    },
+    {
+      "name": "Veteran War Horse",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3677"
+    }
+  ]
+}

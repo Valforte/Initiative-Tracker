@@ -1,0 +1,18 @@
+{
+  "id": "dark-archive",
+  "name": "Dark Archive",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "K.H.W.'s Echo",
+      "hp": 280,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2039"
+    },
+    {
+      "name": "Morrowkin",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2038"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-208-hoof-cinder-and-storm",
+  "name": "Pathfinder #208: Hoof, Cinder, and Storm",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Aurochs Herd",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3761"
+    },
+    {
+      "name": "Blisterwell Oathrisen",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3762"
+    },
+    {
+      "name": "Moonstalker",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3764"
+    },
+    {
+      "name": "One Eye Phantom",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3763"
+    },
+    {
+      "name": "Trighoul",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3765"
+    },
+    {
+      "name": "War Pig",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3766"
+    }
+  ]
+}

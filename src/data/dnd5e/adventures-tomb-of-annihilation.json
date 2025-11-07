@@ -1,0 +1,97 @@
+{
+  "id": "adventures-tomb-of-annihilation",
+  "name": "Adventures (Tomb of Annihilation)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Acererak",
+      "hp": 285
+    },
+    {
+      "name": "Albino Dwarf Warrior",
+      "hp": 30
+    },
+    "Aldani",
+    {
+      "name": "Assassin Vine",
+      "hp": 85
+    },
+    {
+      "name": "Atropal",
+      "hp": 225
+    },
+    {
+      "name": "Brontosaurus",
+      "hp": 121
+    },
+    {
+      "name": "Deinonychus",
+      "hp": 26
+    },
+    {
+      "name": "Dimetrodon",
+      "hp": 19
+    },
+    {
+      "name": "Dragonbait",
+      "hp": 120
+    },
+    {
+      "name": "Eblis",
+      "hp": 26
+    },
+    {
+      "name": "Giant Four Armed Gargoyle",
+      "hp": 147
+    },
+    {
+      "name": "Jaculi",
+      "hp": 16
+    },
+    {
+      "name": "Kamadan",
+      "hp": 67
+    },
+    {
+      "name": "Mantrap",
+      "hp": 45
+    },
+    {
+      "name": "Pterafolk",
+      "hp": 26
+    },
+    {
+      "name": "Stegosaurus",
+      "hp": 76
+    },
+    {
+      "name": "Stone Juggernaut",
+      "hp": 157
+    },
+    {
+      "name": "Su Monster",
+      "hp": 27
+    },
+    {
+      "name": "Tabaxi Hunter",
+      "hp": 40
+    },
+    {
+      "name": "Tabaxi Minstrel",
+      "hp": 22
+    },
+    {
+      "name": "Tri Flower Frond",
+      "hp": 11
+    },
+    {
+      "name": "Yellow Musk Creeper",
+      "hp": 60
+    },
+    {
+      "name": "Yellow Musk Zombie",
+      "hp": 33
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "pathfinder-212-a-voice-in-the-blight",
+  "name": "Pathfinder #212: A Voice in the Blight",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Crowded Veil",
+      "hp": 300,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3787"
+    },
+    {
+      "name": "Devasance",
+      "hp": 225,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3790"
+    },
+    {
+      "name": "Imvath",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3788"
+    },
+    {
+      "name": "Klacktel",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3793"
+    },
+    {
+      "name": "Rift Pulper",
+      "hp": 390,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3791"
+    },
+    {
+      "name": "Riftweasel",
+      "hp": 355,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3794"
+    },
+    {
+      "name": "Second Spawn",
+      "hp": 500,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3792"
+    },
+    {
+      "name": "Shroud Moss",
+      "hp": 400,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3795"
+    },
+    {
+      "name": "Spawn Of Jeharlu",
+      "hp": 540,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3796"
+    },
+    {
+      "name": "Vansidieth",
+      "hp": 410,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3789"
+    }
+  ]
+}

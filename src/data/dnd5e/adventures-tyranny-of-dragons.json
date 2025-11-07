@@ -1,0 +1,20 @@
+{
+  "id": "adventures-tyranny-of-dragons",
+  "name": "Adventures (Tyranny of Dragons)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Ambush Drake",
+      "hp": 22
+    },
+    {
+      "name": "Ice Toad",
+      "hp": 32
+    },
+    {
+      "name": "Tiamat",
+      "hp": 615
+    }
+  ]
+}

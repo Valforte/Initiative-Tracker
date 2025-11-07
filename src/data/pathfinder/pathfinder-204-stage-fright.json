@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-204-stage-fright",
+  "name": "Pathfinder #204: Stage Fright",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Anguish Siktempora",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3743"
+    },
+    {
+      "name": "Azarpal",
+      "hp": 275,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3738"
+    },
+    {
+      "name": "Furnerico",
+      "hp": 320,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3739"
+    },
+    {
+      "name": "Hellshadow",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3740"
+    },
+    {
+      "name": "Ockomlire",
+      "hp": 235,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3741"
+    },
+    {
+      "name": "Rezzelki",
+      "hp": 175,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=3742"
+    }
+  ]
+}

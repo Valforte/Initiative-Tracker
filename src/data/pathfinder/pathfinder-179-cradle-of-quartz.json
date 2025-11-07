@@ -1,0 +1,93 @@
+{
+  "id": "pathfinder-179-cradle-of-quartz",
+  "name": "Pathfinder #179: Cradle of Quartz",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Akrida",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1972"
+    },
+    {
+      "name": "Chimeric Manticore",
+      "hp": 120,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1968"
+    },
+    {
+      "name": "Claws Of Time",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1973"
+    },
+    {
+      "name": "Clockwork Disposer",
+      "hp": 70,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1947"
+    },
+    {
+      "name": "Clockwork Door Warden",
+      "hp": 50,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1946"
+    },
+    {
+      "name": "Clockwork Gunner",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1976"
+    },
+    {
+      "name": "Clockwork Sphinx",
+      "hp": 130,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1948"
+    },
+    {
+      "name": "Daelum",
+      "hp": 76,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1949"
+    },
+    {
+      "name": "I",
+      "hp": 110,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1969"
+    },
+    {
+      "name": "Kreeth-Ni",
+      "hp": 40,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1971"
+    },
+    {
+      "name": "Masu",
+      "hp": 6,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1964"
+    },
+    {
+      "name": "Mutant Desert Drake",
+      "hp": 150,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1952"
+    },
+    {
+      "name": "Mutant Giant Toad",
+      "hp": 44,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1951"
+    },
+    {
+      "name": "Scarecophagus",
+      "hp": 100,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1953"
+    },
+    {
+      "name": "Smog Giant",
+      "hp": 145,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1950"
+    },
+    {
+      "name": "Spellscar Sky Marauder",
+      "hp": 85,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1967"
+    },
+    {
+      "name": "Trapjaw Tangle",
+      "hp": 58,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1954"
+    }
+  ]
+}

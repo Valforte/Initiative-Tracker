@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-163-ruins-of-gauntlight",
+  "name": "Pathfinder #163: Ruins of Gauntlight",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Flickerwisp",
+      "hp": 18,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1036"
+    },
+    {
+      "name": "Morlock Cultist",
+      "hp": 58,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1039"
+    },
+    {
+      "name": "Morlock Engineer",
+      "hp": 46,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1038"
+    },
+    {
+      "name": "Morlock Scavenger",
+      "hp": 20,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1037"
+    },
+    {
+      "name": "Scalathrax",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1040"
+    },
+    {
+      "name": "Voidglutton",
+      "hp": 90,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=1041"
+    }
+  ]
+}

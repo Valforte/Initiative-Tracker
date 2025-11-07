@@ -1,0 +1,12 @@
+{
+  "id": "extra-dragon-mag",
+  "name": "Extra (Dragon Mag)",
+  "system": "dnd5e",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Belaphoss",
+      "hp": 262
+    }
+  ]
+}

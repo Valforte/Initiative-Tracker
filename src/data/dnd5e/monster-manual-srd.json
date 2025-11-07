@@ -1,0 +1,1312 @@
+{
+  "id": "monster-manual-srd",
+  "name": "Monster Manual (SRD)",
+  "system": "dnd5e",
+  "enabledByDefault": true,
+  "monsters": [
+    {
+      "name": "Aboleth",
+      "hp": 135
+    },
+    {
+      "name": "Acolyte",
+      "hp": 9
+    },
+    {
+      "name": "Adult Black Dragon",
+      "hp": 195
+    },
+    {
+      "name": "Adult Blue Dragon",
+      "hp": 225
+    },
+    {
+      "name": "Adult Brass Dragon",
+      "hp": 172
+    },
+    {
+      "name": "Adult Bronze Dragon",
+      "hp": 212
+    },
+    {
+      "name": "Adult Copper Dragon",
+      "hp": 184
+    },
+    {
+      "name": "Adult Gold Dragon",
+      "hp": 256
+    },
+    {
+      "name": "Adult Green Dragon",
+      "hp": 207
+    },
+    {
+      "name": "Adult Red Dragon",
+      "hp": 256
+    },
+    {
+      "name": "Adult Silver Dragon",
+      "hp": 243
+    },
+    {
+      "name": "Adult White Dragon",
+      "hp": 200
+    },
+    {
+      "name": "Air Elemental",
+      "hp": 90
+    },
+    {
+      "name": "Allosaurus",
+      "hp": 51
+    },
+    {
+      "name": "Ancient Black Dragon",
+      "hp": 367
+    },
+    {
+      "name": "Ancient Blue Dragon",
+      "hp": 481
+    },
+    {
+      "name": "Ancient Brass Dragon",
+      "hp": 297
+    },
+    {
+      "name": "Ancient Bronze Dragon",
+      "hp": 444
+    },
+    {
+      "name": "Ancient Copper Dragon",
+      "hp": 350
+    },
+    {
+      "name": "Ancient Gold Dragon",
+      "hp": 546
+    },
+    {
+      "name": "Ancient Green Dragon",
+      "hp": 385
+    },
+    {
+      "name": "Ancient Red Dragon",
+      "hp": 546
+    },
+    {
+      "name": "Ancient Silver Dragon",
+      "hp": 487
+    },
+    {
+      "name": "Ancient White Dragon",
+      "hp": 333
+    },
+    {
+      "name": "Androsphinx",
+      "hp": 199
+    },
+    {
+      "name": "Animated Armor",
+      "hp": 33
+    },
+    {
+      "name": "Ankheg",
+      "hp": 39
+    },
+    {
+      "name": "Ankylosaurus",
+      "hp": 68
+    },
+    {
+      "name": "Ape",
+      "hp": 19
+    },
+    {
+      "name": "Archmage",
+      "hp": 99
+    },
+    {
+      "name": "Assassin",
+      "hp": 78
+    },
+    {
+      "name": "Awakened Shrub",
+      "hp": 10
+    },
+    {
+      "name": "Awakened Tree",
+      "hp": 59
+    },
+    {
+      "name": "Axe Beak",
+      "hp": 19
+    },
+    {
+      "name": "Azer",
+      "hp": 39
+    },
+    {
+      "name": "Baboon",
+      "hp": 3
+    },
+    {
+      "name": "Badger",
+      "hp": 3
+    },
+    {
+      "name": "Balor",
+      "hp": 262
+    },
+    {
+      "name": "Bandit",
+      "hp": 11
+    },
+    {
+      "name": "Bandit Captain",
+      "hp": 65
+    },
+    {
+      "name": "Banshee",
+      "hp": 58
+    },
+    {
+      "name": "Barbed Devil",
+      "hp": 110
+    },
+    {
+      "name": "Basilisk",
+      "hp": 52
+    },
+    {
+      "name": "Bat",
+      "hp": 1
+    },
+    {
+      "name": "Bearded Devil",
+      "hp": 52
+    },
+    {
+      "name": "Behir",
+      "hp": 168
+    },
+    {
+      "name": "Berserker",
+      "hp": 67
+    },
+    {
+      "name": "Black Bear",
+      "hp": 19
+    },
+    {
+      "name": "Black Dragon Wyrmling",
+      "hp": 33
+    },
+    {
+      "name": "Black Pudding",
+      "hp": 85
+    },
+    {
+      "name": "Blink Dog",
+      "hp": 22
+    },
+    {
+      "name": "Blood Hawk",
+      "hp": 7
+    },
+    {
+      "name": "Blue Dragon Wyrmling",
+      "hp": 52
+    },
+    {
+      "name": "Boar",
+      "hp": 11
+    },
+    {
+      "name": "Bone Devil",
+      "hp": 142
+    },
+    {
+      "name": "Brass Dragon Wyrmling",
+      "hp": 16
+    },
+    {
+      "name": "Bronze Dragon Wyrmling",
+      "hp": 32
+    },
+    {
+      "name": "Brown Bear",
+      "hp": 34
+    },
+    {
+      "name": "Bugbear",
+      "hp": 27
+    },
+    {
+      "name": "Bulette",
+      "hp": 94
+    },
+    {
+      "name": "Camel",
+      "hp": 15
+    },
+    {
+      "name": "Cat",
+      "hp": 2
+    },
+    {
+      "name": "Centaur",
+      "hp": 45
+    },
+    {
+      "name": "Chain Devil",
+      "hp": 85
+    },
+    {
+      "name": "Chimera",
+      "hp": 114
+    },
+    {
+      "name": "Chuul",
+      "hp": 93
+    },
+    {
+      "name": "Clay Golem",
+      "hp": 133
+    },
+    {
+      "name": "Cloaker",
+      "hp": 78
+    },
+    {
+      "name": "Cloud Giant",
+      "hp": 200
+    },
+    {
+      "name": "Cockatrice",
+      "hp": 27
+    },
+    {
+      "name": "Commoner",
+      "hp": 4
+    },
+    {
+      "name": "Constrictor Snake",
+      "hp": 13
+    },
+    {
+      "name": "Copper Dragon Wyrmling",
+      "hp": 22
+    },
+    {
+      "name": "Couatl",
+      "hp": 97
+    },
+    {
+      "name": "Crab",
+      "hp": 2
+    },
+    {
+      "name": "Crocodile",
+      "hp": 19
+    },
+    {
+      "name": "Cult Fanatic",
+      "hp": 33
+    },
+    {
+      "name": "Cultist",
+      "hp": 9
+    },
+    {
+      "name": "Cyclops",
+      "hp": 138
+    },
+    {
+      "name": "Darkmantle",
+      "hp": 22
+    },
+    {
+      "name": "Death Dog",
+      "hp": 39
+    },
+    {
+      "name": "Deep Gnome Svirfneblin",
+      "hp": 16
+    },
+    {
+      "name": "Deer",
+      "hp": 4
+    },
+    {
+      "name": "Deva",
+      "hp": 136
+    },
+    {
+      "name": "Dire Wolf",
+      "hp": 37
+    },
+    {
+      "name": "Djinni",
+      "hp": 161
+    },
+    {
+      "name": "Doppelganger",
+      "hp": 52
+    },
+    {
+      "name": "Draft Horse",
+      "hp": 19
+    },
+    {
+      "name": "Dragon Turtle",
+      "hp": 341
+    },
+    {
+      "name": "Dretch",
+      "hp": 18
+    },
+    {
+      "name": "Drider",
+      "hp": 123
+    },
+    {
+      "name": "Drow",
+      "hp": 13
+    },
+    {
+      "name": "Druid",
+      "hp": 27
+    },
+    {
+      "name": "Dryad",
+      "hp": 22
+    },
+    {
+      "name": "Duergar",
+      "hp": 26
+    },
+    {
+      "name": "Dust Mephit",
+      "hp": 17
+    },
+    {
+      "name": "Eagle",
+      "hp": 3
+    },
+    {
+      "name": "Earth Elemental",
+      "hp": 126
+    },
+    {
+      "name": "Efreeti",
+      "hp": 200
+    },
+    {
+      "name": "Elephant",
+      "hp": 76
+    },
+    {
+      "name": "Elk",
+      "hp": 13
+    },
+    {
+      "name": "Erinyes",
+      "hp": 153
+    },
+    {
+      "name": "Ettercap",
+      "hp": 44
+    },
+    {
+      "name": "Ettin",
+      "hp": 85
+    },
+    {
+      "name": "Fire Elemental",
+      "hp": 102
+    },
+    {
+      "name": "Fire Giant",
+      "hp": 162
+    },
+    {
+      "name": "Flameskull",
+      "hp": 40
+    },
+    {
+      "name": "Flesh Golem",
+      "hp": 93
+    },
+    {
+      "name": "Flying Snake",
+      "hp": 5
+    },
+    {
+      "name": "Flying Sword",
+      "hp": 17
+    },
+    {
+      "name": "Frog",
+      "hp": 1
+    },
+    {
+      "name": "Frost Giant",
+      "hp": 138
+    },
+    {
+      "name": "Gargoyle",
+      "hp": 52
+    },
+    {
+      "name": "Gelatinous Cube",
+      "hp": 84
+    },
+    {
+      "name": "Ghast",
+      "hp": 36
+    },
+    {
+      "name": "Ghost",
+      "hp": 45
+    },
+    {
+      "name": "Ghoul",
+      "hp": 22
+    },
+    {
+      "name": "Giant Ape",
+      "hp": 157
+    },
+    {
+      "name": "Giant Badger",
+      "hp": 13
+    },
+    {
+      "name": "Giant Bat",
+      "hp": 22
+    },
+    {
+      "name": "Giant Boar",
+      "hp": 42
+    },
+    {
+      "name": "Giant Centipede",
+      "hp": 4
+    },
+    {
+      "name": "Giant Constrictor Snake",
+      "hp": 60
+    },
+    {
+      "name": "Giant Crab",
+      "hp": 13
+    },
+    {
+      "name": "Giant Crocodile",
+      "hp": 85
+    },
+    {
+      "name": "Giant Eagle",
+      "hp": 26
+    },
+    {
+      "name": "Giant Elk",
+      "hp": 42
+    },
+    {
+      "name": "Giant Fire Beetle",
+      "hp": 4
+    },
+    {
+      "name": "Giant Frog",
+      "hp": 18
+    },
+    {
+      "name": "Giant Goat",
+      "hp": 19
+    },
+    {
+      "name": "Giant Hyena",
+      "hp": 45
+    },
+    {
+      "name": "Giant Lizard",
+      "hp": 19
+    },
+    {
+      "name": "Giant Octopus",
+      "hp": 52
+    },
+    {
+      "name": "Giant Owl",
+      "hp": 19
+    },
+    {
+      "name": "Giant Poisonous Snake",
+      "hp": 11
+    },
+    {
+      "name": "Giant Rat",
+      "hp": 7
+    },
+    {
+      "name": "Giant Scorpion",
+      "hp": 52
+    },
+    {
+      "name": "Giant Sea Horse",
+      "hp": 16
+    },
+    {
+      "name": "Giant Shark",
+      "hp": 126
+    },
+    {
+      "name": "Giant Spider",
+      "hp": 26
+    },
+    {
+      "name": "Giant Toad",
+      "hp": 39
+    },
+    {
+      "name": "Giant Vulture",
+      "hp": 22
+    },
+    {
+      "name": "Giant Wasp",
+      "hp": 13
+    },
+    {
+      "name": "Giant Weasel",
+      "hp": 9
+    },
+    {
+      "name": "Giant Wolf Spider",
+      "hp": 11
+    },
+    {
+      "name": "Gibbering Mouther",
+      "hp": 67
+    },
+    {
+      "name": "Glabrezu",
+      "hp": 157
+    },
+    {
+      "name": "Gladiator",
+      "hp": 112
+    },
+    {
+      "name": "Gnoll",
+      "hp": 22
+    },
+    {
+      "name": "Goat",
+      "hp": 4
+    },
+    {
+      "name": "Goblin",
+      "hp": 7
+    },
+    {
+      "name": "Gold Dragon Wyrmling",
+      "hp": 60
+    },
+    {
+      "name": "Gorgon",
+      "hp": 114
+    },
+    {
+      "name": "Gray Ooze",
+      "hp": 22
+    },
+    {
+      "name": "Green Dragon Wyrmling",
+      "hp": 38
+    },
+    {
+      "name": "Green Hag",
+      "hp": 82
+    },
+    {
+      "name": "Grick",
+      "hp": 27
+    },
+    {
+      "name": "Griffon",
+      "hp": 59
+    },
+    {
+      "name": "Grimlock",
+      "hp": 11
+    },
+    {
+      "name": "Guard",
+      "hp": 11
+    },
+    {
+      "name": "Guardian Naga",
+      "hp": 127
+    },
+    {
+      "name": "Gynosphinx",
+      "hp": 136
+    },
+    {
+      "name": "Harpy",
+      "hp": 38
+    },
+    {
+      "name": "Hawk",
+      "hp": 1
+    },
+    {
+      "name": "Hell Hound",
+      "hp": 45
+    },
+    {
+      "name": "Hezrou",
+      "hp": 136
+    },
+    {
+      "name": "Hill Giant",
+      "hp": 105
+    },
+    {
+      "name": "Hippogriff",
+      "hp": 19
+    },
+    {
+      "name": "Hobgoblin",
+      "hp": 11
+    },
+    {
+      "name": "Homunculus",
+      "hp": 5
+    },
+    {
+      "name": "Horned Devil",
+      "hp": 178
+    },
+    {
+      "name": "Hunter Shark",
+      "hp": 45
+    },
+    {
+      "name": "Hydra",
+      "hp": 172
+    },
+    {
+      "name": "Hyena",
+      "hp": 5
+    },
+    {
+      "name": "Ice Devil",
+      "hp": 180
+    },
+    {
+      "name": "Ice Mephit",
+      "hp": 21
+    },
+    {
+      "name": "Imp",
+      "hp": 10
+    },
+    {
+      "name": "Invisible Stalker",
+      "hp": 104
+    },
+    {
+      "name": "Iron Golem",
+      "hp": 210
+    },
+    {
+      "name": "Jackal",
+      "hp": 3
+    },
+    {
+      "name": "Killer Whale",
+      "hp": 90
+    },
+    {
+      "name": "Knight",
+      "hp": 52
+    },
+    {
+      "name": "Kobold",
+      "hp": 5
+    },
+    {
+      "name": "Kraken",
+      "hp": 472
+    },
+    {
+      "name": "Lamia",
+      "hp": 97
+    },
+    {
+      "name": "Lemure",
+      "hp": 13
+    },
+    {
+      "name": "Lich",
+      "hp": 135
+    },
+    {
+      "name": "Lion",
+      "hp": 26
+    },
+    {
+      "name": "Lizard",
+      "hp": 2
+    },
+    {
+      "name": "Lizardfolk",
+      "hp": 22
+    },
+    {
+      "name": "Mage",
+      "hp": 40
+    },
+    {
+      "name": "Magma Mephit",
+      "hp": 22
+    },
+    {
+      "name": "Magmin",
+      "hp": 9
+    },
+    {
+      "name": "Mammoth",
+      "hp": 126
+    },
+    {
+      "name": "Manticore",
+      "hp": 68
+    },
+    {
+      "name": "Marilith",
+      "hp": 189
+    },
+    {
+      "name": "Mastiff",
+      "hp": 5
+    },
+    {
+      "name": "Medusa",
+      "hp": 127
+    },
+    {
+      "name": "Merfolk",
+      "hp": 11
+    },
+    {
+      "name": "Merrow",
+      "hp": 45
+    },
+    {
+      "name": "Mimic",
+      "hp": 58
+    },
+    {
+      "name": "Minotaur",
+      "hp": 76
+    },
+    {
+      "name": "Minotaur Skeleton",
+      "hp": 67
+    },
+    {
+      "name": "Mud Mephit",
+      "hp": 27
+    },
+    {
+      "name": "Mule",
+      "hp": 11
+    },
+    {
+      "name": "Mummy",
+      "hp": 58
+    },
+    {
+      "name": "Mummy Lord",
+      "hp": 97
+    },
+    {
+      "name": "Nalfeshnee",
+      "hp": 184
+    },
+    {
+      "name": "Night Hag",
+      "hp": 112
+    },
+    {
+      "name": "Nightmare",
+      "hp": 68
+    },
+    {
+      "name": "Noble",
+      "hp": 9
+    },
+    {
+      "name": "Ochre Jelly",
+      "hp": 45
+    },
+    {
+      "name": "Octopus",
+      "hp": 3
+    },
+    {
+      "name": "Ogre",
+      "hp": 59
+    },
+    {
+      "name": "Ogre Zombie",
+      "hp": 85
+    },
+    {
+      "name": "Oni",
+      "hp": 110
+    },
+    {
+      "name": "Orc",
+      "hp": 15
+    },
+    {
+      "name": "Otyugh",
+      "hp": 114
+    },
+    {
+      "name": "Owl",
+      "hp": 1
+    },
+    {
+      "name": "Owlbear",
+      "hp": 59
+    },
+    {
+      "name": "Panther",
+      "hp": 13
+    },
+    {
+      "name": "Pegasus",
+      "hp": 59
+    },
+    {
+      "name": "Phase Spider",
+      "hp": 32
+    },
+    {
+      "name": "Pit Fiend",
+      "hp": 300
+    },
+    {
+      "name": "Planetar",
+      "hp": 200
+    },
+    {
+      "name": "Plesiosaurus",
+      "hp": 68
+    },
+    {
+      "name": "Poisonous Snake",
+      "hp": 2
+    },
+    {
+      "name": "Polar Bear",
+      "hp": 42
+    },
+    {
+      "name": "Pony",
+      "hp": 11
+    },
+    {
+      "name": "Priest",
+      "hp": 27
+    },
+    {
+      "name": "Pseudodragon",
+      "hp": 7
+    },
+    {
+      "name": "Pteranodon",
+      "hp": 13
+    },
+    {
+      "name": "Purple Worm",
+      "hp": 247
+    },
+    {
+      "name": "Quasit",
+      "hp": 7
+    },
+    {
+      "name": "Quipper",
+      "hp": 1
+    },
+    {
+      "name": "Rakshasa",
+      "hp": 110
+    },
+    {
+      "name": "Rat",
+      "hp": 1
+    },
+    {
+      "name": "Raven",
+      "hp": 1
+    },
+    {
+      "name": "Red Dragon Wyrmling",
+      "hp": 75
+    },
+    {
+      "name": "Reef Shark",
+      "hp": 22
+    },
+    {
+      "name": "Remorhaz",
+      "hp": 195
+    },
+    {
+      "name": "Rhinoceros",
+      "hp": 45
+    },
+    {
+      "name": "Riding Horse",
+      "hp": 13
+    },
+    {
+      "name": "Roc",
+      "hp": 248
+    },
+    {
+      "name": "Roper",
+      "hp": 93
+    },
+    {
+      "name": "Rug Of Smothering",
+      "hp": 33
+    },
+    {
+      "name": "Rust Monster",
+      "hp": 27
+    },
+    {
+      "name": "Saber Toothed Tiger",
+      "hp": 52
+    },
+    {
+      "name": "Sahuagin",
+      "hp": 22
+    },
+    {
+      "name": "Salamander",
+      "hp": 90
+    },
+    {
+      "name": "Satyr",
+      "hp": 31
+    },
+    {
+      "name": "Scorpion",
+      "hp": 1
+    },
+    {
+      "name": "Scout",
+      "hp": 16
+    },
+    {
+      "name": "Sea Hag",
+      "hp": 52
+    },
+    {
+      "name": "Sea Horse",
+      "hp": 1
+    },
+    {
+      "name": "Shadow",
+      "hp": 16
+    },
+    {
+      "name": "Shambling Mound",
+      "hp": 136
+    },
+    {
+      "name": "Shield Guardian",
+      "hp": 142
+    },
+    {
+      "name": "Shrieker",
+      "hp": 13
+    },
+    {
+      "name": "Silver Dragon Wyrmling",
+      "hp": 45
+    },
+    {
+      "name": "Skeleton",
+      "hp": 13
+    },
+    {
+      "name": "Smoke Mephit",
+      "hp": 22
+    },
+    {
+      "name": "Solar",
+      "hp": 243
+    },
+    {
+      "name": "Specter",
+      "hp": 22
+    },
+    {
+      "name": "Spider",
+      "hp": 1
+    },
+    {
+      "name": "Spirit Naga",
+      "hp": 75
+    },
+    {
+      "name": "Sprite",
+      "hp": 2
+    },
+    {
+      "name": "Spy",
+      "hp": 27
+    },
+    {
+      "name": "Steam Mephit",
+      "hp": 21
+    },
+    {
+      "name": "Stirge",
+      "hp": 2
+    },
+    {
+      "name": "Stone Giant",
+      "hp": 126
+    },
+    {
+      "name": "Stone Golem",
+      "hp": 178
+    },
+    {
+      "name": "Storm Giant",
+      "hp": 230
+    },
+    {
+      "name": "Succubus",
+      "hp": 66
+    },
+    {
+      "name": "Swarm Of Bats",
+      "hp": 22
+    },
+    {
+      "name": "Swarm Of Insects",
+      "hp": 22
+    },
+    {
+      "name": "Swarm Of Poisonous Snakes",
+      "hp": 36
+    },
+    {
+      "name": "Swarm Of Quippers",
+      "hp": 28
+    },
+    {
+      "name": "Swarm Of Rats",
+      "hp": 24
+    },
+    {
+      "name": "Swarm Of Ravens",
+      "hp": 24
+    },
+    {
+      "name": "Tarrasque",
+      "hp": 676
+    },
+    {
+      "name": "Thug",
+      "hp": 32
+    },
+    {
+      "name": "Tiger",
+      "hp": 37
+    },
+    {
+      "name": "Treant",
+      "hp": 138
+    },
+    {
+      "name": "Tribal Warrior",
+      "hp": 11
+    },
+    {
+      "name": "Triceratops",
+      "hp": 95
+    },
+    {
+      "name": "Troll",
+      "hp": 84
+    },
+    {
+      "name": "Twig Blight",
+      "hp": 4
+    },
+    {
+      "name": "Tyrannosaurus Rex",
+      "hp": 136
+    },
+    {
+      "name": "Unicorn",
+      "hp": 67
+    },
+    {
+      "name": "Vampire",
+      "hp": 144
+    },
+    {
+      "name": "Vampire Spawn",
+      "hp": 82
+    },
+    {
+      "name": "Veteran",
+      "hp": 58
+    },
+    {
+      "name": "Violet Fungus",
+      "hp": 18
+    },
+    {
+      "name": "Vrock",
+      "hp": 104
+    },
+    {
+      "name": "Vulture",
+      "hp": 5
+    },
+    {
+      "name": "Warhorse",
+      "hp": 19
+    },
+    {
+      "name": "Warhorse Skeleton",
+      "hp": 22
+    },
+    {
+      "name": "Water Elemental",
+      "hp": 114
+    },
+    {
+      "name": "Weasel",
+      "hp": 1
+    },
+    {
+      "name": "Werebear",
+      "hp": 135
+    },
+    {
+      "name": "Wereboar",
+      "hp": 78
+    },
+    {
+      "name": "Wererat",
+      "hp": 33
+    },
+    {
+      "name": "Weretiger",
+      "hp": 120
+    },
+    {
+      "name": "Werewolf",
+      "hp": 58
+    },
+    {
+      "name": "White Dragon Wyrmling",
+      "hp": 32
+    },
+    {
+      "name": "Wight",
+      "hp": 45
+    },
+    {
+      "name": "Will O  Wisp",
+      "hp": 22
+    },
+    {
+      "name": "Winter Wolf",
+      "hp": 75
+    },
+    {
+      "name": "Wolf",
+      "hp": 11
+    },
+    {
+      "name": "Worg",
+      "hp": 26
+    },
+    {
+      "name": "Wraith",
+      "hp": 67
+    },
+    {
+      "name": "Wyvern",
+      "hp": 110
+    },
+    {
+      "name": "Xorn",
+      "hp": 73
+    },
+    {
+      "name": "Yeti",
+      "hp": 51
+    },
+    {
+      "name": "Young Black Dragon",
+      "hp": 127
+    },
+    {
+      "name": "Young Blue Dragon",
+      "hp": 152
+    },
+    {
+      "name": "Young Brass Dragon",
+      "hp": 110
+    },
+    {
+      "name": "Young Bronze Dragon",
+      "hp": 142
+    },
+    {
+      "name": "Young Copper Dragon",
+      "hp": 119
+    },
+    {
+      "name": "Young Gold Dragon",
+      "hp": 178
+    },
+    {
+      "name": "Young Green Dragon",
+      "hp": 136
+    },
+    {
+      "name": "Young Red Dragon",
+      "hp": 178
+    },
+    {
+      "name": "Young Silver Dragon",
+      "hp": 168
+    },
+    {
+      "name": "Young White Dragon",
+      "hp": 133
+    },
+    {
+      "name": "Zombie",
+      "hp": 22
+    }
+  ]
+}

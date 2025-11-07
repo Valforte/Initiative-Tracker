@@ -1,0 +1,93 @@
+{
+  "id": "pathfinder-192-worst-of-all-possible-worlds",
+  "name": "Pathfinder #192: Worst of All Possible Worlds",
+  "system": "pathfinder",
+  "enabledByDefault": false,
+  "monsters": [
+    {
+      "name": "Bolti Sorrinson",
+      "hp": 399,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2587"
+    },
+    {
+      "name": "Fabled Harrowkin",
+      "hp": 315,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2581"
+    },
+    {
+      "name": "Gegnir",
+      "hp": 470,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2591"
+    },
+    {
+      "name": "Ildamir",
+      "hp": 375,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2586"
+    },
+    {
+      "name": "Mighty Bul-Gae",
+      "hp": 310,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2585"
+    },
+    {
+      "name": "Nornhound",
+      "hp": 421,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2582"
+    },
+    {
+      "name": "Obcisidaemon",
+      "hp": 425,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2577"
+    },
+    {
+      "name": "Phasmadaemon",
+      "hp": 340,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2578"
+    },
+    {
+      "name": "Sickened Doprillu",
+      "hp": 260,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2584"
+    },
+    {
+      "name": "Simple Harrowkin",
+      "hp": 60,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2579"
+    },
+    {
+      "name": "Speaker Of Svarýr",
+      "hp": 380,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2592"
+    },
+    {
+      "name": "Storied Harrowkin",
+      "hp": 180,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2580"
+    },
+    {
+      "name": "Suvarden",
+      "hp": 125,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2583"
+    },
+    {
+      "name": "Svarýr Commander",
+      "hp": 330,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2590"
+    },
+    {
+      "name": "Svarýr Soldier",
+      "hp": 295,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2589"
+    },
+    {
+      "name": "The Betrayal",
+      "hp": 360,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2593"
+    },
+    {
+      "name": "The Keeper",
+      "hp": 385,
+      "url": "https://2e.aonprd.com/Monsters.aspx?ID=2588"
+    }
+  ]
+}
