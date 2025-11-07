@@ -6,7 +6,7 @@ import {PopoverContent, PopoverRoot, PopoverTrigger} from "reka-ui";
 <template>
   <PopoverRoot>
     <PopoverTrigger asChild>
-      <span class="pl-2 underline cursor-help">?</span>
+      <span class="pl-2 underline cursor-pointer">?</span>
     </PopoverTrigger>
     <PopoverContent className="z-50 mt-2 p-2 rounded-md shadow-md/50 bg-base-100 text-base-content text-lg w-full text-left">
       <slot></slot>
