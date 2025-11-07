@@ -147,12 +147,19 @@ Follow the TODO comment in README.md (lines 12-35) to add a visual showcase.
    ![Initiative Tracker Demo](docs/demo.gif)
    ```
 
-## 4. Set Up GitHub Pages (if not already done)
+## 4. Set Up GitHub Pages
+
+**Important**: Your project uses GitHub Actions for deployment, not branch deployment.
 
 1. Go to Settings → Pages
-2. Source: Deploy from a branch
-3. Branch: `main` (or `prod`) → folder: `/docs`
-4. Click Save
+2. Under "Build and deployment":
+   - **Source**: Select **"GitHub Actions"** (not "Deploy from a branch")
+3. That's it!
+
+**How it works**:
+- When you push to `prod` branch, GitHub Actions automatically builds and deploys
+- See `GIT_WORKFLOW.md` for detailed explanation
+- Your workflow file: `.github/workflows/deploy.yml`
 
 The site will be available at: https://valforte.github.io/iniciative-tracker/
 
