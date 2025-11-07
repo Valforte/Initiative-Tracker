@@ -91,29 +91,29 @@ When you open the app normally, you'll see the DM interface with full controls:
 
 2. **Manage HP**:
    - Set the increment value in the HP column header
-   - Click minus (-) to damage, plus (+) to heal
+   - Click minus (-) to damage, green plus (+) to heal
    - Blue plus (+) adds temporary HP
-   - Click the HP display button to heal to max
-   - Right-click HP display to set max HP to the configured value
+   - Click the HP display button to heal to max and reset temporary HP
+   - Right-click HP display to set max HP to the configured value, very handy when a player level up
 
 3. **Track Conditions**:
    - Click plus (+) to add a new condition
    - Click minus (-) to reduce all conditions by 1
    - Click a condition badge to reduce it by 1
-   - Right-click a condition to increase it by 1
+   - Right-click a condition badge to increase it by 1
    - Autocomplete from official Pathfinder 2e conditions
 
 4. **Control Visibility**:
-   - 👁️ Full: Players see everything including HP bar
-   - 👁️‍🗨️ Half: Players see name and initiative, but not HP
-   - 🚫 Hidden: Combatant is hidden from players and skipped in turn order
+   - 👁️ Full: Players see everything including HP bar (For PCs)
+   - 👁️‍🗨️ Half: Players see name and initiative, but not HP (For NPCs)
+   - 🚫 Hidden: Combatant is hidden from players and skipped in turn order (For DM planning)
 
 5. **Advance Combat**:
    - Click "Next" to advance to the next turn
    - Click "New Combat" to reset round and turn counters
 
 ### Player View
-To display the player view, add `?view=player` to the URL:
+To display the player view, add `?view=player` to the URL or simply click the Player View button:
 ```
 http://localhost:5173/?view=player
 ```
@@ -126,7 +126,7 @@ Players will see:
 - Current turn highlighted
 - No controls or hidden information
 
-**Tip**: Open the player view on a separate screen or device. Both views share the same localStorage, so changes update in real-time.
+**Tip**: Open the player view on a separate screen. Both views share the same localStorage, so changes update in real-time.
 
 ### Multi-Table Setup
 If you need to run multiple tables simultaneously:
@@ -156,7 +156,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with [Vue 3](https://vuejs.org/), [Tailwind CSS](https://tailwindcss.com/), and [DaisyUI](https://daisyui.com/)
 - Icons by [Iconify](https://iconify.design/)
 - Monster data from Pathfinder 2e Monster Core and Age of Ashes Adventure Path
-- Inspired by the need for a clean, modern initiative tracker for online and in-person play
+- Inspired by the need for a clean, modern initiative tracker for in-person play
 
 ## Support
 

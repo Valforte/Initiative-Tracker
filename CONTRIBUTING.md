@@ -78,7 +78,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
    - Test HP management (damage, healing, temp HP)
    - Test condition management
    - Test in multiple themes
-   - Test in both languages (EN/PT-BR)
+   - Test in all languages
 
 4. **Commit your changes**:
    ```bash
