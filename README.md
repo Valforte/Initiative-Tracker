@@ -7,7 +7,7 @@
 
 A modern, themeable initiative tracker for Pathfinder 2e combat encounters with separate DM and player views. Built with Vue 3, TypeScript, and Tailwind CSS.
 
-**[🎮 Live Demo](https://valforte.github.io/initiative-tracker/)**
+**[🎮 Live Demo](https://valforte.github.io/Initiative-Tracker/)**
 
 <!-- TODO: Add screenshot or animated GIF here
 Suggested content to showcase:

@@ -33,7 +33,7 @@ dm-tools
 ```
 
 4. While you're there, also set:
-   - **Website**: `https://valforte.github.io/initiative-tracker/`
+   - **Website**: `https://valforte.github.io/Initiative-Tracker/`
    - **Description**: `A modern, themeable initiative tracker for Pathfinder 2e combat encounters with separate DM and player views`
    - Check ✅ **Releases** (once you create releases)
    - Check ✅ **Packages** (if you publish to npm)
@@ -89,7 +89,7 @@ First stable release of Pathfinder 2e Initiative Tracker!
 
 ## 🎮 Try it Now
 
-**Live Demo**: https://valforte.github.io/initiative-tracker/
+**Live Demo**: https://valforte.github.io/Initiative-Tracker/
 
 ## 📦 Built With
 
@@ -161,7 +161,7 @@ Follow the TODO comment in README.md (lines 12-35) to add a visual showcase.
 - See `GIT_WORKFLOW.md` for detailed explanation
 - Your workflow file: `.github/workflows/deploy.yml`
 
-The site will be available at: https://valforte.github.io/initiative-tracker/
+The site will be available at: https://valforte.github.io/Initiative-Tracker/
 
 ## 5. Enable GitHub Discussions (Optional)
 
@@ -196,7 +196,7 @@ I've built a free initiative tracker specifically for PF2e with features like:
 - 35+ themes
 - Works completely in-browser (no server needed)
 
-Live demo: https://valforte.github.io/initiative-tracker/
+Live demo: https://valforte.github.io/Initiative-Tracker/
 GitHub (MIT license): https://github.com/Valforte/initiative-tracker
 
 Would love feedback from the community!
@@ -213,7 +213,7 @@ Would love feedback from the community!
 - 35+ themes
 - Fully localized
 
-Try it: https://valforte.github.io/initiative-tracker/
+Try it: https://valforte.github.io/Initiative-Tracker/
 
 #PF2e #TTRPG #OpenSource
 ```
