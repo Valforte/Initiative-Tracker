@@ -29,6 +29,7 @@ export function isFirebaseReady(): boolean {
  * @param path - Firebase database path (e.g., 'sessions/abc123/combatants')
  * @param defaultValue - Default value if no data exists in Firebase
  * @param serializer - Optional custom serializer for complex objects
+ * @param onReady - Optional callback fired when initial data is loaded from Firebase
  * @returns Vue ref that syncs with Firebase
  */
 export function useFirebaseSync<T>(
@@ -37,7 +38,8 @@ export function useFirebaseSync<T>(
   serializer?: {
     read: (value: any) => T
     write: (value: T) => any
-  }
+  },
+  onReady?: () => void
 ): Ref<T> {
   if (!database) {
     throw new Error('Firebase not initialized. Call initializeFirebase() first.')
@@ -46,6 +48,7 @@ export function useFirebaseSync<T>(
   const localRef = vueRef<T>(defaultValue) as Ref<T>
   const dbRef = ref(database, path)
   let isRemoteUpdate = false
+  let isFirstLoad = true
 
   // Listen for remote changes
   onValue(dbRef, (snapshot) => {
@@ -58,6 +61,12 @@ export function useFirebaseSync<T>(
       // Initialize Firebase with default value
       const valueToWrite = serializer ? serializer.write(defaultValue) : defaultValue
       set(dbRef, valueToWrite)
+    }
+
+    // Call onReady callback after first load
+    if (isFirstLoad && onReady) {
+      isFirstLoad = false
+      onReady()
     }
   })
 

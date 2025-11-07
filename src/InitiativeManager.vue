@@ -136,12 +136,23 @@ function initializeState() {
     }
 
     // Online mode with Firebase - use localStorage data as defaults
-    _turn = useFirebaseSync(`sessions/${sessionId.value}/turn`, defaultTurn)
-    _round = useFirebaseSync(`sessions/${sessionId.value}/round`, defaultRound)
+    // Track when all Firebase data is loaded
+    let loadedCount = 0
+    const totalToLoad = 3
+    const markAsLoadedIfReady = () => {
+      loadedCount++
+      if (loadedCount === totalToLoad) {
+        isInitialized.value = true
+      }
+    }
+
+    _turn = useFirebaseSync(`sessions/${sessionId.value}/turn`, defaultTurn, undefined, markAsLoadedIfReady)
+    _round = useFirebaseSync(`sessions/${sessionId.value}/round`, defaultRound, undefined, markAsLoadedIfReady)
     _combatants = useFirebaseSync(
       `sessions/${sessionId.value}/combatants`,
       defaultCombatantsData,
-      combatantSerializer
+      combatantSerializer,
+      markAsLoadedIfReady
     )
 
     // For DM: Also sync to localStorage as backup (but not for players)
@@ -190,10 +201,12 @@ function initializeState() {
         }
       }
     )
+
+    // Offline mode is synchronous, mark as initialized immediately
+    isInitialized.value = true
   }
 
-  // Mark as initialized
-  isInitialized.value = true
+  // Note: For online mode, isInitialized is set in markAsLoadedIfReady callback
 }
 
 // Wait for Firebase to initialize, then set up state
