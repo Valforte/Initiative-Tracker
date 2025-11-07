@@ -53,11 +53,17 @@ function clearNewCombatant(): void {
   document.getElementById('newName')?.focus()
 }
 
+/**
+ * Generates a unique name for multiple combatants spawned at once
+ * Uses Pathfinder pawn colors (Red, Green, Blue, Purple, Pink, Brown) for the first 6,
+ * then falls back to numbers for additional spawns
+ * @param i - Index of the combatant being spawned (0-based)
+ * @returns The combatant name with color/number suffix, or plain name if quantity is 1
+ */
 function getCombatantName(i: number): string {
   if (i == 0 && newQuantity.value == 1) {
     return newName.value
   }
-  // Uses default pathfinder pawn colors then numbers for multiple of the same enemy
   switch (i) {
     case 0:
       return `${newName.value} (${t.value.colors.red})`
@@ -102,21 +108,21 @@ let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.mo
     <DMTable :combatants="combatants" :turn="turn" @removeCombatant="removeCombatant" class="shadow-md/50" />
     <div class="grid grid-cols-1 gap-4">
       <div class="flex gap-4">
-        <button class="btn btn-neutral" @click="$emit('nextTurn')"><Icon icon="tabler:player-skip-forward" height="24" />{{t.dm_actions.next}}</button>
-        <button class="btn btn-error tooltip tooltip-bottom before:delay-200" :data-tip="t.dm_actions.resetTooltip" @click="$emit('reset')"><Icon icon="tabler:refresh" height="24" />{{t.dm_actions.reset}}</button>
-        <a class="btn btn-neutral" href="?view=player"><Icon icon="tabler:users-group" height="24" />{{t.dm_actions.playerView}}</a>
+        <button class="btn btn-neutral" @click="$emit('nextTurn')" :aria-label="t.dm_actions.next"><Icon icon="tabler:player-skip-forward" height="24" />{{t.dm_actions.next}}</button>
+        <button class="btn btn-error tooltip tooltip-bottom before:delay-200" :data-tip="t.dm_actions.resetTooltip" @click="$emit('reset')" :aria-label="t.dm_actions.reset"><Icon icon="tabler:refresh" height="24" />{{t.dm_actions.reset}}</button>
+        <a class="btn btn-neutral" href="?view=player" :aria-label="t.dm_actions.playerView"><Icon icon="tabler:users-group" height="24" />{{t.dm_actions.playerView}}</a>
       </div>
       <div class="flex gap-4">
         <PopoverRoot :open="isNewCombatantPopoverOpen" @update:open="value => isNewCombatantPopoverOpen = value">
           <PopoverTrigger as-child>
-            <button class="btn btn-neutral"><Icon icon="tabler:plus" height="24" /> {{t.dm_actions.add}}</button>
+            <button class="btn btn-neutral" :aria-label="t.dm_actions.add"><Icon icon="tabler:plus" height="24" /> {{t.dm_actions.add}}</button>
           </PopoverTrigger>
           <PopoverPortal>
-            <PopoverContent class="card w-96 bg-base-300 card-md shadow-l">
+            <PopoverContent class="card w-96 bg-base-300 card-md shadow-l" role="dialog" aria-label="Add new combatant">
               <div class="card-body" @keydown.enter.prevent="addCombatant">
                 <div class="grid grid-cols-3 items-center gap-4">
                   <Label for="newName">{{t.table.name}}</Label>
-                  <input id="newName" tabindex="1" type="text" class="input col-span-2 h-8" list="monsters" v-model="newName" />
+                  <input id="newName" tabindex="1" type="text" class="input col-span-2 h-8" list="monsters" v-model="newName" aria-label="Combatant name" />
                   <datalist id="monsters">
                     <option v-for="monster in monsterList">{{monster}}</option>
                   </datalist>

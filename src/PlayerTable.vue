@@ -9,8 +9,8 @@ import {useTranslations} from "./lang.ts";
 const { t, lang } = useTranslations()
 
 defineProps<{
-  turn: Number,
-  combatants: Array<Combatant>
+  turn: number,
+  combatants: Combatant[]
 }>()
 
 const currentConditionTooltip = ref<string | undefined>('')

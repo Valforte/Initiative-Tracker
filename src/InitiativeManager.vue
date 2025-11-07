@@ -7,6 +7,12 @@ import PlayerView from "./PlayerView.vue";
 
 const turn = useStorage('turn', 0)
 const round = useStorage('round', 1)
+
+/**
+ * Combatants stored in localStorage with custom serialization
+ * Must reconstruct class instances (Combatant and Condition) from plain objects
+ * because localStorage only stores JSON and loses class methods
+ */
 const combatants = useStorage(
     'combatants',
     defaultCombatants,
@@ -28,6 +34,10 @@ const combatants = useStorage(
 )
 const isDMView = ref<boolean>(new URLSearchParams(window.location.search).get("view") !== "player")
 
+/**
+ * Sorts combatants by initiative (highest first)
+ * Ties are broken alphabetically by name
+ */
 const orderedCombatants = computed(() => {
   return combatants.value.sort((a: Combatant, b: Combatant) => {
     return b.initiative - a.initiative === 0 ? a.name > b.name ? 1 : -1 : b.initiative - a.initiative
@@ -39,6 +49,11 @@ function reset() {
   round.value = 1
 }
 
+/**
+ * Advances to the next turn, skipping hidden combatants
+ * Increments round when cycling back to the top of initiative order
+ * Does nothing if all combatants are hidden
+ */
 function nextTurn() {
   if (orderedCombatants.value.every((combatant: Combatant) => combatant.visibility === Visibility.None)) {
     return
