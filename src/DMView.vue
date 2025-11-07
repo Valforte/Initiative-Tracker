@@ -27,9 +27,9 @@ const emit = defineEmits<{
 }>()
 
 defineProps<{
-  turn: Number,
-  round: Number,
-  combatants: Array<Combatant>,
+  turn: number,
+  round: number,
+  combatants: Combatant[],
 }>()
 
 const newName = ref('')
@@ -57,6 +57,7 @@ function getCombatantName(i: number): string {
   if (i == 0 && newQuantity.value == 1) {
     return newName.value
   }
+  // Uses default pathfinder pawn colors then numbers for multiple of the same enemy
   switch (i) {
     case 0:
       return `${newName.value} (${t.value.colors.red})`
@@ -102,7 +103,7 @@ let monsterList = [...monsterCore.monsters, ...monsterCore.npc, ...ageOfAshes.mo
     <div class="grid grid-cols-1 gap-4">
       <div class="flex gap-4">
         <button class="btn btn-neutral" @click="$emit('nextTurn')"><Icon icon="tabler:player-skip-forward" height="24" />{{t.dm_actions.next}}</button>
-        <button class="btn btn-error" @click="$emit('reset')"><Icon icon="tabler:refresh" height="24" />{{t.dm_actions.reset}}</button>
+        <button class="btn btn-error tooltip tooltip-bottom before:delay-200" :data-tip="t.dm_actions.resetTooltip" @click="$emit('reset')"><Icon icon="tabler:refresh" height="24" />{{t.dm_actions.reset}}</button>
         <a class="btn btn-neutral" href="?view=player"><Icon icon="tabler:users-group" height="24" />{{t.dm_actions.playerView}}</a>
       </div>
       <div class="flex gap-4">

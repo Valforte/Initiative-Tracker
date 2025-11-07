@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import {ref} from "vue";
+import {ref, computed} from "vue";
 import {colorIsDark, Combatant, Visibility} from "./functions.ts";
 import { Icon } from "@iconify/vue";
 import {useStorage} from "@vueuse/core";
@@ -14,12 +14,13 @@ import {
   PopoverRoot,
   PopoverTrigger
 } from "reka-ui";
-import {conditions} from "./db.ts";
+import {useConditions} from "./db.ts";
 import {useTranslations} from "./lang.ts";
 import HelpText from "./HelpText.vue";
 import HelpTextLine from "./HelpTextLine.vue";
 
 const { t, lang } = useTranslations()
+const conditions = computed(() => useConditions(lang.value))
 
 const props = defineProps<{
   turn: Number,
@@ -216,7 +217,7 @@ function removeCombatant(i: number): void {
       </tbody>
     </table>
     <datalist id="conditions">
-      <option v-for="condition in conditions">{{condition['name_'+lang]}}</option>
+      <option v-for="(condition, key) in conditions" :key="key">{{condition.name}}</option>
     </datalist>
   </div>
 </template>

@@ -1,8 +1,31 @@
 {
   "name": "iniciative-tracker",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "description": "A modern, themeable initiative tracker for Pathfinder 2e combat encounters with separate DM and player views",
+  "author": "Gabriel Valforte",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valforte/iniciative-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Valforte/iniciative-tracker/issues"
+  },
+  "homepage": "https://valforte.github.io/iniciative-tracker/",
+  "keywords": [
+    "pathfinder",
+    "pathfinder-2e",
+    "initiative-tracker",
+    "combat-tracker",
+    "rpg",
+    "tabletop",
+    "vue3",
+    "typescript",
+    "dnd",
+    "ttrpg"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",

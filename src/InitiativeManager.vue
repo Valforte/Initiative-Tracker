@@ -63,7 +63,6 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
 }
 
 function removeCombatant(index: number): void {
-  console.log(index, turn.value, combatants.value.length)
   if (index < turn.value) {
     turn.value -= 1
   } else if (index == combatants.value.length) {

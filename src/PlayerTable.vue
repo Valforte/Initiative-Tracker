@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import {colorIsDark, Combatant, Visibility} from "./functions.ts";
-import {conditions} from "./db.ts";
+import {useConditions} from "./db.ts";
 import { Icon } from "@iconify/vue";
 import {ref} from "vue";
 import {useTranslations} from "./lang.ts";
@@ -16,9 +16,26 @@ defineProps<{
 const currentConditionTooltip = ref<string | undefined>('')
 
 function getConditionTooltip(condition: string, setTooltip: boolean = false): string | undefined {
-  let currentCondition = conditions.find((c) => c['name_'+lang.value]?.toLowerCase() === condition.toLowerCase())?.['description_'+lang.value]
+  const conditions = useConditions(lang.value)
+  let currentCondition: string | undefined
+
+  // Search through all condition keys to find a match by name
+  for (const key in conditions) {
+    if (conditions[key].name.toLowerCase() === condition.toLowerCase()) {
+      currentCondition = conditions[key].description
+      break
+    }
+  }
+
+  // Fallback to English if not found
   if (!currentCondition) {
-    currentCondition = conditions.find((c) => c.name_en.toLowerCase() === condition.toLowerCase())?.description_en
+    const conditionsEn = useConditions('en')
+    for (const key in conditionsEn) {
+      if (conditionsEn[key].name.toLowerCase() === condition.toLowerCase()) {
+        currentCondition = conditionsEn[key].description
+        break
+      }
+    }
   }
 
   if (setTooltip) {
