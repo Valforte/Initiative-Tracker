@@ -13,6 +13,7 @@ defineProps<{
   combatants: Combatant[]
 }>()
 
+const currentConditionName = ref<string | undefined>('')
 const currentConditionTooltip = ref<string | undefined>('')
 
 function getConditionTooltip(condition: string, setTooltip: boolean = false): string | undefined {
@@ -39,12 +40,14 @@ function getConditionTooltip(condition: string, setTooltip: boolean = false): st
   }
 
   if (setTooltip) {
+    currentConditionName.value = condition
     currentConditionTooltip.value = currentCondition
   }
   return currentCondition
 }
 
 function hideConditionTooltip(): void {
+  currentConditionName.value = ''
   currentConditionTooltip.value = ''
 }
 </script>
@@ -122,7 +125,10 @@ function hideConditionTooltip(): void {
     <div class="toast toast-center" v-if="currentConditionTooltip">
       <div class="alert alert-info text-lg text-justify">
         <div class="badge badge-info shadow-sm/50 p-1 absolute top-[-7px] right-1" @click="hideConditionTooltip"><Icon icon="tabler:x" /></div>
-        <span>{{currentConditionTooltip}}</span>
+        <div>
+          <p class="text-base-300 text-xl p-2">{{currentConditionName}}</p>
+          <p class="text-base-100/80">{{currentConditionTooltip}}</p>
+        </div>
       </div>
     </div>
   </div>

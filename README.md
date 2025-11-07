@@ -33,6 +33,12 @@ Example markdown once you have the image:
 or
 ![DM and Player Views](docs/screenshot.png)
 -->
+## DM View:
+<img width="1833" height="1521" alt="image" src="https://github.com/user-attachments/assets/dcd346cb-8ef0-4b48-b8af-5c8bef17e617" />
+
+## Player View:
+<img width="1833" height="1066" alt="image" src="https://github.com/user-attachments/assets/249fbe70-b183-4603-b277-71fffe725087" />
+
 
 ## Features
 
