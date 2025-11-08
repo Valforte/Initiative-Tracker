@@ -4,7 +4,7 @@ import {Combatant, Condition, getDefaultCombatants, Visibility} from "./function
 import {useStorage} from "@vueuse/core";
 import DMView from "./DMView.vue";
 import PlayerView from "./PlayerView.vue";
-import {useFirebaseSync, isFirebaseReady, generateSessionId} from "./firebase.ts";
+import {useFirebaseSync, isFirebaseReady, generateSessionId, waitForFirebase} from "./firebase.ts";
 import type {GameSystem} from "./db.ts";
 
 // Check URL for session ID and view mode
@@ -210,11 +210,16 @@ function initializeState() {
 }
 
 // Wait for Firebase to initialize, then set up state
-onMounted(() => {
-  // Give Firebase a moment to initialize from App.vue
-  setTimeout(() => {
-    initializeState()
-  }, 100)
+onMounted(async () => {
+  // If online mode, wait for Firebase to be ready
+  if (isOnlineMode.value && sessionId.value) {
+    const firebaseReady = await waitForFirebase(5000)
+    if (!firebaseReady) {
+      console.error('Firebase failed to initialize within timeout')
+    }
+  }
+
+  initializeState()
 })
 
 // Function to enable online mode (called from DM view toggle)
