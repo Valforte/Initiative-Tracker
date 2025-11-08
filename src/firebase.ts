@@ -5,14 +5,20 @@ import { type Ref, ref as vueRef, watch, getCurrentInstance, onBeforeUnmount } f
 // Firebase configuration - will be set by user
 let firebaseApp: FirebaseApp | null = null
 let database: Database | null = null
+let initPromise: Promise<void> | null = null
 
 /**
  * Initialize Firebase with user's configuration
  * Must be called before using any Firebase features
  */
 export function initializeFirebase(config: object) {
-  firebaseApp = initializeApp(config)
-  database = getDatabase(firebaseApp)
+  if (!initPromise) {
+    initPromise = Promise.resolve().then(() => {
+      firebaseApp = initializeApp(config)
+      database = getDatabase(firebaseApp)
+    })
+  }
+  return initPromise
 }
 
 /**
@@ -20,6 +26,30 @@ export function initializeFirebase(config: object) {
  */
 export function isFirebaseReady(): boolean {
   return firebaseApp !== null && database !== null
+}
+
+/**
+ * Wait for Firebase to be ready
+ * Returns a promise that resolves when Firebase is initialized
+ */
+export function waitForFirebase(timeoutMs: number = 5000): Promise<boolean> {
+  return new Promise((resolve) => {
+    if (isFirebaseReady()) {
+      resolve(true)
+      return
+    }
+
+    const startTime = Date.now()
+    const checkInterval = setInterval(() => {
+      if (isFirebaseReady()) {
+        clearInterval(checkInterval)
+        resolve(true)
+      } else if (Date.now() - startTime > timeoutMs) {
+        clearInterval(checkInterval)
+        resolve(false)
+      }
+    }, 50)
+  })
 }
 
 /**
