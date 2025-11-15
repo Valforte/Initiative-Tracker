@@ -314,6 +314,7 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
 }
 
 function removeCombatant(index: number): void {
+  combatants.value.splice(index, 1)
   if (index < turn.value) {
     turn.value -= 1
   } else if (index == combatants.value.length) {
