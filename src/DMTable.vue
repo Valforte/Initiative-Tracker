@@ -52,7 +52,6 @@ function addNewCondition(combatant: Combatant, name: string, value: number): voi
 }
 
 function removeCombatant(i: number): void {
-  props.combatants.splice(i, 1)
   emit('removeCombatant', i)
 }
 
