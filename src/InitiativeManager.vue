@@ -314,7 +314,14 @@ function addCombatant(name: string, HP: number, initiative: number, visibility: 
 }
 
 function removeCombatant(index: number): void {
-  combatants.value.splice(index, 1)
+  // The index comes from orderedCombatants (sorted array),
+  // but we need to remove from the unsorted combatants array
+  const combatantToRemove = orderedCombatants.value[index]
+  const actualIndex = combatants.value.findIndex((c: Combatant) => c === combatantToRemove)
+
+  if (actualIndex === -1) return // Safety check
+
+  combatants.value.splice(actualIndex, 1)
   if (index < turn.value) {
     turn.value -= 1
   } else if (index == combatants.value.length) {
